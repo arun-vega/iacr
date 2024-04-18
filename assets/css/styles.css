@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "Montserrat", sans-serif;
+  src: url("/assets/fonts/Montserrat-Light.otf");
+}
+h1 {
+  color: red;
+  font-family: "Montserrat", sans-serif;
+}/*# sourceMappingURL=styles.css.map */
