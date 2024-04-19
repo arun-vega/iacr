@@ -1,4 +1,4 @@
-@import './styles.scss';
+@import './variables';
 
 body {
   display: flex;
@@ -41,8 +41,6 @@ body {
 .banner-sec {
   .box {
     border-radius: $border-5;
-    width: 99%;
-
     h5 {
       font-size: $fs-24;
       font-weight: $fw-500;
@@ -149,14 +147,14 @@ body {
       font-family: $font-montserrat;
       color: $color-primary;
     }
-    h2 {
-      font-size: $fs-24;
+    h3 {
+      font-size: $fs-32;
       font-weight: $fw-600;
       font-family: $font-montserrat;
       color: $color-secondary;
     }
     p {
-      font-size: $fs-15;
+      font-size: $fs-16;
       font-weight: $fw-500;
       font-family: $font-montserrat;
       padding: $p-5 $p-30;

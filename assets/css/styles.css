@@ -2,18 +2,75 @@
   font-family: "Montserrat", sans-serif;
   src: url("/assets/fonts/Montserrat-Light.otf");
 }
+.footer-sec-bg {
+  background-color: #22262f;
+}
+.footer-sec-bg .footer-quick-links {
+  list-style-type: none;
+}
+.footer-sec-bg .footer-quick-links li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+.footer-sec-bg .footer-quick-links li h5 {
+  color: #14b0a4;
+  font-weight: 500;
+}
+.footer-sec-bg .footer-quick-links li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+}
+.footer-sec-bg .footer-quick-links li a:hover {
+  text-decoration: underline;
+}
+
 @font-face {
   font-family: "Montserrat", sans-serif;
   src: url("/assets/fonts/Montserrat-Light.otf");
 }
-h1 {
-  color: red;
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.top-nav {
+  background-color: #653592;
+  font-weight: 600;
+  font-size: 15px;
   font-family: "Montserrat", sans-serif;
+}
+.top-nav .contact-infomation {
+  color: #ffffff;
+}
+.top-nav .contact-infomation i {
+  margin-right: 10px;
+}
+.top-nav .bar_content {
+  color: #ffffff;
+  font-size: 15px;
+  display: flex;
+  width: 100%;
+  transform: translateX(0%);
+  animation: move 30s linear infinite;
+  white-space: nowrap;
+  align-items: center;
+}
+.top-nav .bar_content img {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+@keyframes move {
+  to {
+    transform: translateX(-100%);
+  }
 }
 
 .banner-sec .box {
   border-radius: 5px;
-  width: 99%;
 }
 .banner-sec .box h5 {
   font-size: 24px;
@@ -54,81 +111,6 @@ h1 {
 .banner-sec .box button {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
-}
-
-@media only screen and (min-width: 500px) {
-  .banner-sec .carousel .carousel-inner .carousel-item {
-    height: 620px;
-  }
-  .banner-sec .carousel .carousel-inner .carousel-item.active {
-    height: 620px;
-  }
-}
-@media only screen and (max-width: 990px) {
-  .banner-sec .box {
-    box-shadow: none;
-  }
-.footer-sec-bg {
-  background-color: #22262f;
-}
-.footer-sec-bg .footer-quick-links {
-  list-style-type: none;
-}
-.footer-sec-bg .footer-quick-links li {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  color: #ffffff;
-}
-.footer-sec-bg .footer-quick-links li h5 {
-  color: #14b0a4;
-  font-weight: 500;
-}
-.footer-sec-bg .footer-quick-links li a {
-  text-decoration: none;
-  color: #ffffff;
-  font-size: 16px;
-  font-weight: 500;
-}
-.footer-sec-bg .footer-quick-links li a:hover {
-  text-decoration: underline;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-.top-nav {
-  background-color: #653592;
-  font-weight: 600;
-  font-size: 15px;
-  font-family: "Montserrat", sans-serif;
-}
-.top-nav .contact-infomation {
-  color: #ffffff;
-}
-.top-nav .contact-infomation i {
-  margin-right: 10px;
-}
-.top-nav .bar_content {
-  color: #ffffff;
-  font-size: 15px;
-  display: flex;
-  width: 100%;
-  transform: translateX(0%);
-  animation: move 30s linear infinite;
-  white-space: nowrap;
-  align-items: center;
-}
-.top-nav .bar_content img {
-  margin-right: 5px;
-  margin-left: 5px;
-}
-@keyframes move {
-  to {
-    transform: translateX(-100%);
-  }
 }
 
 .home-service-container .service-about-head {
@@ -181,14 +163,14 @@ body {
   font-family: "Montserrat", sans-serif;
   color: #274eff;
 }
-.testimonials .heading h2 {
-  font-size: 24px;
+.testimonials .heading h3 {
+  font-size: 32px;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
   color: #653592;
 }
 .testimonials .heading p {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
   padding: 5px 30px;
@@ -240,4 +222,18 @@ body {
   display: -webkit-box;
   -webkit-line-clamp: 8;
   -webkit-box-orient: vertical;
+}
+
+@media only screen and (min-width: 500px) {
+  .banner-sec .carousel .carousel-inner .carousel-item {
+    height: 620px;
+  }
+  .banner-sec .carousel .carousel-inner .carousel-item.active {
+    height: 620px;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .banner-sec .box {
+    box-shadow: none;
+  }
 }/*# sourceMappingURL=styles.css.map */
