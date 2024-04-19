@@ -1,5 +1,114 @@
-
-h1{
-    color: $color-danger;
-    font-family: $font-montserrat;
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
+.top-nav {
+  background-color: $bg-secondary;
+  font-weight: $fw-600;
+  font-size: $fs-15;
+  font-family: $font-montserrat;
+  .contact-infomation {
+    color: $color-white;
+    i {
+      margin-right: $m-10;
+    }
+  }
+  .bar_content {
+    color: $color-white;
+    font-size: $fs-15;
+    display: flex;
+    width: 100%;
+    transform: translateX(0%);
+    animation: move 30s linear infinite;
+    white-space: nowrap;
+    align-items: center;
+    img {
+      margin-right: $m-5;
+      margin-left: $m-5;
+    }
+  }
+
+  @keyframes move {
+    to {
+      transform: translateX(-100%);
+    }
+  }
+}
+
+// TESTIMONIALS CSS START //
+.testimonials {
+  background-color: $bg-sky-blue;
+  padding: $p-20;
+  .heading {
+    text-align: center;
+    h6 {
+      font-size: $fs-15;
+      font-weight: $fw-600;
+      font-family: $font-montserrat;
+      color: $color-primary;
+    }
+    h2 {
+      font-size: $fs-24;
+      font-weight: $fw-600;
+      font-family: $font-montserrat;
+      color: $color-secondary;
+    }
+    p {
+      font-size: $fs-15;
+      font-weight: $fw-500;
+      font-family: $font-montserrat;
+      padding: $p-5 $p-30;
+    }
+  }
+  .testimonial-card {
+    padding: $p-10 $p-15;
+    height: $h-100;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+      rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    background-color: $bg-white;
+    border-radius: $border-5;
+    text-align: center;
+    position: relative;
+    .quote {
+      position: absolute;
+      right: 0px;
+      top: 0;
+      padding: $p-10 $p-15;
+      border-bottom-left-radius: $border-15;
+      background-color: $bg-secondary;
+      i {
+        color: $color-white;
+      }
+    }
+    h5 {
+      font-size: $fs-18;
+      font-weight: $fw-600;
+      font-family: $font-montserrat;
+      color: $color-secondary;
+    }
+    h6 {
+      font-size: $fs-15;
+      font-weight: $fw-600;
+      font-family: $font-montserrat;
+      color: $color-primary;
+      margin-bottom: $m-5;
+    }
+    i {
+      color: $color-yellow;
+      margin-bottom: $m-5;
+    }
+    p {
+      font-size: $fs-15;
+      font-weight: $fw-500;
+      font-family: $font-montserrat;
+      color: $color-black;
+      text-align: justify;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 8;
+      -webkit-box-orient: vertical;
+    }
+  }
+}
+// TESTIMONIALS CSS END //
