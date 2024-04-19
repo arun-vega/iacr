@@ -1,0 +1,9 @@
+@mixin dropdown-hover{
+    display: block;
+    position: absolute;
+    border:$border-1 solid $border-light;
+    padding:$p-10;
+    border-radius:5px;
+    transform: translateY(10px);
+    transition: transform .4s ease;
+}

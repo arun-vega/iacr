@@ -2,7 +2,97 @@
   font-family: "Montserrat", sans-serif;
   src: url("/assets/fonts/Montserrat-Light.otf");
 }
-h1 {
-  color: red;
+.nav-link {
+  color: #274EFF;
   font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.dropdown-menu a {
+  color: #274EFF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.multi-dropdown {
+  display: none;
+  padding: 0px;
+  background-color: #ffffff;
+  z-index: 2;
+}
+.multi-dropdown li {
+  list-style-type: none;
+  padding: 5px;
+}
+.multi-dropdown a {
+  text-decoration: none;
+  color: #000;
+  color: #274EFF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.dropdown-1:hover > ul {
+  display: block;
+  position: absolute;
+  border: 1px solid rgb(225, 225, 225);
+  padding: 10px;
+  border-radius: 5px;
+  transform: translateY(10px);
+  transition: transform 0.4s ease;
+  right: -102%;
+  bottom: -50%;
+}
+
+.dropdown-2:hover > ul {
+  display: block;
+  position: absolute;
+  border: 1px solid rgb(225, 225, 225);
+  padding: 10px;
+  border-radius: 5px;
+  transform: translateY(10px);
+  transition: transform 0.4s ease;
+  right: -77%;
+  bottom: -10%;
+}
+
+.dropdown-3:hover > ul {
+  display: block;
+  position: absolute;
+  border: 1px solid rgb(225, 225, 225);
+  padding: 10px;
+  border-radius: 5px;
+  transform: translateY(10px);
+  transition: transform 0.4s ease;
+  right: -91%;
+  bottom: -70%;
+}
+
+@media (max-width: 768px) {
+  .dropdown-1:hover > ul {
+    right: 0%;
+    bottom: -65%;
+  }
+  .dropdown-2:hover > ul {
+    right: 0%;
+    bottom: -25%;
+  }
+  .dropdown-3:hover > ul {
+    right: 0%;
+    bottom: -70%;
+  }
+  .multi-dropdown, .dropdown-menu {
+    width: 100%;
+  }
+  .dropdown-1.dropdown-item:active .multi-dropdown {
+    display: block;
+  }
+}
+@media (min-width: 1024px) {
+  .dropdown:hover > ul {
+    display: block;
+  }
 }/*# sourceMappingURL=styles.css.map */

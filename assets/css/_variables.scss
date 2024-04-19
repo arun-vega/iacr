@@ -1,14 +1,22 @@
 $color-black: #000000;
 $color-white: #ffffff;
 $color-danger: red;
+$color-blue:#274EFF;
+$color-light:rgb(225, 225, 225);
 
 $bg-black: #000000;
 $bg-white: #ffffff;
 $bg-danger: red;
+$bg-blue:#274EFF;
+$bg-light:rgb(225, 225, 225);
+
 
 $border-black: #000000;
 $border-white: #ffffff;
 $border-danger: red;
+$border-blue:#274EFF;
+$border-light:rgb(225, 225, 225);
+
 
 $fs-12: 12px;
 $fs-14: 14px;
@@ -71,6 +79,12 @@ $border-20: 20px;
 
 $w-100: 100%;
 $h-100: 100%;
+
+$small: 576px;
+$medium: 768px;
+$large: 992px;
+$extra-large: 1024px;
+$extra-extra-large: 1400px;
 
 $font-montserrat: "Montserrat", sans-serif;
 @font-face {

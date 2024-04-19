@@ -1,5 +1,71 @@
-
-h1{
-    color: $color-danger;
+.nav-link{
+    color:$color-blue;
     font-family: $font-montserrat;
+    font-size: $fs-15;
+    font-weight: $fw-400;
+}
+.dropdown-menu a{
+    color:$color-blue;
+    font-family: $font-montserrat;
+    font-size: $fs-15;
+    font-weight: $fw-400;
+}
+.multi-dropdown{
+    display: none;
+    padding:$p-0;
+    background-color: $bg-white;
+    z-index:2;
+    li{
+        list-style-type: none;
+        padding:$p-5;
+    }
+    a{
+        text-decoration: none;
+        color:#000;
+        color:$color-blue;
+        font-family: $font-montserrat;
+        font-size: $fs-15;
+        font-weight: $fw-400;
+    }
+}
+.dropdown-1:hover>ul {
+   @include dropdown-hover; 
+    right:-102%;
+    bottom:-50%;
+}
+.dropdown-2:hover>ul {
+    @include dropdown-hover; 
+    right:-77%;
+    bottom:-10%;
+}
+.dropdown-3:hover>ul {
+    @include dropdown-hover; 
+    right:-91%;
+    bottom:-70%;
+}
+// Media queries start here
+@media (max-width: $medium) {
+    .dropdown-1:hover>ul {
+        right:0%;
+        bottom:-65%;
+    }
+    .dropdown-2:hover>ul {
+        right:0%;
+        bottom:-25%;
+    }
+    .dropdown-3:hover>ul {
+        right:0%;
+        bottom:-70%;
+    }
+    .multi-dropdown, .dropdown-menu{
+        width:100%;
+    }
+    .dropdown-1.dropdown-item:active .multi-dropdown {
+        display: block;
+    }
+}
+@media (min-width:$extra-large){
+    .dropdown:hover>ul{
+        display: block;
+    }
 }
