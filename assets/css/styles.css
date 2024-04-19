@@ -2,6 +2,31 @@
   font-family: "Montserrat", sans-serif;
   src: url("/assets/fonts/Montserrat-Light.otf");
 }
+.footer-sec-bg {
+  background-color: #22262F;
+}
+.footer-sec-bg .footer-quick-links {
+  list-style-type: none;
+}
+.footer-sec-bg .footer-quick-links li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+.footer-sec-bg .footer-quick-links li h5 {
+  color: #14B0A4;
+  font-weight: 500;
+}
+.footer-sec-bg .footer-quick-links li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+}
+.footer-sec-bg .footer-quick-links li a:hover {
+  text-decoration: underline;
+}
+
 body {
   display: flex;
   flex-direction: column;
