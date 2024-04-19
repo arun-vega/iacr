@@ -2,19 +2,127 @@
   font-family: "Montserrat", sans-serif;
   src: url("/assets/fonts/Montserrat-Light.otf");
 }
-h1 {
-  color: red;
+.footer-sec-bg {
+  background-color: #22262f;
+}
+.footer-sec-bg .footer-quick-links {
+  list-style-type: none;
+}
+.footer-sec-bg .footer-quick-links li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+.footer-sec-bg .footer-quick-links li h5 {
+  color: #14b0a4;
+  font-weight: 500;
+}
+.footer-sec-bg .footer-quick-links li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+}
+.footer-sec-bg .footer-quick-links li a:hover {
+  text-decoration: underline;
+}
+
+@font-face {
+  font-family: "Montserrat", sans-serif;
+  src: url("/assets/fonts/Montserrat-Light.otf");
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.top-nav {
+  background-color: #653592;
+  font-weight: 600;
+  font-size: 15px;
   font-family: "Montserrat", sans-serif;
 }
+.top-nav .contact-infomation {
+  color: #ffffff;
+}
+.top-nav .contact-infomation i {
+  margin-right: 10px;
+}
+.top-nav .bar_content {
+  color: #ffffff;
+  font-size: 15px;
+  display: flex;
+  width: 100%;
+  transform: translateX(0%);
+  animation: move 30s linear infinite;
+  white-space: nowrap;
+  align-items: center;
+}
+.top-nav .bar_content img {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+@keyframes move {
+  to {
+    transform: translateX(-100%);
+  }
+}
 
-.course-block-inside {
+.banner-sec .box {
+  border-radius: 5px;
+}
+.banner-sec .box h5 {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+.banner-sec .box p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+.banner-sec .box h6 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+.banner-sec .box .input-group-text {
+  background-color: red;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 5px;
+}
+.banner-sec .box #online,
+.banner-sec .box #offline {
+  border: 1px solid #000000;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+}
+.banner-sec .box .clicked {
+  border-color: red !important;
+}
+.banner-sec .box .fa-circle-check {
+  display: none;
+  position: absolute;
+  top: -11px;
+  left: -6px;
+}
+.banner-sec .box button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
+
+.home-service-container .service-about-head {
+  color: #274eff;
+  font-family: "Montserrat", sans-serif;
+}
+.home-service-container .course-block-inside {
   display: none;
 }
-
-.course-block-inside_active {
+.home-service-container .course-block-inside_active {
   display: block;
 }
-
 @keyframes mymove {
   from {
     opacity: 0;
@@ -25,28 +133,28 @@ h1 {
     transform: none;
   }
 }
-.course-card {
+.home-service-container .course-card {
   animation: mymove 2s;
   padding: 25px;
   box-shadow: 0px 0px 15px 0px rgba(210, 208, 255, 0.4);
 }
-.course-card img {
+.home-service-container .course-card img {
   border-radius: 5px;
 }
-.course-card h5 {
+.home-service-container .course-card h5 {
   color: blue;
 }
-.course-card h5 span {
+.home-service-container .course-card h5 span {
   color: black;
   font-size: 15px;
 }
-.course-card p {
+.home-service-container .course-card p {
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
 }
-.course-card button {
+.home-service-container .course-card button {
   color: #ffffff;
   background-color: blue;
   outline: none;
@@ -54,28 +162,146 @@ h1 {
   padding: 5px 10px;
   border-radius: 5px;
 }
-.course-card .divider {
+.home-service-container .course-card .divider {
   border-top: 1px solid rgb(239, 238, 238);
 }
-
-.course-button {
+.home-service-container .course-button {
   background-color: rgb(239, 238, 238);
   padding: 10px;
 }
-
-.course_button_active {
+.home-service-container .course_button_active {
   background-color: blue;
   color: white;
 }
-
-.our-employers {
+.home-service-container .our-employers {
   background-color: #fff;
   font-family: "Montserrat", sans-serif;
   text-align: center;
 }
-.our-employers img {
+.home-service-container .our-employers img {
   background-color: #ffffff;
   border: 1px solid #d3d3d3;
   border-radius: 10px;
   padding: 10px;
+}
+
+.service-related-cards:hover .about-service {
+  box-shadow: 0px 10px 10px -6px rgba(0, 0, 0, 0.1);
+  transform: scale(0.94);
+  transition: 1s;
+  border: 2px solid #dfdfdf;
+  border-radius: 10px;
+}
+.service-related-cards .about-service .service-image-circle {
+  border-radius: 50%;
+  width: 110px;
+  height: 110px;
+  border: 1px solid #274eff;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: rgba(21, 72, 162, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+.service-related-cards .about-service .service-image-circle img {
+  width: 70px;
+  height: 70px;
+}
+.service-related-cards .about-service h6 {
+  color: #653592;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+.service-related-cards .about-service p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+}
+
+.testimonials {
+  background-color: #dbe9f2;
+  padding: 20px;
+}
+.testimonials .heading {
+  text-align: center;
+}
+.testimonials .heading h6 {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  color: #274eff;
+}
+.testimonials .heading h3 {
+  font-size: 32px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  color: #653592;
+}
+.testimonials .heading p {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  padding: 5px 30px;
+}
+.testimonials .testimonial-card {
+  padding: 10px 15px;
+  height: 100%;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
+}
+.testimonials .testimonial-card .quote {
+  position: absolute;
+  right: 0px;
+  top: 0;
+  padding: 10px 15px;
+  border-bottom-left-radius: 15px;
+  background-color: #653592;
+}
+.testimonials .testimonial-card .quote i {
+  color: #ffffff;
+}
+.testimonials .testimonial-card h5 {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  color: #653592;
+}
+.testimonials .testimonial-card h6 {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  color: #274eff;
+  margin-bottom: 5px;
+}
+.testimonials .testimonial-card i {
+  color: #f6c324;
+  margin-bottom: 5px;
+}
+.testimonials .testimonial-card p {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
+  text-align: justify;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 8;
+  -webkit-box-orient: vertical;
+}
+
+@media only screen and (min-width: 500px) {
+  .banner-sec .carousel .carousel-inner .carousel-item {
+    height: 620px;
+  }
+  .banner-sec .carousel .carousel-inner .carousel-item.active {
+    height: 620px;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .banner-sec .box {
+    box-shadow: none;
+  }
 }/*# sourceMappingURL=styles.css.map */
