@@ -1,3 +1,5 @@
+@import './styles.scss';
+
 body {
   display: flex;
   flex-direction: column;
@@ -32,6 +34,61 @@ body {
   @keyframes move {
     to {
       transform: translateX(-100%);
+    }
+  }
+}
+
+.banner-sec {
+  .box {
+    border-radius: $border-5;
+    width: 99%;
+
+    h5 {
+      font-size: $fs-24;
+      font-weight: $fw-500;
+      font-family: $font-montserrat;
+    }
+
+    p {
+      font-family: $font-montserrat;
+      font-size: $fs-14;
+    }
+
+    h6 {
+      font-family: $font-montserrat;
+      font-size: $fs-20;
+      font-weight: $fw-500;
+    }
+
+    .input-group-text {
+      background-color: $color-danger;
+      color: $color-white;
+      font-family: $font-montserrat;
+      border-radius: $border-5;
+    }
+
+    #online,
+    #offline {
+      border: 1px solid $border-black;
+      border-radius: $border-5;
+      font-family: $font-montserrat;
+      position: relative;
+    }
+
+    .clicked {
+      border-color: red !important; // Change border color to red
+    }
+
+    .fa-circle-check {
+      display: none;
+      position: absolute;
+      top: -11px;
+      left: -6px;
+    }
+
+    button {
+      font-family: $font-montserrat;
+      font-size: $fs-18;
     }
   }
 }
@@ -156,3 +213,27 @@ body {
   }
 }
 // TESTIMONIALS CSS END //
+
+@media only screen and (min-width: 500px) {
+  .banner-sec {
+    .carousel {
+      .carousel-inner {
+        .carousel-item {
+          height: 620px;
+
+          &.active {
+            height: 620px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .banner-sec {
+    .box {
+      box-shadow: none;
+    }
+  }
+}

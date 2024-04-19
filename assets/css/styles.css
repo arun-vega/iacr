@@ -2,6 +2,72 @@
   font-family: "Montserrat", sans-serif;
   src: url("/assets/fonts/Montserrat-Light.otf");
 }
+@font-face {
+  font-family: "Montserrat", sans-serif;
+  src: url("/assets/fonts/Montserrat-Light.otf");
+}
+h1 {
+  color: red;
+  font-family: "Montserrat", sans-serif;
+}
+
+.banner-sec .box {
+  border-radius: 5px;
+  width: 99%;
+}
+.banner-sec .box h5 {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+.banner-sec .box p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+.banner-sec .box h6 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+.banner-sec .box .input-group-text {
+  background-color: red;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 5px;
+}
+.banner-sec .box #online,
+.banner-sec .box #offline {
+  border: 1px solid #000000;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+}
+.banner-sec .box .clicked {
+  border-color: red !important;
+}
+.banner-sec .box .fa-circle-check {
+  display: none;
+  position: absolute;
+  top: -11px;
+  left: -6px;
+}
+.banner-sec .box button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
+
+@media only screen and (min-width: 500px) {
+  .banner-sec .carousel .carousel-inner .carousel-item {
+    height: 620px;
+  }
+  .banner-sec .carousel .carousel-inner .carousel-item.active {
+    height: 620px;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .banner-sec .box {
+    box-shadow: none;
+  }
 .footer-sec-bg {
   background-color: #22262f;
 }
