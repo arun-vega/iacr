@@ -27,37 +27,114 @@
   text-decoration: underline;
 }
 
-h1 {
-  color: red;
-  font-family: "Montserrat", sans-serif;
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-.home-service-container {
+.top-nav {
+  background-color: #653592;
+  font-weight: 600;
+  font-size: 15px;
   font-family: "Montserrat", sans-serif;
 }
-.home-service-container .service-about-head {
-  color: #5271FF;
+.top-nav .contact-infomation {
+  color: #ffffff;
 }
-.home-service-container .service-related-cards:hover .about-service {
-  box-shadow: 0px 10px 10px -6px rgba(0, 0, 0, 0.1);
-  transform: scale(0.94);
-  transition: 1s;
-  border: 2px solid #dfdfdf;
-  border-radius: 10px;
+.top-nav .contact-infomation i {
+  margin-right: 10px;
 }
-.home-service-container .service-related-cards .about-service .service-image-circle {
-  border-radius: 50%;
-  width: 110px;
-  height: 110px;
-  border: 1px solid #5271FF;
-  font-size: 50px;
+.top-nav .bar_content {
+  color: #ffffff;
+  font-size: 15px;
   display: flex;
-  justify-content: center;
+  width: 100%;
+  transform: translateX(0%);
+  animation: move 30s linear infinite;
+  white-space: nowrap;
   align-items: center;
-  text-align: center;
-  box-shadow: rgba(21, 72, 162, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 }
-.home-service-container .service-related-cards .about-service .service-head-tag {
-  color: #5271FF;
+.top-nav .bar_content img {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+@keyframes move {
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.testimonials {
+  background-color: #DBE9F2;
+  padding: 20px;
+}
+.testimonials .heading {
+  text-align: center;
+}
+.testimonials .heading h6 {
+  font-size: 15px;
   font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  color: #274EFF;
+}
+.testimonials .heading h2 {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  color: #653592;
+}
+.testimonials .heading p {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  padding: 5px 30px;
+}
+.testimonials .testimonial-card {
+  padding: 10px 15px;
+  height: 100%;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
+}
+.testimonials .testimonial-card .quote {
+  position: absolute;
+  right: 0px;
+  top: 0;
+  padding: 10px 15px;
+  border-bottom-left-radius: 15px;
+  background-color: #653592;
+}
+.testimonials .testimonial-card .quote i {
+  color: #ffffff;
+}
+.testimonials .testimonial-card h5 {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  color: #653592;
+}
+.testimonials .testimonial-card h6 {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  color: #274EFF;
+  margin-bottom: 5px;
+}
+.testimonials .testimonial-card i {
+  color: #F6C324;
+  margin-bottom: 5px;
+}
+.testimonials .testimonial-card p {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
+  text-align: justify;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 8;
+  -webkit-box-orient: vertical;
 }/*# sourceMappingURL=styles.css.map */
