@@ -9,24 +9,21 @@
   list-style-type: none;
 }
 .footer-sec-bg .footer-quick-links li {
-  margin-top: 7px;
-  margin-bottom: 7px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   color: #ffffff;
 }
 .footer-sec-bg .footer-quick-links li h5 {
   color: #14B0A4;
   font-weight: 500;
 }
-.footer-sec-bg .footer-quick-links li span i {
-  color: yellow;
-}
-.footer-sec-bg .footer-quick-links li span a {
+.footer-sec-bg .footer-quick-links li a {
   text-decoration: none;
-  color: white;
+  color: #ffffff;
   font-size: 16px;
   font-weight: 500;
 }
-.footer-sec-bg .footer-quick-links li span a:hover {
+.footer-sec-bg .footer-quick-links li a:hover {
   text-decoration: underline;
 }
 

@@ -1,24 +1,19 @@
 .footer-sec-bg{
-    background-color: #22262F;
-    // font-family: $font-montserrat;
+    background-color: $bg-squid-ink;
     .footer-quick-links{
       list-style-type: none;
       li {
-        margin-top: 7px;
-        margin-bottom: 7px;
+        margin-top: $m-10;
+        margin-bottom: $m-10;
         color: $color-white;
         h5{
-          color: #14B0A4;
-          font-weight: 500;
+          color: $color-light-sea-green;
+          font-weight: $fw-500;
         }
-        span{
-          i{
-            color: yellow;
-          }
           a{
             text-decoration: none;
-            color: white;
-            font-size: 16px;
+            color: $color-white;
+            font-size: $fs-16;
             font-weight: $fw-500;
             &:hover{
               text-decoration: underline;
@@ -27,4 +22,3 @@
         }
       }
     }
-  }
