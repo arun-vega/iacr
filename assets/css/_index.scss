@@ -3,3 +3,74 @@ h1{
     color: $color-danger;
     font-family: $font-montserrat;
 }
+.course-block-inside {
+    display: none;
+}
+.course-block-inside_active {
+    display: block;
+}
+
+@keyframes mymove {
+    from {
+        opacity: 0;
+        transform: translate3d(0,30%,0)
+    }
+
+    to {
+        opacity: 1;
+        transform: none
+    }
+      }
+.course-card{
+    animation: mymove 2s;
+    padding:$p-25;
+    box-shadow: 0px 0px 15px 0px rgba(209.99999999999997, 208, 255, 0.4);
+
+    img{
+        border-radius: 5px;
+    }
+    h5{
+        color:blue;
+        span{
+            color:black;
+            font-size: $fs-15;
+        }
+    }
+    p{
+        overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 5;
+      -webkit-box-orient: vertical;
+    }
+    button{
+        color:$color-white;
+        background-color: blue;
+        outline:none;
+        border:none;
+        padding:$p-5 $p-10;
+        border-radius: 5px;
+    }
+    .divider{
+        border-top:1px solid rgb(239, 238, 238);
+    }
+}
+.course-button{
+    background-color:rgb(239, 238, 238);
+    padding:10px;
+}
+.course_button_active{
+    background-color: blue;
+    color:white;
+}
+
+.our-employers{
+    background-color: #fff;
+    font-family: $font-montserrat;
+    text-align: center;
+    img{
+        background-color:$bg-white;
+        border:$border-1 solid #d3d3d3;
+        border-radius: 10px;
+        padding:$p-10;
+    }
+}
