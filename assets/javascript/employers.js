@@ -11,19 +11,19 @@ $(document).ready(function () {
       {
         breakpoint: 1704,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 7,
         },
       },
       {
         breakpoint: 1200,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 5,
         },
       },
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 5,
         },
       },
       {

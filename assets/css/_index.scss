@@ -39,7 +39,6 @@ body {
 }
 
 
-//
 .navbar-nav .nav-link {
   color: $color-primary;
   font-size: $fs-14;
@@ -99,7 +98,9 @@ body {
 
     p {
       font-family: $font-montserrat;
-      font-size: $fs-14;
+      font-size: $fs-12;
+      color: $color-salmon;
+      font-weight: $fw-600;
     }
 
     h6 {

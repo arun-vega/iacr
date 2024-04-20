@@ -131,7 +131,9 @@ body {
 }
 .banner-sec .box p {
   font-family: "Montserrat", sans-serif;
-  font-size: 14px;
+  font-size: 12px;
+  color: #e25c4c;
+  font-weight: 600;
 }
 .banner-sec .box h6 {
   font-family: "Montserrat", sans-serif;
