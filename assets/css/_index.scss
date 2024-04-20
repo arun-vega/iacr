@@ -6,8 +6,8 @@ body {
   min-height: 100vh;
 }
 .top-nav {
-  background-color: $bg-secondary;
-  font-weight: $fw-600;
+  background-color: $bg-primary;
+  font-weight: $fw-500;
   font-size: $fs-15;
   font-family: $font-montserrat;
   .contact-infomation {
@@ -38,6 +38,55 @@ body {
   }
 }
 
+
+//
+.navbar-nav .nav-link {
+  color: $color-primary;
+  font-size: $fs-14;
+  font-weight: $fw-600;
+  font-family: $font-montserrat;
+  margin-left: $m-5;
+  margin-right: $m-5;
+}
+.dropend .dropdown-toggle {
+  color: $color-primary;
+  margin-left: 1em;
+  font-size: $fs-14;
+  font-weight: $fw-600;
+  font-family: $font-montserrat;
+}
+.dropdown-item{
+  color: $color-primary;
+  font-size: $fs-14;
+  font-weight: $fw-600;
+  font-family: $font-montserrat;
+}
+.dropdown-item:hover {
+  background-color: $bg-primary;
+  color: $color-white;
+}
+.dropdown .dropdown-menu {
+  display: none;
+  border-radius: 0px;
+}
+.dropdown:hover > .dropdown-menu,
+.dropend:hover > .dropdown-menu {
+  display: block;
+  margin-top: 0.122em;
+  margin-left: 0.122em;
+}
+@media screen and (min-width: 769px) {
+  .dropend:hover > .dropdown-menu {
+    position: absolute;
+    top: 0;
+    left: 100%;
+  }
+  .dropend .dropdown-toggle {
+    margin-left: 0.5em;
+  }
+}
+//
+
 .banner-sec {
   .box {
     border-radius: $border-5;
@@ -45,6 +94,7 @@ body {
       font-size: $fs-24;
       font-weight: $fw-500;
       font-family: $font-montserrat;
+      color: $color-primary;
     }
 
     p {
@@ -56,6 +106,7 @@ body {
       font-family: $font-montserrat;
       font-size: $fs-20;
       font-weight: $fw-500;
+      color: $color-secondary;
     }
 
     .input-group-text {
@@ -63,6 +114,12 @@ body {
       color: $color-white;
       font-family: $font-montserrat;
       border-radius: $border-5;
+    }
+    input{
+      border: $border-1 solid $border-primary;
+    }
+    select{
+      border: $border-1 solid $border-primary;
     }
 
     #online,
@@ -74,7 +131,7 @@ body {
     }
 
     .clicked {
-      border-color: red !important; // Change border color to red
+      border-color: $color-light-sea-green !important; 
     }
 
     .fa-circle-check {
@@ -86,7 +143,11 @@ body {
 
     button {
       font-family: $font-montserrat;
-      font-size: $fs-18;
+      font-size: $fs-15;
+      background-color: $bg-primary;
+      border: $border-0;
+      border-radius: $border-5;
+      padding: $p-10;
     }
   }
 }
@@ -213,13 +274,13 @@ body {
       font-size: $fs-15;
       font-weight: $fw-600;
       font-family: $font-montserrat;
-      color: $color-primary;
+      color: $color-salmon;
     }
     h3 {
       font-size: $fs-32;
       font-weight: $fw-600;
       font-family: $font-montserrat;
-      color: $color-secondary;
+      color: $color-primary;
     }
     p {
       font-size: $fs-16;
@@ -243,7 +304,7 @@ body {
       top: 0;
       padding: $p-10 $p-15;
       border-bottom-left-radius: $border-15;
-      background-color: $bg-secondary;
+      background-color: $bg-primary;
       i {
         color: $color-white;
       }
@@ -252,13 +313,13 @@ body {
       font-size: $fs-18;
       font-weight: $fw-600;
       font-family: $font-montserrat;
-      color: $color-secondary;
+      color: $color-primary;
     }
     h6 {
-      font-size: $fs-15;
+      font-size: $fs-12;
       font-weight: $fw-600;
       font-family: $font-montserrat;
-      color: $color-primary;
+      color: $color-salmon;
       margin-bottom: $m-5;
     }
     i {
