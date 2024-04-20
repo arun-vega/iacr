@@ -75,7 +75,139 @@
         </div>
       </div>
     </section>
-    <header></header>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container">
+          <a class="navbar-brand fw-bold" href="#"
+            ><img src="assets/images/logo1.svg" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">What We Are</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Courses
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Clinical Data Management</a
+                    >
+                  </li>
+                  <li class="nav-item dropend">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Clinical Research
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#">Pharmacovigilance</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Clinical SAS</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Medical Writing</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Regulatory Affairs</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropend">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Supporting Modules
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#">SOP + Induction</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Soft Skills</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">MS Office</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Pharmacology</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Interview Skills</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Pre Placement Training</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Medical Coding</a></li>
+                  <li><a class="dropdown-item" href="#">Medical Scribe</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Achievements</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Aspirants</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  More
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Blog</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Terms And Conditions</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Refund Policy</a></li>
+                  <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="btn btn-primary btn-sm fw-bold" href="#">Register</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
     <main>
       <!-- Banner section start here -->
       <section class="banner-sec">
@@ -129,19 +261,18 @@
             <div class="col-lg-4 shadow border">
               <div class="text-center box p-3 mt-2">
                 <div>
-                  <h5>Book your Free Session</h5>
-                  <p class="my-2">Learn from India's best teachers</p>
-                  <h6>Select the Session Mode</h6>
+                  <h5>Book Your Free Session</h5>
+                  <p>Select Session Mode</p>
                 </div>
-                <div class="row my-4">
+                <div class="row my-3">
                   <div class="col-6">
                     <div id="online" class="p-1 clicked">
-                      <i class="fa-solid fa-circle-check"></i> Online
+                      <i class="fa-solid fa-circle-check text-success"></i> Online
                     </div>
                   </div>
                   <div class="col-6">
                     <div id="offline" class="p-1">
-                      <i class="fa-solid fa-circle-check"></i> Offline
+                      <i class="fa-solid fa-circle-check text-success"></i> Offline
                     </div>
                   </div>
                 </div>
@@ -150,42 +281,47 @@
                 <div>
                   <input
                     type="text"
-                    class="form-control mb-4"
-                    placeholder=" Enter Name "
+                    class="form-control mb-3"
+                    placeholder="Full Name..."
                   />
-                  <div class="input-group mb-4">
-                    <input
-                      type="text"
-                      class="form-control"
-                      placeholder="Recipient's username"
-                      aria-label="Recipient's username"
-                      aria-describedby="basic-addon2"
-                    />
-                    <span class="input-group-text" id="basic-addon2">
-                      SUBMIT
-                    </span>
-                  </div>
-
                   <input
-                    type="text"
-                    class="form-control mb-4"
-                    placeholder=" Enter Name "
+                  type="email"
+                  class="form-control mb-3"
+                  placeholder="Enter Email....."
+                />
+                  <input
+                    type="number"
+                    class="form-control mb-3"
+                    placeholder="Mobile Number....."
                   />
                   <select
-                    class="form-select mb-4"
+                    class="form-select mb-3"
                     aria-label="Default select example"
                   >
-                    <option selected>Open this select menu</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                    <option value="3">Three</option>
-                    <option value="3">Three</option>
-                    <option value="3">Three</option>
-                    <option value="3">Three</option>
+                    <option selected>Select City...</option>
+                    <option value="1">Hyderabad</option>
+                    <option value="2">Bangalore</option>
+                    <option value="3">Delhi</option>
+                    <option value="3">Mumbai</option>
+                    <option value="3">Chennai</option>
                   </select>
+                  <select
+                  class="form-select mb-3"
+                  aria-label="Default select example"
+                >
+                  <option selected>Qualification...</option>
+                  <option value="1">MBA</option>
+                  <option value="2">B.Tech</option>
+                  <option value="3">B.Pharmacy</option>
+                  <option value="3">Degree</option>
+                </select>
+                <input
+                    type="text"
+                    class="form-control mb-3"
+                    placeholder="Message/Query....."
+                  />
                 </div>
-                <div class="my-5">
+                <div class="my-4">
                   <button
                     id="onlineButton"
                     style="display: none"
@@ -210,19 +346,6 @@
       <!-- COURSE SELECTION SECTION START -->
       <section class="course-selection" id="course-selection">
         <div class="container">
-          <div class="row my-3">
-            <div class="col-lg-6 col-md-6 col-sm-12">
-              <h2>Discover Our Comprehensive Course Selection</h2>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
-              <p>
-                Dive into our dynamic selection of forward-looking courses
-                tailored to empower you with the skills essential for tomorrow’s
-                job market. Stay at the forefront of evolving industries and
-                excel with our innovative programs.
-              </p>
-            </div>
-          </div>
           <div class="row">
             <div class="container-fluid">
               <div class="container">
@@ -756,8 +879,9 @@
                     <ul class="footer-quick-links">
                       <li>
                         <img
-                          src="assets/images/final-output-01-1536x718.jpg"
-                          class="h-100 w-100"
+                          src="assets/images/logo.jpg"
+                          width="220"
+                          height="70"
                           alt=""
                         />
                       </li>

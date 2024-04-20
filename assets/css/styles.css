@@ -38,8 +38,8 @@ body {
 }
 
 .top-nav {
-  background-color: #653592;
-  font-weight: 600;
+  background-color: #3C5EAB;
+  font-weight: 500;
   font-size: 15px;
   font-family: "Montserrat", sans-serif;
 }
@@ -69,6 +69,57 @@ body {
   }
 }
 
+.navbar-nav .nav-link {
+  color: #3C5EAB;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.dropend .dropdown-toggle {
+  color: #3C5EAB;
+  margin-left: 1em;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+
+.dropdown-item {
+  color: #3C5EAB;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+
+.dropdown-item:hover {
+  background-color: #3C5EAB;
+  color: #ffffff;
+}
+
+.dropdown .dropdown-menu {
+  display: none;
+  border-radius: 0px;
+}
+
+.dropdown:hover > .dropdown-menu,
+.dropend:hover > .dropdown-menu {
+  display: block;
+  margin-top: 0.122em;
+  margin-left: 0.122em;
+}
+
+@media screen and (min-width: 769px) {
+  .dropend:hover > .dropdown-menu {
+    position: absolute;
+    top: 0;
+    left: 100%;
+  }
+  .dropend .dropdown-toggle {
+    margin-left: 0.5em;
+  }
+}
 .banner-sec .box {
   border-radius: 5px;
 }
@@ -76,6 +127,7 @@ body {
   font-size: 24px;
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
+  color: #3C5EAB;
 }
 .banner-sec .box p {
   font-family: "Montserrat", sans-serif;
@@ -85,12 +137,19 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
   font-weight: 500;
+  color: #653592;
 }
 .banner-sec .box .input-group-text {
   background-color: red;
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
   border-radius: 5px;
+}
+.banner-sec .box input {
+  border: 1px solid #3C5EAB;
+}
+.banner-sec .box select {
+  border: 1px solid #3C5EAB;
 }
 .banner-sec .box #online,
 .banner-sec .box #offline {
@@ -100,7 +159,7 @@ body {
   position: relative;
 }
 .banner-sec .box .clicked {
-  border-color: red !important;
+  border-color: #14b0a4 !important;
 }
 .banner-sec .box .fa-circle-check {
   display: none;
@@ -110,7 +169,11 @@ body {
 }
 .banner-sec .box button {
   font-family: "Montserrat", sans-serif;
-  font-size: 18px;
+  font-size: 15px;
+  background-color: #3C5EAB;
+  border: 0px;
+  border-radius: 5px;
+  padding: 10px;
 }
 
 .service-related-cards:hover .about-service {
@@ -124,7 +187,7 @@ body {
   border-radius: 50%;
   width: 110px;
   height: 110px;
-  border: 1px solid #274eff;
+  border: 1px solid #3C5EAB;
   font-size: 50px;
   display: flex;
   justify-content: center;
@@ -230,13 +293,13 @@ body {
   font-size: 15px;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
-  color: #274eff;
+  color: #e25c4c;
 }
 .testimonials .heading h3 {
   font-size: 32px;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
-  color: #653592;
+  color: #3C5EAB;
 }
 .testimonials .heading p {
   font-size: 16px;
@@ -259,7 +322,7 @@ body {
   top: 0;
   padding: 10px 15px;
   border-bottom-left-radius: 15px;
-  background-color: #653592;
+  background-color: #3C5EAB;
 }
 .testimonials .testimonial-card .quote i {
   color: #ffffff;
@@ -268,13 +331,13 @@ body {
   font-size: 18px;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
-  color: #653592;
+  color: #3C5EAB;
 }
 .testimonials .testimonial-card h6 {
-  font-size: 15px;
+  font-size: 12px;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
-  color: #274eff;
+  color: #e25c4c;
   margin-bottom: 5px;
 }
 .testimonials .testimonial-card i {
