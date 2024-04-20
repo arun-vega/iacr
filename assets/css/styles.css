@@ -304,4 +304,18 @@ body {
   .banner-sec .box {
     box-shadow: none;
   }
+}
+.about-team-enrollment-sec h2 {
+  color: #653592;
+}
+.about-team-enrollment-sec .enrolled-person {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 25px;
+}
+.about-team-enrollment-sec .enrolled-person img {
+  margin: 10px;
+  height: 170px;
+  width: 170px;
 }/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,16 @@
+.about-team-enrollment-sec{
+    h2{
+        color: #653592;
+    }
+    .enrolled-person{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: $m-25;
+        img{
+            margin: $m-10;
+            height: 170px;
+            width: 170px;
+        }
+    }
+}
