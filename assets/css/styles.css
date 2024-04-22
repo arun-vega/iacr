@@ -200,34 +200,39 @@ body {
 .course-card {
   animation: mymove 2s;
   padding: 25px;
-  box-shadow: 0px 0px 15px 0px rgba(210, 208, 255, 0.4);
+}
+.course-card .course-card-body {
+  padding: 10px 0px;
 }
 .course-card img {
   border-radius: 5px;
 }
+.course-card h4 {
+  font-size: 20px;
+}
 .course-card h5 {
-  color: blue;
+  color: #274eff;
+  font-size: 18px;
 }
 .course-card h5 span {
-  color: black;
+  color: #000000;
   font-size: 15px;
 }
 .course-card p {
   overflow: hidden;
   display: -webkit-box;
-  -webkit-line-clamp: 5;
+  -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
 }
-.course-card button {
-  color: #ffffff;
-  background-color: blue;
-  outline: none;
-  border: none;
-  padding: 5px 10px;
-  border-radius: 5px;
+.course-card .read-more {
+  color: #274eff;
+  border: 2px solid #274eff;
+  font-size: 12px;
+  font-weight: 500;
 }
-.course-card .divider {
-  border-top: 1px solid rgb(239, 238, 238);
+.course-card .read-more:hover {
+  background-color: #274eff;
+  color: #ffffff;
 }
 
 .course-button {
@@ -236,12 +241,12 @@ body {
 }
 
 .course_button_active {
-  background-color: blue;
-  color: white;
+  background-color: #3C5EAB;
+  color: #ffffff;
 }
 
 .our-employers {
-  background-color: #fff;
+  background-color: #ffffff;
   font-family: "Montserrat", sans-serif;
   text-align: center;
 }
