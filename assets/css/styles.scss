@@ -2,6 +2,8 @@
 @import './mixins';
 @import './footer';
 @import './index';
+@import './contact';
+
 
 .slick-dots li.slick-active button:before {
     color: $color-primary;
