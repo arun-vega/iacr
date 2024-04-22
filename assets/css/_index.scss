@@ -153,46 +153,6 @@ body {
   }
 }
 
-.service-related-cards {
-  &:hover {
-    .about-service {
-      box-shadow: 0px 10px 10px -6px rgba(0, 0, 0, 0.1);
-      transform: scale(0.94);
-      transition: 1s;
-      border: $border-2 solid $color-gainsboro;
-      border-radius: $border-10;
-    }
-  }
-  .about-service {
-    .service-image-circle {
-      border-radius: 50%;
-      width: 110px;
-      height: 110px;
-      border: $border-1 solid $color-primary;
-      font-size: 50px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      box-shadow: rgba(21, 72, 162, 0.25) 0px 4px 8px -2px,
-        rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
-      img {
-        width: 70px;
-        height: 70px;
-      }
-    }
-    h6 {
-      color: $color-secondary;
-      font-weight: $fw-600;
-      font-family: $font-montserrat;
-    }
-    p {
-      font-family: $font-montserrat;
-      font-size: $fs-15;
-    }
-  }
-}
-
 .course-block-inside {
   display: none;
 }
@@ -257,6 +217,17 @@ body {
   background-color: #fff;
   font-family: $font-montserrat;
   text-align: center;
+  h2 {
+    color: $color-primary;
+    font-weight: $fw-600;
+    font-size: $fs-26;
+    font-family: $font-montserrat;
+  }
+  p {
+    font-weight: $fw-500;
+    font-size: $fs-18;
+    font-family: $font-montserrat;
+  }
   img {
     background-color: $bg-white;
     border: $border-1 solid #d3d3d3;
@@ -266,7 +237,7 @@ body {
 }
 
 .learning-program {
-  h2{
+  h2 {
     text-align: center;
     font-size: $fs-24;
     font-weight: 600;
@@ -382,6 +353,35 @@ body {
   }
 }
 // TESTIMONIALS CSS END //
+
+//
+.get-trained-card {
+  padding: $p-40;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  text-align: center;
+  background-color: $bg-primary;
+  border-radius: $border-10;
+  h5 {
+    font-size: $fs-24;
+    font-weight: $fw-500;
+    font-family: $font-montserrat;
+    color: $color-white;
+    margin-bottom: $m-10;
+    margin-top: $m-20;
+  }
+  hr {
+    color: $color-white;
+  }
+  p {
+    font-size: $fs-16;
+    font-family: $font-montserrat;
+    color: $color-white;
+    margin-top: $m-20;
+    font-weight: $fw-400;
+  }
+}
+//
 
 @media only screen and (min-width: 500px) {
   .banner-sec {
