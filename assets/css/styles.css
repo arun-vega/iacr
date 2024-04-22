@@ -536,6 +536,86 @@ body {
   font-family: "Montserrat", sans-serif;
   src: url("/assets/fonts/Montserrat-Light.otf");
 }
+.contactus-form-bg {
+  background-color: #dbe9f2;
+}
+.contactus-form-bg .contact-form-bg {
+  background-color: transparent;
+  border: none;
+}
+.contactus-form-bg .contactus-head-text {
+  color: #3c5eab;
+  display: inline;
+  font-weight: 600;
+}
+.contactus-form-bg .contact-label-text {
+  color: #3c5eab;
+  font-weight: 600;
+}
+.contactus-form-bg .mandatory-field {
+  color: red;
+  margin-left: 5px;
+  font-size: 15px;
+}
+.contactus-form-bg .contact-submitbtn {
+  background-color: #ffffff;
+  color: #3c5eab;
+  border: 2px solid #3c5eab;
+  font-weight: bold;
+}
+.contactus-form-bg .contact-submitbtn:hover {
+  background-color: #3c5eab;
+  color: #ffffff;
+}
+
+.whychoose-bg .address-card {
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  text-align: center;
+  height: 100%;
+}
+.whychoose-bg .address-icon {
+  color: #274eff;
+}
+.whychoose-bg .address-card:hover {
+  color: #000000;
+  box-shadow: 0 10px 55px 5px rgba(137, 173, 255, 0.2);
+}
+.whychoose-bg .address-head-text {
+  font-size: 16px;
+  font-weight: 700;
+}
+.whychoose-bg .address-sub-text {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 600;
+}
+.whychoose-bg .address-text-color {
+  color: #274eff;
+  font-size: 16px;
+  font-weight: 600;
+}
+.whychoose-bg .numbers-timings div:nth-child(odd) {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 600;
+}
+.whychoose-bg .location-head-text {
+  color: #ffffff;
+  display: inline;
+  font-weight: 500;
+}
+
+@media (max-width: 767px) {
+  .address-card .semi-colon {
+    display: none;
+  }
+}
+@font-face {
+  font-family: "Montserrat", sans-serif;
+  src: url("/assets/fonts/Montserrat-Light.otf");
+}
 * {
   font-family: "Montserrat", sans-serif;
 }
