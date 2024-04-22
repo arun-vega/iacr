@@ -1,0 +1,40 @@
+@import "./variables";
+
+.future-section{
+    background-attachment: fixed;
+    background-image: url(/assets/images/about-background.jpg);
+    color:$color-white;
+    .future-section-inside{
+        background-color: rgb(0, 0, 255,0.2);  
+    }
+    .container{
+        backdrop-filter: blur(10px);
+      
+    }
+    .checkbox{
+        height:20px;
+        width:20px;
+    }
+    h3{
+        font-size: $fs-34;
+        font-weight: $fw-bold;
+    }
+    p{
+        font-size: $fs-18;
+    }
+    .count-time{
+        background-color: Blue;
+        padding:$p-10 $p-30;
+        p{
+            font-size: $fs-50;
+            margin:0;
+        }
+    }
+    .submit-btn{
+        outline:none;
+        border:none;
+        background-color: blue;
+        color:$color-white;
+        padding:$p-5 $p-10;
+    }
+}

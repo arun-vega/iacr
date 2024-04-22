@@ -1,5 +1,4 @@
 @import "./variables";
-
 body {
   display: flex;
   flex-direction: column;
@@ -125,7 +124,7 @@ body {
 
     #online,
     #offline {
-      border: 1px solid $border-black;
+      border: $border-1 solid $border-black;
       border-radius: $border-5;
       font-family: $font-montserrat;
       position: relative;
@@ -169,7 +168,7 @@ body {
       width: 110px;
       height: 110px;
       border: $border-1 solid $color-primary;
-      font-size: 50px;
+      font-size: $fs-50;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -192,7 +191,14 @@ body {
     }
   }
 }
-
+.course-selection{
+  .stack-top:nth-child(2){
+    border-left:$border-1 solid grey;
+    border-right:$border-1 solid grey;
+  }
+  .course-top-block .row{
+    padding: $p-0;
+  }
 .course-block-inside {
   display: none;
 }
@@ -211,18 +217,22 @@ body {
     transform: none;
   }
 }
+.course-card:hover{
+  background-color: rgba(206, 206, 244, 0.2);
+}
 .course-card {
   animation: mymove 2s;
   padding: $p-25;
   box-shadow: 0px 0px 15px 0px rgba(209.99999999999997, 208, 255, 0.4);
+  border-top:$border-5 solid $border-blue;
 
   img {
     border-radius: 5px;
   }
   h5 {
-    color: blue;
+    color: $color-blue;
     span {
-      color: black;
+      color: $color-black;
       font-size: $fs-15;
     }
   }
@@ -234,32 +244,33 @@ body {
   }
   button {
     color: $color-white;
-    background-color: blue;
+    background-color: $bg-blue;
     outline: none;
     border: none;
     padding: $p-5 $p-10;
     border-radius: 5px;
   }
   .divider {
-    border-top: 1px solid rgb(239, 238, 238);
+    border-top: $border-1 solid $border-sky-blue;
   }
 }
 .course-button {
-  background-color: rgb(239, 238, 238);
-  padding: 10px;
+  background-color: $bg-sky-blue;
+  padding: $p-10;
 }
 .course_button_active {
-  background-color: blue;
-  color: white;
+  background-color: $bg-blue;
+  color: $color-white;
+}
 }
 
 .our-employers {
-  background-color: #fff;
+  background-color: $bg-white;
   font-family: $font-montserrat;
   text-align: center;
   img {
     background-color: $bg-white;
-    border: $border-1 solid #d3d3d3;
+    border: $border-1 solid $border-sky-blue;
     border-radius: 10px;
     padding: $p-10;
   }
@@ -341,7 +352,48 @@ body {
   }
 }
 // TESTIMONIALS CSS END //
-
+.why-choose-us {
+  font-family: $font-montserrat;
+  h6,h5{
+    color:$color-blue;
+  }
+  h2{
+    font-size: $fs-30;
+    font-weight: $fw-bold;
+  }
+  p{
+    font-size: $fs-18;
+    overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 5;
+      -webkit-box-orient: vertical;
+  }
+img{
+  border-radius: 5px;
+}
+.feat-card{
+  border:$border-1 solid rgb(219, 218, 218);
+  border-radius: 5px;
+  max-height:550px;
+  min-height:440px;
+}
+.feat-card:hover{
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+  rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+}
+.top-reasons{
+  background-color: rgb(243, 243, 254);
+  font-family: $font-montserrat;
+  .fa-square-check{
+    font-size: $fs-26;
+    color:$color-blue;
+  }
+  span{
+    font-size: $fs-18;
+    font-weight: $fw-500;
+  }
+}
 @media only screen and (min-width: 500px) {
   .banner-sec {
     .carousel {
