@@ -544,12 +544,12 @@ body {
   border: none;
 }
 .contactus-form-bg .contactus-head-text {
-  color: #3C5EAB;
+  color: #3c5eab;
   display: inline;
   font-weight: 600;
 }
 .contactus-form-bg .contact-label-text {
-  color: #3C5EAB;
+  color: #3c5eab;
   font-weight: 600;
 }
 .contactus-form-bg .mandatory-field {
@@ -559,12 +559,12 @@ body {
 }
 .contactus-form-bg .contact-submitbtn {
   background-color: #ffffff;
-  color: #3C5EAB;
-  border: 2px solid #3C5EAB;
+  color: #3c5eab;
+  border: 2px solid #3c5eab;
   font-weight: bold;
 }
 .contactus-form-bg .contact-submitbtn:hover {
-  background-color: #3C5EAB;
+  background-color: #3c5eab;
   color: #ffffff;
 }
 
@@ -612,6 +612,178 @@ body {
     display: none;
   }
 }
+@font-face {
+  font-family: "Montserrat", sans-serif;
+  src: url("/assets/fonts/Montserrat-Light.otf");
+}
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.service-container-section {
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.service-advice-form {
+  background-color: #3c5eab;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+}
+.service-advice-form .formcontrol {
+  border-radius: 5px;
+  border: none;
+  padding: 8px;
+}
+.service-advice-form .call-btn {
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.benefits-of-development h4 {
+  background-color: #3c5eab;
+  color: #ffffff;
+  padding: 10px;
+  font-weight: 700;
+}
+.benefits-of-development p {
+  margin-top: 20px;
+}
+
+.table-content-section {
+  background-color: #dbe9f2;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding: 10px;
+}
+.table-content-section .anchor-table-section h5 {
+  color: #000000;
+}
+.table-content-section .anchor-table-section a {
+  color: #3c5eab;
+  text-decoration: none;
+  line-height: 30px;
+}
+.table-content-section .anchor-table-section a:hover {
+  text-decoration: underline;
+  color: #e25c4c;
+}
+
+.question-and-answer-sec {
+  margin-top: 10px;
+}
+.question-and-answer-sec strong {
+  color: red;
+}
+
+.table-section tr {
+  border: 1px solid #dfdfdf;
+}
+.table-section th {
+  background-color: #3c5eab;
+  color: #ffffff;
+}
+.table-section td {
+  padding: 14px;
+}
+
+.about-course-details-section .about-course h4 {
+  font-weight: 600;
+  color: #3c5eab;
+}
+.about-course-details-section .about-course ul li {
+  margin-top: 5px;
+}
+
+.enroll-now-container h4 {
+  background-color: #3c5eab;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #ffffff;
+}
+.enroll-now-container .enroll-for-weekdays {
+  background-color: #dbe9f2;
+}
+.enroll-now-container .enroll-for-weekdays:hover {
+  background-color: #DFDFDF;
+}
+.enroll-now-container .enroll-for-weekdays .weekdays span {
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: red;
+  padding: 8px;
+}
+.enroll-now-container .enroll-for-weekdays .enroll-date {
+  margin-left: 15px;
+  font-weight: 600;
+  color: #3c5eab;
+  padding-top: 10px;
+}
+.enroll-now-container .enroll-for-weekdays .enroll-time {
+  margin-left: 15px;
+  font-size: 15px;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+.enroll-now-container .enroll-for-weekdays .enroll-time i {
+  margin-right: 3px;
+}
+
+.timings-not-match {
+  background-color: #DFDFDF;
+  text-align: center;
+}
+.timings-not-match .timings-not-match-head {
+  font-weight: 600;
+  color: #3c5eab;
+}
+.timings-not-match .flexible-demo a {
+  color: red;
+  font-weight: 500;
+}
+.timings-not-match .flexible-demo a:hover {
+  color: #3c5eab;
+}
+
+.asking-questions-container {
+  margin-top: 30px;
+}
+.asking-questions-container h4 {
+  color: #3c5eab;
+  margin-bottom: 30px;
+  text-decoration: underline;
+}
+.asking-questions-container .faq-section h6 {
+  color: #653592;
+}
+.asking-questions-container .faq-section p {
+  margin-left: 35px;
+}
+
+.related-services-container h4 {
+  color: #3c5eab;
+}
+.related-services-container div {
+  margin-top: 10px;
+}
+.related-services-container div h5 {
+  font-weight: 700;
+  color: #653592;
+  margin-top: 5px;
+}
+.related-services-container div p {
+  font-weight: 500;
+}
+
+.second-form-section {
+  margin-top: 20px;
+  position: sticky;
+  top: 3%;
+  z-index: 99;
+}
+
 .slick-dots li.slick-active button:before {
   color: #3c5eab;
 }
