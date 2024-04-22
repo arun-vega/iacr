@@ -5,6 +5,9 @@
 .footer-sec-bg {
   background-color: #22262f;
 }
+.footer-sec-bg .logo {
+  filter: brightness(0) invert(1);
+}
 .footer-sec-bg .footer-quick-links {
   list-style-type: none;
 }
@@ -12,6 +15,9 @@
   margin-top: 10px;
   margin-bottom: 10px;
   color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
 }
 .footer-sec-bg .footer-quick-links li .input-group-text {
   color: #000000;
@@ -36,16 +42,25 @@
   font-size: 18px;
   color: #14b0a4;
   font-weight: 500;
+  font-family: "Montserrat", sans-serif;
 }
 .footer-sec-bg .footer-quick-links li a {
   text-decoration: none;
   color: #ffffff;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
+  font-family: "Montserrat", sans-serif;
 }
 .footer-sec-bg .footer-quick-links li a:hover {
   text-decoration: underline;
   color: #14b0a4;
+}
+.footer-sec-bg .copyright-text {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
 }
 
 .tooltip-inner {
@@ -68,7 +83,7 @@ body {
 }
 
 .top-nav {
-  background-color: #3C5EAB;
+  background-color: #3c5eab;
   font-weight: 500;
   font-size: 15px;
   font-family: "Montserrat", sans-serif;
@@ -100,7 +115,7 @@ body {
 }
 
 .navbar-nav .nav-link {
-  color: #3C5EAB;
+  color: #3c5eab;
   font-size: 14px;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
@@ -109,7 +124,7 @@ body {
 }
 
 .dropend .dropdown-toggle {
-  color: #3C5EAB;
+  color: #3c5eab;
   margin-left: 1em;
   font-size: 14px;
   font-weight: 600;
@@ -117,14 +132,14 @@ body {
 }
 
 .dropdown-item {
-  color: #3C5EAB;
+  color: #3c5eab;
   font-size: 14px;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
 }
 
 .dropdown-item:hover {
-  background-color: #3C5EAB;
+  background-color: #3c5eab;
   color: #ffffff;
 }
 
@@ -157,7 +172,7 @@ body {
   font-size: 24px;
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
-  color: #3C5EAB;
+  color: #3c5eab;
 }
 .banner-sec .box p {
   font-family: "Montserrat", sans-serif;
@@ -178,10 +193,10 @@ body {
   border-radius: 5px;
 }
 .banner-sec .box input {
-  border: 1px solid #3C5EAB;
+  border: 1px solid #3c5eab;
 }
 .banner-sec .box select {
-  border: 1px solid #3C5EAB;
+  border: 1px solid #3c5eab;
 }
 .banner-sec .box #online,
 .banner-sec .box #offline {
@@ -202,10 +217,44 @@ body {
 .banner-sec .box button {
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
-  background-color: #3C5EAB;
+  background-color: #3c5eab;
   border: 0px;
   border-radius: 5px;
   padding: 10px;
+}
+
+.about-us h6 {
+  color: #e25c4c;
+  font-size: 28px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 10px;
+}
+.about-us h2 {
+  color: #653592;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 15px;
+}
+.about-us p {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+.about-us button {
+  margin-top: 15px;
+  color: #274eff;
+  border-radius: 5px;
+  padding: 8px 15px;
+  border: 2px solid #274eff;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: #ffffff;
+}
+.about-us button:hover {
+  background-color: #274eff;
+  color: #ffffff;
 }
 
 .course-block-inside {
@@ -270,7 +319,7 @@ body {
 }
 
 .course_button_active {
-  background-color: #3C5EAB;
+  background-color: #3c5eab;
   color: #ffffff;
 }
 
@@ -280,7 +329,7 @@ body {
   text-align: center;
 }
 .our-employers h2 {
-  color: #3C5EAB;
+  color: #3c5eab;
   font-weight: 600;
   font-size: 26px;
   font-family: "Montserrat", sans-serif;
@@ -303,7 +352,7 @@ body {
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
   margin-bottom: 15px;
-  color: #3C5EAB;
+  color: #3c5eab;
 }
 .learning-program .learning-card {
   background-color: #f2f2f2;
@@ -317,7 +366,7 @@ body {
 .learning-program .learning-card .card-desc h6 {
   margin-bottom: 10px;
   margin-top: 15px;
-  color: #3C5EAB;
+  color: #3c5eab;
   font-size: 18px;
   font-weight: 600;
 }
@@ -328,7 +377,7 @@ body {
 }
 .learning-program .learning-card .card-desc a {
   text-decoration: none;
-  color: #3C5EAB;
+  color: #3c5eab;
   font-size: 14px;
   font-weight: 500;
 }
@@ -353,7 +402,7 @@ body {
   font-size: 32px;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
-  color: #3C5EAB;
+  color: #3c5eab;
 }
 .testimonials .heading p {
   font-size: 16px;
@@ -376,7 +425,7 @@ body {
   top: 0;
   padding: 10px 15px;
   border-bottom-left-radius: 15px;
-  background-color: #3C5EAB;
+  background-color: #3c5eab;
 }
 .testimonials .testimonial-card .quote i {
   color: #ffffff;
@@ -385,7 +434,7 @@ body {
   font-size: 18px;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
-  color: #3C5EAB;
+  color: #3c5eab;
 }
 .testimonials .testimonial-card h6 {
   font-size: 12px;
@@ -403,7 +452,7 @@ body {
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
   color: #000000;
-  text-align: justify;
+  text-align: start;
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 8;
@@ -414,7 +463,7 @@ body {
   padding: 40px;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
   text-align: center;
-  background-color: #3C5EAB;
+  background-color: #3c5eab;
   border-radius: 10px;
 }
 .get-trained-card h5 {
@@ -436,6 +485,40 @@ body {
   font-weight: 400;
 }
 
+.reason-to-enroll {
+  background-image: url("/assets/images/reason-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.reason-to-enroll .accordion-button:not(.collapsed) {
+  background-color: #cfe2ff;
+}
+.reason-to-enroll .accordion-button {
+  background-color: #e9f2ff;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  color: #653592;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+.reason-to-enroll .accordion-button:focus {
+  box-shadow: none;
+}
+.reason-to-enroll .accordion {
+  --bs-accordion-bg: transparent;
+  --bs-accordion-border-width: none;
+}
+.reason-to-enroll .accordion-body {
+  color: #ffffff;
+}
+.reason-to-enroll .why-choose {
+  color: #ffffff;
+  margin-bottom: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+
 @media only screen and (min-width: 500px) {
   .banner-sec .carousel .carousel-inner .carousel-item {
     height: 620px;
@@ -450,7 +533,7 @@ body {
   }
 }
 .slick-dots li.slick-active button:before {
-  color: #3C5EAB;
+  color: #3c5eab;
 }
 
 .slick-next::before,
@@ -460,5 +543,5 @@ body {
 .slick-next i,
 .slick-prev i {
   font-size: 20px;
-  color: #3C5EAB;
+  color: #3c5eab;
 }/*# sourceMappingURL=styles.css.map */

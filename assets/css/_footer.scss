@@ -1,23 +1,29 @@
-.footer-sec-bg{
+.footer-sec-bg {
   background-color: $bg-squid-ink;
-  .footer-quick-links{
+  .logo {
+    filter: brightness(0) invert(1);
+  }
+  .footer-quick-links {
     list-style-type: none;
     li {
       margin-top: $m-10;
       margin-bottom: $m-10;
       color: $color-white;
-      .input-group-text{
+      font-size: $fs-14;
+      font-weight: $fw-500;
+      font-family: $font-montserrat;
+      .input-group-text {
         color: $color-black;
         font-weight: $fw-500;
       }
-      .footer-social-icons{
-        .social-icons-div{
+      .footer-social-icons {
+        .social-icons-div {
           width: min-content;
           background-color: $color-white;
           margin: $m-5;
           padding: $p-4;
           border-radius: 50%;
-          i{
+          i {
             margin-top: $m-3;
             color: $color-black;
             font-size: $fs-20;
@@ -26,29 +32,38 @@
           }
         }
       }
-      h5{
+      h5 {
         font-size: $fs-18;
         color: $color-light-sea-green;
         font-weight: $fw-500;
+        font-family: $font-montserrat;
       }
-        a{
-          text-decoration: none;
-          color: $color-white;
-          font-size: $fs-16;
-          font-weight: $fw-500;
-          &:hover{
-            text-decoration: underline;
-            color: $color-light-sea-green;
-          }
+      a {
+        text-decoration: none;
+        color: $color-white;
+        font-size: $fs-14;
+        font-weight: $fw-500;
+        font-family: $font-montserrat;
+        &:hover {
+          text-decoration: underline;
+          color: $color-light-sea-green;
         }
       }
     }
   }
-
-  .tooltip-inner{
-    background-color: $color-white !important;
-    color: $color-black !important;
-    font-size: $fs-16 !important;
+  .copyright-text {
+    text-align: center;
+    font-size: $fs-15;
     font-weight: $fw-500;
-    border: $border-1 solid $color-light-sea-green;
+    font-family: $font-montserrat;
+    color: $color-white;
   }
+}
+
+.tooltip-inner {
+  background-color: $color-white !important;
+  color: $color-black !important;
+  font-size: $fs-16 !important;
+  font-weight: $fw-500;
+  border: $border-1 solid $color-light-sea-green;
+}
