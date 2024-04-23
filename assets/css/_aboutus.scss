@@ -1,0 +1,281 @@
+@import "./variables";
+
+.about-banner-bg {
+  background-image: url("/assets/images/about-bg.jpg");
+  background-size: 100% 100%;
+  font-family: $font-montserrat;
+
+  .banner-content {
+    h3 {
+      font-size: $fs-30;
+      font-weight: $fw-600;
+    }
+  }
+}
+
+.first-sec {
+  font-family: $font-montserrat;
+
+  h5 {
+    font-size: $fs-20;
+    font-weight: $fw-500;
+    color: $color-salmon;
+  }
+
+  h3 {
+    font-size: $fs-30;
+    font-weight: $fw-600;
+    color: $color-primary;
+  }
+
+  h6 {
+    font-size: $fs-20;
+    font-weight: $fw-400;
+  }
+
+  p {
+    font-size: $fs-16;
+    margin-top: 20px;
+  }
+}
+
+.vission-sec {
+  .card1 {
+    background-image: url("/assets/images/line-01.png");
+    background-size: 100% 100%;
+
+    .bx {
+      border-radius: 100px;
+      overflow: hidden;
+      box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+        rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+      .top-color {
+        background-color: $bg-salmon;
+        height: 50px;
+      }
+
+      img {
+        height: 70px;
+        width: 70px;
+      }
+
+      h4 {
+        text-align: center;
+        font-family: $font-montserrat;
+        font-size: $fs-30;
+        font-weight: $fw-500;
+        color: $color-salmon;
+      }
+
+      p {
+        font-family: $font-montserrat;
+        font-size: $fs-16;
+      }
+    }
+  }
+
+  .card2 {
+    background-image: url("/assets/images/iacr\ line-02.png");
+    background-size: 100% 100%;
+
+    .bx {
+      border-radius: 100px;
+      overflow: hidden;
+      box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+        rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+      .top-color {
+        background-color: rgb(30, 30, 91);
+        height: 50px;
+      }
+
+      img {
+        height: 70px;
+        width: 70px;
+      }
+
+      h4 {
+        text-align: center;
+        font-family: $font-montserrat;
+        font-size: $fs-30;
+        font-weight: $fw-500;
+        color: rgb(30, 30, 91);
+      }
+
+      p {
+        font-family: $font-montserrat;
+        font-size: $fs-16;
+      }
+    }
+  }
+
+  .card3 {
+    background-image: url("/assets/images/iacr\ line-03.png");
+    background-size: 100% 100%;
+
+    .bx {
+      border-radius: 100px;
+      overflow: hidden;
+      box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+        rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+      .top-color {
+        background-color: rgb(233, 172, 17);
+        height: 50px;
+      }
+
+      img {
+        height: 70px;
+        width: 70px;
+      }
+
+      h4 {
+        text-align: center;
+        font-family: $font-montserrat;
+        font-size: $fs-30;
+        font-weight: $fw-500;
+        color: rgb(233, 172, 17);
+      }
+
+      p {
+        font-family: $font-montserrat !important;
+        font-size: $fs-16;
+      }
+    }
+  }
+}
+
+.why-iacr-sec {
+  .title {
+    background-image: url("/assets/images/why-iacr-bg2.png");
+    background-size: 100% 100%;
+    height: 620px;
+    position: relative;
+
+    h3 {
+      position: absolute;
+      top: 22%;
+      left: 100px;
+      font-size: $fs-50;
+      color: white;
+    }
+  }
+
+  p {
+    font-size: $fs-18;
+    font-family: $font-montserrat;
+    font-weight: $fw-400;
+
+    span {
+      font-size: $fs-18;
+      font-weight: $fw-700;
+    }
+  }
+}
+
+.our-team-sec {
+  h4 {
+    font-size: $fs-30;
+    font-weight: $fw-600;
+    font-family: $font-montserrat;
+    color: $color-primary;
+  }
+
+  p {
+    font-size: $fs-18;
+    font-family: $font-montserrat;
+  }
+
+  .back-color {
+    background-color: $color-salmon;
+    border-radius: 100px 0px 100px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 360px;
+    position: relative;
+    font-family: $font-montserrat;
+
+    .img-size {
+      height: 300px;
+      width: 350px;
+      position: absolute;
+      top: -10px;
+    }
+  }
+
+  .back-color2 {
+    background-color: $bg-primary;
+    border-radius: 100px 0px 100px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 360px;
+    position: relative;
+    font-family: $font-montserrat;
+
+    .img-size {
+      height: 300px;
+      width: 350px;
+      position: absolute;
+      top: -10px;
+    }
+  }
+
+  .team-text {
+    h5 {
+      font-size: $fs-20;
+      font-family: $font-montserrat;
+    }
+
+    p {
+      font-size: $fs-16;
+      font-family: $font-montserrat;
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .our-team-sec {
+    .back-color {
+      background-color: $color-salmon;
+      border-radius: 100px 0px 100px 0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 200px;
+      width: 240px;
+      position: relative;
+      font-family: $font-montserrat;
+
+      .img-size {
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        top: -10px;
+      }
+    }
+
+    .back-color2 {
+      background-color: $bg-primary;
+      border-radius: 100px 0px 100px 0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 200px;
+      width: 240px;
+      position: relative;
+      font-family: $font-montserrat;
+
+      .img-size {
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        top: -10px;
+      }
+    }
+  }
+}
