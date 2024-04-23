@@ -3,8 +3,10 @@
 @import './footer';
 @import './index';
 @import './contact';
-
 @import './services';
+@import './terms';
+@import './refund';
+
 
 .slick-dots li.slick-active button:before {
   color: $color-primary;

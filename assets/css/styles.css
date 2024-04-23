@@ -784,6 +784,50 @@ body {
   z-index: 99;
 }
 
+@font-face {
+  font-family: "Montserrat", sans-serif;
+  src: url("/assets/fonts/Montserrat-Light.otf");
+}
+.terms-conditions {
+  font-family: "Montserrat", sans-serif;
+  background: url("/assets/images/terms-bg.png") no-repeat;
+  background-position: top right;
+}
+.terms-conditions h1, .terms-conditions h4 {
+  color: #3C5EAB;
+  font-weight: bold;
+}
+.terms-conditions .terms {
+  margin-top: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #dbe9f2;
+}
+.terms-conditions .terms-bottom {
+  border-bottom: none;
+}
+
+@font-face {
+  font-family: "Montserrat", sans-serif;
+  src: url("/assets/fonts/Montserrat-Light.otf");
+}
+.refund-policy {
+  font-family: "Montserrat", sans-serif;
+  background: url("/assets/images/terms-bg.png") no-repeat;
+  background-position: top right;
+}
+.refund-policy h1, .refund-policy h4 {
+  color: #3C5EAB;
+  font-weight: bold;
+}
+.refund-policy .refund {
+  margin-top: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #dbe9f2;
+}
+.refund-policy .refund-bottom {
+  border-bottom: none;
+}
+
 .slick-dots li.slick-active button:before {
   color: #3C5EAB;
 }
