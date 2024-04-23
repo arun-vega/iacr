@@ -1,24 +1,26 @@
 @import "./variables";
 
-*{
+* {
     font-family: $font-montserrat;
 }
 
-.service-container-section{
-    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+.service-container-section {
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 
-.service-advice-form{
+.service-advice-form {
     background-color: $bg-primary;
     color: $color-white;
     padding: $p-10;
     border-radius: $border-10;
-    .formcontrol{
+
+    .formcontrol {
         border-radius: $border-5;
         border: none;
         padding: $p-8;
     }
-    .call-btn{
+
+    .call-btn {
         border: none;
         border-radius: $border-5;
         padding: $p-5;
@@ -27,32 +29,36 @@
 
 .benefits-of-development {
     h4 {
-    background-color: $color-primary;
-    color: $color-white;
-    padding: $p-10;
-    font-weight: $fw-700;
+        background-color: $color-primary;
+        color: $color-white;
+        padding: $p-10;
+        font-weight: $fw-700;
     }
+
     p {
         margin-top: $m-20;
     }
 }
-  
 
 
-.table-content-section{
+
+.table-content-section {
     background-color: $color-sky-blue;
     border: $border-1 solid $color-black;
     border-radius: $border-10;
     padding: $p-10;
-    .anchor-table-section{
-        h5{
+
+    .anchor-table-section {
+        h5 {
             color: $color-black;
         }
-        a{
+
+        a {
             color: $color-primary;
             text-decoration: none;
             line-height: 30px;
-            &:hover{
+
+            &:hover {
                 text-decoration: underline;
                 color: $color-salmon;
             }
@@ -60,52 +66,59 @@
     }
 }
 
-.question-and-answer-sec{
+.question-and-answer-sec {
     margin-top: $m-10;
-    strong{
+
+    strong {
         color: $color-danger;
     }
 }
 
-.table-section { 
-    tr{
+.table-section {
+    tr {
         border: $border-1 solid $color-gainsboro;
     }
-    th{
+
+    th {
         background-color: $color-primary;
         color: $color-white;
-      }
-    td{
+    }
+
+    td {
         padding: $p-14;
     }
 }
 
-.about-course-details-section{ 
-    .about-course{ 
+.about-course-details-section {
+    .about-course {
         h4 {
             font-weight: 600;
             color: $color-primary;
         }
+
         ul li {
             margin-top: $m-5;
-          }
+        }
     }
 }
 
-.enroll-now-container{
-    h4{
+.enroll-now-container {
+    h4 {
         background-color: $bg-primary;
         padding-top: $p-10;
         padding-bottom: $p-10;
         color: $color-white;
     }
-    .enroll-for-weekdays{
+
+    .enroll-for-weekdays {
         background-color: $bg-sky-blue;
-        &:hover{
+
+        &:hover {
             background-color: $bg-gainsboro;
         }
-        .weekdays{
-            span{
+
+        .weekdays {
+            span {
                 font-size: $fs-14;
                 font-weight: $fw-600;
                 color: $color-white;
@@ -113,54 +126,63 @@
                 padding: $p-8;
             }
         }
-        .enroll-date{
+
+        .enroll-date {
             margin-left: $m-15;
             font-weight: $fw-600;
             color: $color-primary;
             padding-top: $p-10;
         }
-        .enroll-time{
+
+        .enroll-time {
             margin-left: $m-15;
             font-size: $fs-15;
             font-weight: $fw-500;
             padding-bottom: $p-20;
-            i{
+
+            i {
                 margin-right: $m-3;
             }
         }
     }
 }
 
-.timings-not-match{
+.timings-not-match {
     background-color: $bg-gainsboro;
     text-align: center;
-    .timings-not-match-head{
+
+    .timings-not-match-head {
         font-weight: $fw-600;
         color: $color-primary;
     }
-    .flexible-demo{
-        a{
+
+    .flexible-demo {
+        a {
             color: $color-danger;
             font-weight: 500;
-            &:hover{
+
+            &:hover {
                 color: $color-primary;
             }
         }
     }
 }
 
-.asking-questions-container{
+.asking-questions-container {
     margin-top: $m-30;
-    h4{
+
+    h4 {
         color: $color-primary;
         margin-bottom: 30px;
         text-decoration: underline;
     }
-    .faq-section{
-        h6{
+
+    .faq-section {
+        h6 {
             color: $color-secondary;
         }
-        p{
+
+        p {
             margin-left: 35px;
         }
     }
@@ -169,33 +191,29 @@
 
 
 // RELATED SERVICES
-.related-services-container{
-    h4{
+.related-services-container {
+    h4 {
         color: $color-primary;
     }
-    div{
+
+    div {
         margin-top: 10px;
-        h5{
+
+        h5 {
             font-weight: 700;
             color: $color-secondary;
             margin-top: 5px;
         }
-        p{
+
+        p {
             font-weight: 500;
         }
     }
 }
- 
-.second-form-section{
+
+.second-form-section {
     margin-top: $m-20;
     position: sticky;
-    top: 3%;
+    top: 10%;
     z-index: 99;
 }
-  
-
-  
-  
-  
-
- 
