@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Montserrat", sans-serif;
-  src: url("/assets/fonts/Montserrat-Light.otf");
+  src: url("/assets/fonts/static/Montserrat-Regular.ttf");
 }
 .footer-sec-bg {
   background-color: #22262f;
@@ -73,7 +73,7 @@
 
 @font-face {
   font-family: "Montserrat", sans-serif;
-  src: url("/assets/fonts/Montserrat-Light.otf");
+  src: url("/assets/fonts/static/Montserrat-Regular.ttf");
 }
 body {
   display: flex;
@@ -225,15 +225,15 @@ body {
 
 .about-us h6 {
   color: #e25c4c;
-  font-size: 28px;
+  font-size: 18px;
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
   margin-bottom: 10px;
 }
 .about-us h2 {
   color: #653592;
-  font-size: 22px;
-  font-weight: 600;
+  font-size: 30px;
+  font-weight: 700;
   font-family: "Montserrat", sans-serif;
   margin-bottom: 15px;
 }
@@ -330,14 +330,16 @@ body {
 }
 .our-employers h2 {
   color: #3C5EAB;
-  font-weight: 600;
-  font-size: 26px;
+  font-weight: 700;
+  font-size: 30px;
   font-family: "Montserrat", sans-serif;
+  margin-bottom: 15px;
 }
 .our-employers p {
   font-weight: 500;
   font-size: 18px;
   font-family: "Montserrat", sans-serif;
+  margin-bottom: 20px;
 }
 .our-employers img {
   background-color: #ffffff;
@@ -348,8 +350,8 @@ body {
 
 .learning-program h2 {
   text-align: center;
-  font-size: 24px;
-  font-weight: 600;
+  font-size: 30px;
+  font-weight: 700;
   font-family: "Montserrat", sans-serif;
   margin-bottom: 15px;
   color: #3C5EAB;
@@ -359,6 +361,9 @@ body {
   box-shadow: 0 27px 20px -15px rgba(122, 62, 134, 0.15);
   border-radius: 5px;
   overflow: hidden;
+}
+.learning-program .learning-card img {
+  height: 250px;
 }
 .learning-program .learning-card .card-desc {
   padding: 15px;
@@ -393,14 +398,14 @@ body {
   text-align: center;
 }
 .testimonials .heading h6 {
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
   color: #e25c4c;
 }
 .testimonials .heading h3 {
   font-size: 32px;
-  font-weight: 600;
+  font-weight: 700;
   font-family: "Montserrat", sans-serif;
   color: #3C5EAB;
 }
@@ -411,6 +416,8 @@ body {
   padding: 5px 30px;
 }
 .testimonials .testimonial-card {
+  background-image: url("/assets/images/testimonial-card-bg2.jpg");
+  background-size: 100% 100%;
   padding: 10px 15px;
   height: 100%;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
@@ -421,20 +428,21 @@ body {
 }
 .testimonials .testimonial-card .quote {
   position: absolute;
-  right: 0px;
   top: 0;
+  left: 10px;
   padding: 10px 15px;
   border-bottom-left-radius: 15px;
-  background-color: #3C5EAB;
+  font-size: 22px;
 }
 .testimonials .testimonial-card .quote i {
-  color: #ffffff;
+  color: #3C5EAB;
 }
 .testimonials .testimonial-card h5 {
   font-size: 18px;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
-  color: #3C5EAB;
+  color: #ffffff;
+  margin-top: 15px;
 }
 .testimonials .testimonial-card h6 {
   font-size: 12px;
@@ -444,7 +452,7 @@ body {
   margin-bottom: 5px;
 }
 .testimonials .testimonial-card i {
-  color: #f6c324;
+  color: #ffffff;
   margin-bottom: 5px;
 }
 .testimonials .testimonial-card p {
@@ -534,7 +542,7 @@ body {
 }
 @font-face {
   font-family: "Montserrat", sans-serif;
-  src: url("/assets/fonts/Montserrat-Light.otf");
+  src: url("/assets/fonts/static/Montserrat-Regular.ttf");
 }
 .contactus-form-bg {
   background-color: #dbe9f2;
@@ -614,7 +622,7 @@ body {
 }
 @font-face {
   font-family: "Montserrat", sans-serif;
-  src: url("/assets/fonts/Montserrat-Light.otf");
+  src: url("/assets/fonts/static/Montserrat-Regular.ttf");
 }
 * {
   font-family: "Montserrat", sans-serif;
@@ -899,7 +907,7 @@ body {
 
 @font-face {
   font-family: "Montserrat", sans-serif;
-  src: url("/assets/fonts/Montserrat-Light.otf");
+  src: url("/assets/fonts/static/Montserrat-Regular.ttf");
 }
 body {
   display: flex;
@@ -1051,15 +1059,15 @@ body {
 
 .about-us h6 {
   color: #e25c4c;
-  font-size: 28px;
+  font-size: 18px;
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
   margin-bottom: 10px;
 }
 .about-us h2 {
   color: #653592;
-  font-size: 22px;
-  font-weight: 600;
+  font-size: 30px;
+  font-weight: 700;
   font-family: "Montserrat", sans-serif;
   margin-bottom: 15px;
 }
@@ -1156,14 +1164,16 @@ body {
 }
 .our-employers h2 {
   color: #3C5EAB;
-  font-weight: 600;
-  font-size: 26px;
+  font-weight: 700;
+  font-size: 30px;
   font-family: "Montserrat", sans-serif;
+  margin-bottom: 15px;
 }
 .our-employers p {
   font-weight: 500;
   font-size: 18px;
   font-family: "Montserrat", sans-serif;
+  margin-bottom: 20px;
 }
 .our-employers img {
   background-color: #ffffff;
@@ -1174,8 +1184,8 @@ body {
 
 .learning-program h2 {
   text-align: center;
-  font-size: 24px;
-  font-weight: 600;
+  font-size: 30px;
+  font-weight: 700;
   font-family: "Montserrat", sans-serif;
   margin-bottom: 15px;
   color: #3C5EAB;
@@ -1185,6 +1195,9 @@ body {
   box-shadow: 0 27px 20px -15px rgba(122, 62, 134, 0.15);
   border-radius: 5px;
   overflow: hidden;
+}
+.learning-program .learning-card img {
+  height: 250px;
 }
 .learning-program .learning-card .card-desc {
   padding: 15px;
@@ -1219,14 +1232,14 @@ body {
   text-align: center;
 }
 .testimonials .heading h6 {
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
   color: #e25c4c;
 }
 .testimonials .heading h3 {
   font-size: 32px;
-  font-weight: 600;
+  font-weight: 700;
   font-family: "Montserrat", sans-serif;
   color: #3C5EAB;
 }
@@ -1237,6 +1250,8 @@ body {
   padding: 5px 30px;
 }
 .testimonials .testimonial-card {
+  background-image: url("/assets/images/testimonial-card-bg2.jpg");
+  background-size: 100% 100%;
   padding: 10px 15px;
   height: 100%;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
@@ -1247,20 +1262,21 @@ body {
 }
 .testimonials .testimonial-card .quote {
   position: absolute;
-  right: 0px;
   top: 0;
+  left: 10px;
   padding: 10px 15px;
   border-bottom-left-radius: 15px;
-  background-color: #3C5EAB;
+  font-size: 22px;
 }
 .testimonials .testimonial-card .quote i {
-  color: #ffffff;
+  color: #3C5EAB;
 }
 .testimonials .testimonial-card h5 {
   font-size: 18px;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
-  color: #3C5EAB;
+  color: #ffffff;
+  margin-top: 15px;
 }
 .testimonials .testimonial-card h6 {
   font-size: 12px;
@@ -1270,7 +1286,7 @@ body {
   margin-bottom: 5px;
 }
 .testimonials .testimonial-card i {
-  color: #f6c324;
+  color: #ffffff;
   margin-bottom: 5px;
 }
 .testimonials .testimonial-card p {
@@ -1360,7 +1376,7 @@ body {
 }
 @font-face {
   font-family: "Montserrat", sans-serif;
-  src: url("/assets/fonts/Montserrat-Light.otf");
+  src: url("/assets/fonts/static/Montserrat-Regular.ttf");
 }
 .about-banner-bg {
   background-image: url("/assets/images/about-bg.jpg");
@@ -1394,6 +1410,16 @@ body {
   margin-top: 20px;
 }
 
+.vission-sec h4 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #3C5EAB;
+  text-align: center;
+}
+.vission-sec p {
+  text-align: center;
+  font-size: 18px;
+}
 .vission-sec .card1 {
   background-image: url("/assets/images/line-01.png");
   background-size: 100% 100%;
@@ -1504,7 +1530,7 @@ body {
 
 .our-team-sec h4 {
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 700;
   font-family: "Montserrat", sans-serif;
   color: #3C5EAB;
 }
