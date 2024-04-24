@@ -1535,4 +1535,28 @@ body {
     position: absolute;
     top: -10px;
   }
+}
+@font-face {
+  font-family: "Montserrat", sans-serif;
+  src: url("/assets/fonts/Montserrat-Light.otf");
+}
+.achievements-banner-sec {
+  position: relative;
+}
+.achievements-banner-sec .banner-content {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}
+.achievements-banner-sec .banner-content h4 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.success-sec button {
+  background-color: #e25c4c;
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
 }/*# sourceMappingURL=styles.css.map */
