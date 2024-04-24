@@ -1,6 +1,6 @@
 @import "./variables";
 
-.card {
+.industry-card {
   height: 300px;
   width: 100%;
   position: relative;
@@ -11,7 +11,7 @@
 }
 
 /*Image*/
-.card-image {
+.industry-card-image {
   height: 100%;
   width: 100%;
   position: absolute;
@@ -22,7 +22,7 @@
 }
 
 /*Description */
-.card-description {
+.industry-card-description {
   display: flex;
   position: absolute;
   gap: 0.5em;
@@ -47,6 +47,6 @@
   line-height: 130%;
 }
 
-.card:hover .card-description {
+.industry-card:hover .industry-card-description {
   transform: translateY(100%);
 }
