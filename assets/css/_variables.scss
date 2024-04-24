@@ -101,9 +101,10 @@ $border-20: 20px;
 $w-100: 100%;
 $h-100: 100%;
 
-$font-montserrat: "Montserrat", sans-serif;
+$font-montserrat: 'Montserrat', sans-serif;
 
 @font-face {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat';
     src: url("/assets/fonts/static/Montserrat-Regular.ttf");
 }
+

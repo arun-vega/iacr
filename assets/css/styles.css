@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat";
   src: url("/assets/fonts/static/Montserrat-Regular.ttf");
 }
 .footer-sec-bg {
@@ -72,7 +72,7 @@
 }
 
 @font-face {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat";
   src: url("/assets/fonts/static/Montserrat-Regular.ttf");
 }
 body {
@@ -242,7 +242,7 @@ body {
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
 }
-.about-us button {
+.about-us a {
   margin-top: 15px;
   color: #274eff;
   border-radius: 5px;
@@ -251,10 +251,12 @@ body {
   font-size: 15px;
   font-weight: 600;
   background-color: #ffffff;
+  text-decoration: none;
 }
-.about-us button:hover {
+.about-us a:hover {
   background-color: #274eff;
   color: #ffffff;
+  text-decoration: none;
 }
 
 .course-block-inside {
@@ -534,6 +536,9 @@ body {
   .banner-sec .carousel .carousel-inner .carousel-item.active {
     height: 620px;
   }
+  .banner-sec .carousel .carousel-inner .carousel-item video {
+    height: 620px;
+  }
 }
 @media only screen and (max-width: 990px) {
   .banner-sec .box {
@@ -541,7 +546,7 @@ body {
   }
 }
 @font-face {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat";
   src: url("/assets/fonts/static/Montserrat-Regular.ttf");
 }
 .contactus-form-bg {
@@ -621,7 +626,7 @@ body {
   }
 }
 @font-face {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat";
   src: url("/assets/fonts/static/Montserrat-Regular.ttf");
 }
 * {
@@ -793,8 +798,8 @@ body {
 }
 
 @font-face {
-  font-family: "Montserrat", sans-serif;
-  src: url("/assets/fonts/Montserrat-Light.otf");
+  font-family: "Montserrat";
+  src: url("/assets/fonts/static/Montserrat-Regular.ttf");
 }
 .terms-conditions {
   font-family: "Montserrat", sans-serif;
@@ -815,8 +820,8 @@ body {
 }
 
 @font-face {
-  font-family: "Montserrat", sans-serif;
-  src: url("/assets/fonts/Montserrat-Light.otf");
+  font-family: "Montserrat";
+  src: url("/assets/fonts/static/Montserrat-Regular.ttf");
 }
 .refund-policy {
   font-family: "Montserrat", sans-serif;
@@ -837,8 +842,8 @@ body {
 }
 
 @font-face {
-  font-family: "Montserrat", sans-serif;
-  src: url("/assets/fonts/Montserrat-Light.otf");
+  font-family: "Montserrat";
+  src: url("/assets/fonts/static/Montserrat-Regular.ttf");
 }
 .industry-card {
   height: 300px;
@@ -906,7 +911,7 @@ body {
 }
 
 @font-face {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat";
   src: url("/assets/fonts/static/Montserrat-Regular.ttf");
 }
 body {
@@ -1076,7 +1081,7 @@ body {
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
 }
-.about-us button {
+.about-us a {
   margin-top: 15px;
   color: #274eff;
   border-radius: 5px;
@@ -1085,10 +1090,12 @@ body {
   font-size: 15px;
   font-weight: 600;
   background-color: #ffffff;
+  text-decoration: none;
 }
-.about-us button:hover {
+.about-us a:hover {
   background-color: #274eff;
   color: #ffffff;
+  text-decoration: none;
 }
 
 .course-block-inside {
@@ -1368,6 +1375,9 @@ body {
   .banner-sec .carousel .carousel-inner .carousel-item.active {
     height: 620px;
   }
+  .banner-sec .carousel .carousel-inner .carousel-item video {
+    height: 620px;
+  }
 }
 @media only screen and (max-width: 990px) {
   .banner-sec .box {
@@ -1375,7 +1385,7 @@ body {
   }
 }
 @font-face {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat";
   src: url("/assets/fonts/static/Montserrat-Regular.ttf");
 }
 .about-banner-bg {
@@ -1385,7 +1395,8 @@ body {
 }
 .about-banner-bg .banner-content h3 {
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 700;
+  color: #3C5EAB;
 }
 
 .first-sec {

@@ -8,7 +8,8 @@
   .banner-content {
     h3 {
       font-size: $fs-30;
-      font-weight: $fw-600;
+      font-weight: $fw-700;
+      color: $color-primary;
     }
   }
 }
@@ -40,17 +41,18 @@
 }
 
 .vission-sec {
-  h4{
+  h4 {
     font-size: $fs-30;
     font-weight: $fw-700;
     color: $color-primary;
     text-align: center;
   }
-  p{
+
+  p {
     text-align: center;
     font-size: $fs-18;
   }
- 
+
   .card1 {
     background-image: url("/assets/images/line-01.png");
     background-size: 100% 100%;
