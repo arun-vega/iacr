@@ -202,17 +202,17 @@ body {
     font-size: $fs-15;
     font-weight: $fw-600;
     background-color: $bg-white;
-   
-    
-      text-decoration: none;
-    
+
+
+    text-decoration: none;
+
     &:hover {
       background-color: $bg-blue;
       color: $color-white;
       text-decoration: none;
     }
 
-   
+
   }
 }
 
@@ -549,10 +549,6 @@ body {
           height: 620px;
 
           &.active {
-            height: 620px;
-          }
-
-          video {
             height: 620px;
           }
         }

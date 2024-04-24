@@ -536,9 +536,6 @@ body {
   .banner-sec .carousel .carousel-inner .carousel-item.active {
     height: 620px;
   }
-  .banner-sec .carousel .carousel-inner .carousel-item video {
-    height: 620px;
-  }
 }
 @media only screen and (max-width: 990px) {
   .banner-sec .box {
@@ -1373,9 +1370,6 @@ body {
     height: 620px;
   }
   .banner-sec .carousel .carousel-inner .carousel-item.active {
-    height: 620px;
-  }
-  .banner-sec .carousel .carousel-inner .carousel-item video {
     height: 620px;
   }
 }
