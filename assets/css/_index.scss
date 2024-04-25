@@ -464,8 +464,6 @@ body {
 }
 
 // TESTIMONIALS CSS END //
-
-//
 .get-trained-card {
   padding: $p-40;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
@@ -500,11 +498,13 @@ body {
 
 //
 .reason-to-enroll {
-  background-image: url("/assets/images/reason-bg.jpg");
+  background-image: url("/assets/images/doctor-working-computer.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-
+.enroll{
+  background-color: rgba(77, 146, 248, 0.7);
+}
   .accordion-button:not(.collapsed) {
     background-color: #cfe2ff;
   }
