@@ -1621,4 +1621,111 @@ body {
     position: absolute;
     top: -10px;
   }
+}
+.industry-leading-sec {
+  background-image: url("/assets/images/map-gradient-bg.png");
+  background-size: 100% 100%;
+  padding: 30px;
+  font-family: "Montserrat", sans-serif;
+}
+.industry-leading-sec .about-training-institute h3 {
+  font-weight: 600;
+  border-top: 2px solid #653592;
+  padding: 20px 0px;
+  letter-spacing: 1px;
+}
+.industry-leading-sec .about-training-institute p {
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+.industry-leading-sec .learning-options-sec {
+  background-image: url("/assets/images/art_2020_cti-remote_v1.png");
+  background-size: 100% 100%;
+}
+.industry-leading-sec .learning-options-sec .flexible-learning-head {
+  color: #3C5EAB;
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+.industry-leading-sec .learning-options-sec .interactivre-session-sec h5 {
+  font-weight: 500;
+  color: #653592;
+  margin-bottom: 15px;
+}
+.industry-leading-sec .learning-options-sec .interactivre-session-sec p {
+  letter-spacing: 1px;
+  line-height: 24px;
+  font-size: 14px;
+  margin-right: 2%;
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+  .learning-options-sec {
+    background-image: none !important;
+    background-color: #f2f2f2;
+  }
+}
+.learning-path-section {
+  font-family: "Montserrat", sans-serif;
+}
+.learning-path-section .learning-path-head {
+  font-weight: 600;
+  border-bottom: 1px solid #000000;
+  padding: 40px 0px;
+}
+.learning-path-section .more-about-learning {
+  border-bottom: 1px solid #3C5EAB;
+  margin: 0px 10px;
+  padding: 10px 0px;
+}
+.learning-path-section .more-about-learning .required-courses-sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+.learning-path-section .more-about-learning .required-courses-sec h5 {
+  font-weight: 600;
+  color: #3C5EAB;
+}
+.learning-path-section .more-about-learning .required-courses-sec .required-courses-btn a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.why-choose-iacr-sec {
+  font-family: "Montserrat", sans-serif;
+  color: #3C5EAB;
+}
+.why-choose-iacr-sec .iacr-training-session h4 {
+  font-weight: 600;
+}
+.why-choose-iacr-sec .iacr-training-session p {
+  color: #e25c4c;
+}
+.why-choose-iacr-sec .iacr-training-session ul li {
+  list-style: square;
+  letter-spacing: 1px;
+}
+.why-choose-iacr-sec .iacr-training-session ul li::marker {
+  color: #e25c4c;
+  font-size: 20px;
+}
+
+.masters-programme-sec {
+  background-image: url("/assets/images/masters20_video-bg_1920x1080_v1.png");
+  background-size: 100% 100%;
+  color: #ffffff;
+}
+.masters-programme-sec .about-masters-programme {
+  padding: 2%;
+}
+.masters-programme-sec .about-certification {
+  padding: 10px;
+  background-color: #ffffff;
+  color: #3C5EAB;
+}
+.masters-programme-sec .about-certification p {
+  margin: 6%;
 }/*# sourceMappingURL=styles.css.map */
