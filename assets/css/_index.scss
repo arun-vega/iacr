@@ -464,33 +464,39 @@ body {
 }
 
 // TESTIMONIALS CSS END //
-.get-trained-card {
-  padding: $p-40;
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
-    rgba(17, 17, 26, 0.05) 0px 8px 32px;
-  text-align: center;
-  background-color: $bg-primary;
-  border-radius: $border-10;
-
-  h5 {
-    font-size: $fs-24;
-    font-weight: $fw-500;
-    font-family: $font-montserrat;
-    color: $color-white;
-    margin-bottom: $m-10;
-    margin-top: $m-20;
+.get-trained-sec {
+  a {
+    text-decoration: none;
   }
 
-  hr {
-    color: $color-white;
-  }
+  .get-trained-card {
+    padding: $p-40;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+      rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    text-align: center;
+    background-color: $bg-primary;
+    border-radius: $border-10;
 
-  p {
-    font-size: $fs-16;
-    font-family: $font-montserrat;
-    color: $color-white;
-    margin-top: $m-20;
-    font-weight: $fw-400;
+    h5 {
+      font-size: $fs-24;
+      font-weight: $fw-500;
+      font-family: $font-montserrat;
+      color: $color-white;
+      margin-bottom: $m-10;
+      margin-top: $m-20;
+    }
+
+    hr {
+      color: $color-white;
+    }
+
+    p {
+      font-size: $fs-16;
+      font-family: $font-montserrat;
+      color: $color-white;
+      margin-top: $m-20;
+      font-weight: $fw-400;
+    }
   }
 }
 
@@ -502,9 +508,11 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-.enroll{
-  background-color: rgba(77, 146, 248, 0.7);
-}
+
+  .enroll {
+    background-color: rgba(77, 146, 248, 0.7);
+  }
+
   .accordion-button:not(.collapsed) {
     background-color: #cfe2ff;
   }
