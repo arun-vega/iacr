@@ -1,0 +1,137 @@
+.industry-leading-sec {
+    background-image: url('/assets/images/map-gradient-bg.png');
+    background-size: 100% 100%;
+    padding: $p-30;
+    font-family: $font-montserrat;
+
+    .about-training-institute {
+        h3 {
+            font-weight: $fw-600;
+            border-top: $border-2 solid $border-secondary;
+            padding: $p-20 $p-0;
+            letter-spacing: 1px;
+        }
+
+        p {
+            letter-spacing: 1px;
+            line-height: 30px;
+        }
+    }
+
+    .learning-options-sec {
+        background-image: url('/assets/images/art_2020_cti-remote_v1.png');
+        background-size: 100% 100%;
+
+        .flexible-learning-head {
+            color: $color-primary;
+            text-align: center;
+            margin-bottom: $m-25;
+            font-weight: $fw-600;
+        }
+
+        .interactivre-session-sec {
+            h5 {
+                font-weight: $fw-500;
+                color: $color-secondary;
+                margin-bottom: $m-15;
+            }
+
+            p {
+                letter-spacing: 1px;
+                line-height: 24px;
+                font-size: $fs-14;
+                margin-right: 2%;
+            }
+        }
+    }
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+    .learning-options-sec {
+        background-image: none !important;
+        background-color: $bg-light-blue;
+    }
+}
+
+.learning-path-section {
+
+    font-family: $font-montserrat;
+
+    .learning-path-head {
+        font-weight: $fw-600;
+        border-bottom: $border-1 solid $border-black;
+        padding: $p-40 $p-0;
+    }
+
+    .more-about-learning {
+        border-bottom: $border-1 solid $border-primary;
+        margin: $m-0 $m-10;
+        padding: $p-10 $p-0;
+
+        .required-courses-sec {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: $p-10;
+
+            h5 {
+                font-weight: $fw-600;
+                color: $color-primary;
+            }
+
+            .required-courses-btn {
+                a {
+                    text-decoration: none;
+                    font-weight: $fw-600;
+                }
+            }
+        }
+    }
+}
+
+.why-choose-iacr-sec {
+    font-family: $font-montserrat;
+    color: $color-primary;
+
+    .iacr-training-session {
+        h4 {
+            font-weight: $fw-600;
+        }
+
+        p {
+            color: $color-salmon;
+        }
+
+        ul {
+            li {
+                list-style: square;
+                letter-spacing: 1px;
+
+                &::marker {
+                    color: $color-salmon;
+                    font-size: $fs-20;
+                }
+            }
+        }
+    }
+}
+
+.masters-programme-sec {
+    background-image: url('/assets/images/masters20_video-bg_1920x1080_v1.png');
+    background-size: 100% 100%;
+    color: $color-white;
+
+    .about-masters-programme {
+        padding: 2%;
+    }
+
+    .about-certification {
+        padding: $p-10;
+        background-color: $bg-white;
+        color: $color-primary;
+
+        p {
+            margin: 6%;
+        }
+    }
+}
