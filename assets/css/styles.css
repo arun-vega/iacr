@@ -1627,4 +1627,44 @@ body {
     position: absolute;
     top: -10px;
   }
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("/assets/fonts/static/Montserrat-Regular.ttf");
+}
+.register-sec {
+  background-color: #dbe9f2;
+}
+.register-sec .contact-form-bg {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+}
+.register-sec .contactus-head-text {
+  color: #ffffff;
+  display: inline;
+  font-weight: 600;
+}
+.register-sec .contact-label-text {
+  color: #ffffff;
+  font-weight: 600;
+}
+.register-sec .mandatory-field {
+  color: red;
+  margin-left: 5px;
+  font-size: 15px;
+}
+.register-sec .contact-submitbtn {
+  background-color: #3C5EAB;
+  color: #ffffff;
+  border: 2px solid #3C5EAB;
+  font-weight: bold;
+}
+.register-sec .contact-submitbtn:hover {
+  background-color: #e25c4c;
+  color: #ffffff;
+  border: none;
+}
+.register-sec .location-icon {
+  font-size: 60;
+  color: #3C5EAB;
 }/*# sourceMappingURL=styles.css.map */

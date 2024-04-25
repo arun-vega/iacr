@@ -1,0 +1,44 @@
+@import './variables';
+
+.register-sec {
+    background-color: $bg-sky-blue;
+    .contact-form-bg {
+        background-color: rgba(0, 0, 0, 0.5);
+        border: none;
+    }
+
+    .contactus-head-text {
+        color: $color-white;
+        display: inline;
+        font-weight: $fw-600;
+    }
+
+    .contact-label-text {
+        color: $color-white;
+        font-weight: $fw-600;
+    }
+
+    .mandatory-field {
+        color: $color-danger;
+        margin-left: $m-5;
+        font-size: $fs-15;
+    }
+
+    .contact-submitbtn {
+        background-color: $bg-primary;
+        color: $color-white;
+        border: $border-2 solid $border-primary;
+        font-weight: $fw-bold;
+    }
+
+    .contact-submitbtn:hover {
+        background-color: $bg-salmon;
+        color: $color-white;
+        border: none;
+    }
+
+    .location-icon {
+        font-size: 60;
+        color: $color-primary;
+    }
+}
