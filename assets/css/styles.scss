@@ -7,25 +7,23 @@
 @import './terms';
 @import './refund';
 @import './industrieswecater';
+@import './aboutus';
+@import './training';
+@import './register';
 
 
 .slick-dots li.slick-active button:before {
-  color: $color-primary;
+    color: $color-primary;
 }
 
 .slick-next,
 .slick-prev {
-  &::before {
-    content: "";
-  }
+    &::before {
+        content: "";
+    }
 
-  i {
-    font-size: $fs-20;
-    color: $color-primary;
-  }
+    i {
+        font-size: $fs-20;
+        color: $color-primary;
+    }
 }
-
-@import './index';
-@import './aboutus';
-@import './training';
-@import './register';
