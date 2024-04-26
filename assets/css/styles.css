@@ -504,6 +504,10 @@ body {
   background-size: cover;
   background-position: center center;
 }
+.reason-to-enroll img {
+  margin-bottom: -100px;
+  margin-left: -50px;
+}
 .reason-to-enroll .enroll {
   background-color: rgba(77, 146, 248, 0.7);
 }
@@ -535,6 +539,17 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+@media (max-width: 991px) {
+  .reason-to-enroll img {
+    display: none;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .reason-to-enroll img {
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+}
 @media only screen and (min-width: 500px) {
   .banner-sec .carousel .carousel-inner .carousel-item {
     height: 620px;
