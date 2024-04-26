@@ -11,11 +11,9 @@
 @import './training';
 @import './register';
 
-
 .slick-dots li.slick-active button:before {
     color: $color-primary;
 }
-
 .slick-next,
 .slick-prev {
     &::before {
