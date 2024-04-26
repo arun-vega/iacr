@@ -1,18 +1,21 @@
-
-.terms-conditions{
+.terms-conditions {
     font-family: $font-montserrat;
-    background: url('/assets/images/terms-bg.png')no-repeat;
+    background: url('../images/terms-bg.png')no-repeat;
     background-position: top right;
-    h1,h4{
-        color:$color-primary;
+
+    h1,
+    h4 {
+        color: $color-primary;
         font-weight: $fw-bold;
     }
-    .terms{
-        margin-top:$m-10;
-        padding:$p-10;
+
+    .terms {
+        margin-top: $m-10;
+        padding: $p-10;
         border-bottom: $border-1 solid $border-sky-blue;
     }
-    .terms-bottom{
-        border-bottom:none;
+
+    .terms-bottom {
+        border-bottom: none;
     }
 }

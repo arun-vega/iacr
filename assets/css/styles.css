@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Montserrat";
-  src: url("/assets/fonts/static/Montserrat-Regular.ttf");
+  src: url("../fonts/static/Montserrat-Regular.ttf");
 }
 .footer-sec-bg {
   background-color: #22262f;
@@ -108,6 +108,10 @@ body {
   to {
     transform: translateX(-100%);
   }
+}
+
+.navbar .navbar-brand img {
+  filter: invert(24%) sepia(99%) saturate(1728%) hue-rotate(205deg) brightness(96%) contrast(103%);
 }
 
 .navbar-nav .nav-link {
@@ -370,7 +374,7 @@ body {
   margin-bottom: 10px;
   margin-top: 15px;
   color: #3C5EAB;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
 }
 .learning-program .learning-card .card-desc p {
@@ -414,7 +418,7 @@ body {
   padding: 5px 30px;
 }
 .testimonials .testimonial-card {
-  background-image: url("/assets/images/testimonial-card-bg2.jpg");
+  background-image: url("../images/testimonial-card-bg2.jpg");
   background-size: 100% 100%;
   padding: 10px 15px;
   height: 100%;
@@ -495,7 +499,7 @@ body {
 }
 
 .reason-to-enroll {
-  background-image: url("/assets/images/doctor-working-computer.jpg");
+  background-image: url("../images/doctor-working-computer.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -790,10 +794,11 @@ body {
 
 .terms-conditions {
   font-family: "Montserrat", sans-serif;
-  background: url("/assets/images/terms-bg.png") no-repeat;
+  background: url("../images/terms-bg.png") no-repeat;
   background-position: top right;
 }
-.terms-conditions h1, .terms-conditions h4 {
+.terms-conditions h1,
+.terms-conditions h4 {
   color: #3C5EAB;
   font-weight: bold;
 }
@@ -808,10 +813,11 @@ body {
 
 .refund-policy {
   font-family: "Montserrat", sans-serif;
-  background: url("/assets/images/terms-bg.png") no-repeat;
+  background: url("../images/terms-bg.png") no-repeat;
   background-position: top right;
 }
-.refund-policy h1, .refund-policy h4 {
+.refund-policy h1,
+.refund-policy h4 {
   color: #3C5EAB;
   font-weight: bold;
 }
@@ -876,7 +882,7 @@ body {
 }
 
 .about-banner-bg {
-  background-image: url("/assets/images/about-bg.jpg");
+  background-image: url("../images/about-bg.jpg");
   background-size: 100% 100%;
   font-family: "Montserrat", sans-serif;
 }
@@ -919,7 +925,7 @@ body {
   font-size: 18px;
 }
 .vission-sec .card1 {
-  background-image: url("/assets/images/line-01.png");
+  background-image: url("../images/line-01.png");
   background-size: 100% 100%;
 }
 .vission-sec .card1 .bx {
@@ -947,7 +953,7 @@ body {
   font-size: 16px;
 }
 .vission-sec .card2 {
-  background-image: url("/assets/images/iacr line-02.png");
+  background-image: url("../images/iacr line-02.png");
   background-size: 100% 100%;
 }
 .vission-sec .card2 .bx {
@@ -975,7 +981,7 @@ body {
   font-size: 16px;
 }
 .vission-sec .card3 {
-  background-image: url("/assets/images/iacr line-03.png");
+  background-image: url("../images/iacr line-03.png");
   background-size: 100% 100%;
 }
 .vission-sec .card3 .bx {
@@ -1004,7 +1010,7 @@ body {
 }
 
 .why-iacr-sec .title {
-  background-image: url("/assets/images/why-iacr-bg2.png");
+  background-image: url("../images/why-iacr-bg2.png");
   background-size: 100% 100%;
   height: 620px;
   position: relative;
@@ -1116,7 +1122,7 @@ body {
   }
 }
 .industry-leading-sec {
-  background-image: url("/assets/images/map-gradient-bg.png");
+  background-image: url("../images/map-gradient-bg.png");
   background-size: 100% 100%;
   padding: 30px;
   font-family: "Montserrat", sans-serif;
@@ -1132,7 +1138,7 @@ body {
   line-height: 30px;
 }
 .industry-leading-sec .learning-options-sec {
-  background-image: url("/assets/images/art_2020_cti-remote_v1.png");
+  background-image: url("../images/art_2020_cti-remote_v1.png");
   background-size: 100% 100%;
 }
 .industry-leading-sec .learning-options-sec .flexible-learning-head {
@@ -1207,7 +1213,7 @@ body {
 }
 
 .masters-programme-sec {
-  background-image: url("/assets/images/masters20_video-bg_1920x1080_v1.png");
+  background-image: url("../images/masters20_video-bg_1920x1080_v1.png");
   background-size: 100% 100%;
   color: #ffffff;
 }
