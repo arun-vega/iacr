@@ -572,6 +572,70 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.our-training-services-sec {
+  font-family: "Montserrat", sans-serif;
+}
+.our-training-services-sec .training-head-sec {
+  text-align: center;
+}
+.our-training-services-sec .training-head-sec h3 {
+  color: #e25c4c;
+}
+.our-training-services-sec .about-our-services {
+  border: 1px solid #DFDFDF;
+}
+.our-training-services-sec .about-our-services .real-time-project-sec {
+  padding: 20px;
+}
+.our-training-services-sec .about-our-services .real-time-project-sec h5 {
+  color: #3C5EAB;
+}
+.our-training-services-sec .about-our-services .real-time-project-sec .about-real-project {
+  overflow: hidden;
+  word-wrap: break-word;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  white-space: normal;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+.our-training-services-sec .about-our-services .real-time-project-sec .about-real-project h6 {
+  font-weight: bold;
+  font-size: 15px;
+}
+.our-training-services-sec .about-our-services .real-time-project-sec .about-real-project p {
+  font-size: 15px;
+}
+.our-training-services-sec .about-our-services .real-time-project-sec a {
+  text-decoration: none;
+  color: #e25c4c;
+}
+.our-training-services-sec .about-our-services .real-time-project-sec a i {
+  padding-left: 4px;
+}
+.our-training-services-sec .explore-service-btn {
+  text-align: center;
+}
+.our-training-services-sec .explore-service-btn button {
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  font-weight: 600;
+  background: rgb(60, 94, 171);
+  background: linear-gradient(90deg, rgb(60, 94, 171) 13%, rgb(255, 129, 39) 98%);
+}
+.our-training-services-sec .explore-service-btn button:hover {
+  background: rgb(60, 94, 171);
+  background: linear-gradient(338deg, rgb(60, 94, 171) 31%, rgb(255, 129, 39) 79%);
+}
+.our-training-services-sec .explore-service-btn button a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 @media (max-width: 991px) {
   .reason-to-enroll img {
     display: none;
