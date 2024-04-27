@@ -498,6 +498,39 @@ body {
   font-weight: 400;
 }
 
+.get-trained-container {
+  font-family: "Montserrat", sans-serif;
+}
+.get-trained-container .get-trained-section {
+  border-radius: 10px;
+  background-image: url("../images/get-trained-bg-1.jpg");
+  background-size: 100% 100%;
+  padding: 6%;
+}
+.get-trained-container .get-trained-section .train-trainer-head {
+  color: #f6c324;
+  letter-spacing: 2px;
+}
+.get-trained-container .get-trained-section .train-trainer-head .train-head {
+  font-size: 22px;
+  font-weight: 700;
+}
+.get-trained-container .get-trained-section .train-trainer-head .the-head {
+  font-size: 18px;
+}
+.get-trained-container .get-trained-section .train-trainer-head .trainer-head {
+  font-size: 36px;
+  font-weight: 700;
+  padding: 0px 8px;
+}
+.get-trained-container .get-trained-section .welcome-training-para {
+  color: #ffffff;
+  font-size: 22px;
+}
+.get-trained-container .get-trained-section p {
+  color: #dfdfdf;
+}
+
 .reason-to-enroll {
   background-image: url("../images/doctor-working-computer.jpg");
   background-repeat: no-repeat;

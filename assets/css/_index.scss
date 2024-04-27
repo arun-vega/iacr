@@ -504,6 +504,46 @@ body {
   }
 }
 
+.get-trained-container {
+  font-family: $font-montserrat;
+
+  .get-trained-section {
+    border-radius: $border-10;
+    background-image: url('../images/get-trained-bg-1.jpg');
+    background-size: 100% 100%;
+    padding: 6%;
+
+    .train-trainer-head {
+      color: $color-yellow;
+      letter-spacing: 2px;
+
+      .train-head {
+        font-size: $fs-22;
+        font-weight: $fw-700;
+      }
+
+      .the-head {
+        font-size: $fs-18;
+      }
+
+      .trainer-head {
+        font-size: $fs-36;
+        font-weight: $fw-700;
+        padding: $p-0 $p-8;
+      }
+    }
+
+    .welcome-training-para {
+      color: $color-white;
+      font-size: $fs-22;
+    }
+
+    p {
+      color: $color-gainsboro;
+    }
+  }
+}
+
 //
 
 //
@@ -512,10 +552,12 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-img{
-  margin-bottom: -100px;
-  margin-left: -50px;
-}
+
+  img {
+    margin-bottom: -100px;
+    margin-left: -50px;
+  }
+
   .enroll {
     background-color: rgba(77, 146, 248, 0.7);
   }
@@ -555,17 +597,19 @@ img{
 }
 
 //
-@media  (max-width:991px){
-  .reason-to-enroll img{
+@media (max-width:991px) {
+  .reason-to-enroll img {
     display: none;
   }
 }
-@media  (min-width:992px) and (max-width:1200px){
-  .reason-to-enroll img{
+
+@media (min-width:992px) and (max-width:1200px) {
+  .reason-to-enroll img {
     margin-bottom: 0px;
-  margin-left: 0px;
+    margin-left: 0px;
   }
 }
+
 @media only screen and (min-width: 500px) {
   .banner-sec {
     .carousel {
