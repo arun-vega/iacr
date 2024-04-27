@@ -259,6 +259,86 @@ body {
   text-decoration: none;
 }
 
+.course-sec .bord {
+  position: relative;
+}
+.course-sec .bord h4 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #3C5EAB;
+}
+.course-sec .bord .hr-line {
+  border-bottom: 0.5px solid rgb(198, 197, 197);
+  width: 80%;
+  position: absolute;
+  top: 70%;
+  right: 0px;
+}
+.course-sec .card-block-item {
+  border: 1px solid #CCCCCC;
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  background-color: #fff;
+  height: 100%;
+}
+.course-sec .card-block-item img {
+  height: 150px;
+}
+.course-sec .card-block-item .card-block-body {
+  padding: 15px;
+}
+.course-sec .card-block-item .card-block-body h5 {
+  color: #274eff;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.course-sec .card-block-item .card-block-body h6 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.course-sec .card-block-item .card-block-body p {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.course-sec .card-block-item .custom-block-bottom {
+  position: absolute;
+  bottom: 0px;
+}
+.course-sec .card-block-item .custom-block-bottom .share-btn {
+  border-radius: 0px 0px 10px 0px;
+  padding: 5px;
+  color: #274eff;
+  font-size: 14px;
+  font-weight: 500;
+}
+.course-sec .card-block-item .custom-block-bottom .share-btn:hover {
+  background-color: #274eff;
+  color: #ffffff;
+}
+.course-sec .card-block-item .custom-block-bottom .enroll-btn {
+  background-color: #e25c4c;
+  color: #ffffff;
+  border-radius: 0px 0px 0px 10px;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.course-sec .card-block-item .custom-block-bottom a {
+  text-decoration: none;
+  border: 1px solid rgb(234, 232, 232);
+  text-align: center;
+}
+
 .course-block-inside {
   display: none;
 }
@@ -538,7 +618,6 @@ body {
   background-position: center center;
 }
 .reason-to-enroll img {
-  margin-bottom: -100px;
   margin-left: -50px;
 }
 .reason-to-enroll .enroll {
@@ -570,6 +649,57 @@ body {
   color: #ffffff;
   margin-bottom: 15px;
   font-family: "Montserrat", sans-serif;
+}
+
+.faqs-sec .faqs-button {
+  background-color: #ffffff;
+  padding: 5px 20px 5px 20px;
+  border-radius: 5px;
+}
+.faqs-sec .faq-section {
+  font-family: "Montserrat", sans-serif;
+}
+.faqs-sec .faq-section p {
+  color: #3C5EAB;
+  font-weight: 600;
+}
+.faqs-sec .faq-section .accordion-item {
+  margin-top: 5px;
+  border: 1px solid #DFDFDF !important;
+  font-family: "Montserrat", sans-serif;
+}
+.faqs-sec .faq-section .accordion-item .accordion-button.collapsed::after {
+  background: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' fill='(0,0,139)' viewBox='0 0 16 16'><path fill-rule='evenodd' d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/></svg>");
+  transform: rotate(-90deg);
+  transition: 0.5s ease-in;
+  transition-delay: 0.2s;
+}
+.faqs-sec .faq-section .accordion-item .accordion-button:not(.collapsed)::after {
+  background: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' fill='(0,0,139)' class='bi bi-dash-circle' viewBox='0 0 16 16'><path d='M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z'/><path d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z'/></svg>");
+  transform: rotate(0deg);
+  transition: 0.5s ease-in;
+  transition-delay: 0.2s;
+}
+.faqs-sec .faq-section .accordion-item .accordion-button:not(.collapsed),
+.faqs-sec .faq-section .accordion-item .accordion-button.collapsed {
+  outline: none;
+  color: #1E2285;
+  font-size: 14px;
+  background-color: #ffffff;
+  box-shadow: 0 0 0 0px #dfdfdf;
+}
+.faqs-sec .faq-section .accordion-item .accordion-button strong {
+  font-size: 16px;
+  padding: 3px;
+}
+.faqs-sec .faq-section .accordion-item .accordion-collapse {
+  transition: height 0.9s ease;
+  border-color: none;
+}
+.faqs-sec .faq-section .open-faq-sec p {
+  margin-top: 10px;
+  color: #000000;
+  font-weight: 500;
 }
 
 @media (max-width: 991px) {
