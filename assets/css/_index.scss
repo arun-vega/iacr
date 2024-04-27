@@ -104,16 +104,14 @@ body {
 //
 
 .banner-sec {
+  h5 {
+    font-size: $fs-24;
+    font-weight: $fw-500;
+    font-family: $font-montserrat;
+    color: $color-primary;
+  }
   .box {
     border-radius: $border-5;
-
-    h5 {
-      font-size: $fs-24;
-      font-weight: $fw-500;
-      font-family: $font-montserrat;
-      color: $color-primary;
-    }
-
     p {
       font-family: $font-montserrat;
       font-size: $fs-12;
@@ -145,6 +143,13 @@ body {
 
     #online,
     #offline {
+      border: 1px solid $border-black;
+      border-radius: $border-5;
+      font-family: $font-montserrat;
+      position: relative;
+    }
+    #online1,
+    #offline1 {
       border: 1px solid $border-black;
       border-radius: $border-5;
       font-family: $font-montserrat;
@@ -597,6 +602,26 @@ body {
 }
 
 //
+
+//SIDE PANEL SECTION//
+.sidepanel-section{
+  position: fixed;
+  vertical-align: middle;
+  background-color: $bg-primary;
+  transform: rotate(90deg);
+  top: 50%;
+  right: -30px;
+  z-index: 999;
+  padding: 10px;
+   
+    text-decoration: none;
+    color:$color-white;
+    font-weight: 600;
+  
+}
+//
+
+
 @media (max-width:991px) {
   .reason-to-enroll img {
     display: none;

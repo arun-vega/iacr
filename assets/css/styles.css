@@ -165,14 +165,14 @@ body {
     margin-left: 0.5em;
   }
 }
-.banner-sec .box {
-  border-radius: 5px;
-}
-.banner-sec .box h5 {
+.banner-sec h5 {
   font-size: 24px;
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
   color: #3C5EAB;
+}
+.banner-sec .box {
+  border-radius: 5px;
 }
 .banner-sec .box p {
   font-family: "Montserrat", sans-serif;
@@ -200,6 +200,13 @@ body {
 }
 .banner-sec .box #online,
 .banner-sec .box #offline {
+  border: 1px solid #000000;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+}
+.banner-sec .box #online1,
+.banner-sec .box #offline1 {
   border: 1px solid #000000;
   border-radius: 5px;
   font-family: "Montserrat", sans-serif;
@@ -570,6 +577,20 @@ body {
   color: #ffffff;
   margin-bottom: 15px;
   font-family: "Montserrat", sans-serif;
+}
+
+.sidepanel-section {
+  position: fixed;
+  vertical-align: middle;
+  background-color: #3C5EAB;
+  transform: rotate(90deg);
+  top: 50%;
+  right: -30px;
+  z-index: 999;
+  padding: 10px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 600;
 }
 
 @media (max-width: 991px) {
