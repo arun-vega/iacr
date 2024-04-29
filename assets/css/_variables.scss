@@ -1,8 +1,7 @@
 $color-black: #000000;
 $color-white: #ffffff;
 $color-danger: red;
-$color-primary: #3C5EAB;
-$color-blue: #274eff;
+$color-primary: #082cd4;
 $color-secondary: #653592;
 $color-yellow: #f6c324;
 $color-sky-blue: #dbe9f2;
@@ -14,28 +13,25 @@ $color-light-blue: #f2f2f2;
 $bg-black: #000000;
 $bg-white: #ffffff;
 $bg-danger: red;
-$bg-primary: #3C5EAB;
-$bg-blue: #274eff;
+$bg-primary: #082cd4;
 $bg-secondary: #653592;
 $bg-yellow: #f6c324;
 $bg-sky-blue: #dbe9f2;
 $bg-squid-ink: #22262f;
 $bg-salmon: #e25c4c;
 $bg-light-blue: #f2f2f2;
-$bg-gainsboro: #DFDFDF;
+$bg-gainsboro: #dfdfdf;
 
 $border-black: #000000;
 $border-white: #ffffff;
 $border-danger: red;
-$border-primary: #3c5eab;
-$border-primary: #3C5EAB;
-$border-blue: #274eff;
+$border-primary: #082cd4;
 $border-secondary: #653592;
 $border-yellow: #f6c324;
 $border-sky-blue: #dbe9f2;
 $border-salmon: #e25c4c;
 $border-light-blue: #f2f2f2;
-$border-gainsboro: #DFDFDF;
+$border-gainsboro: #dfdfdf;
 
 $fs-12: 12px;
 $fs-14: 14px;
@@ -63,6 +59,7 @@ $fw-700: 700;
 $fw-bold: bold;
 
 $m-0: 0px;
+$m-2: 2px;
 $m-3: 3px;
 $m-5: 5px;
 $m-10: 10px;
@@ -101,9 +98,9 @@ $border-20: 20px;
 $w-100: 100%;
 $h-100: 100%;
 
-$font-montserrat: 'Montserrat', sans-serif;
+$font-montserrat: "Montserrat", sans-serif;
 
 @font-face {
-    font-family: 'Montserrat';
-    src: url("../fonts/static/Montserrat-Regular.ttf");
+  font-family: "Montserrat";
+  src: url("../fonts/static/Montserrat-Regular.ttf");
 }
