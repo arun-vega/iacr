@@ -665,6 +665,20 @@ body {
   text-decoration: none;
 }
 
+.sidepanel-section {
+  position: fixed;
+  vertical-align: middle;
+  background-color: #082cd4;
+  transform: rotate(90deg);
+  top: 50%;
+  right: -30px;
+  z-index: 999;
+  padding: 10px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 600;
+}
+
 @media (max-width: 991px) {
   .reason-to-enroll img {
     display: none;

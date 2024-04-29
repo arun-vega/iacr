@@ -721,6 +721,24 @@ body {
 }
 
 //
+//SIDE PANEL SECTION//
+.sidepanel-section {
+  position: fixed;
+  vertical-align: middle;
+  background-color: $bg-primary;
+  transform: rotate(90deg);
+  top: 50%;
+  right: -30px;
+  z-index: 999;
+  padding: 10px;
+
+  text-decoration: none;
+  color: $color-white;
+  font-weight: 600;
+
+}
+
+//
 
 
 @media (max-width:991px) {
