@@ -327,20 +327,12 @@ body {
   margin-bottom: $m-50;
 
   .bord {
-    position: relative;
+    text-align: center;
 
     h4 {
       font-size: $fs-30;
       font-weight: $fw-700;
       color: $color-primary;
-    }
-
-    .hr-line {
-      border-bottom: 0.5px solid rgb(198, 197, 197);
-      width: 80%;
-      position: absolute;
-      top: 70%;
-      right: 0px;
     }
   }
 
@@ -589,7 +581,6 @@ body {
   }
 }
 
-// TESTIMONIALS CSS END //
 
 .reason-to-enroll {
   background-image: url("../images/doctor-working-computer.jpg");
@@ -598,7 +589,7 @@ body {
   background-position: center center;
 
   img {
-    margin-bottom: -100px;
+    margin-bottom: -60px;
     margin-left: -50px;
   }
 
@@ -643,6 +634,7 @@ body {
 //
 //OUR TRAINING SERVICES
 .our-training-services-sec {
+  background-color: #dbe9f2;
   font-family: $font-montserrat;
 
   .training-head-sec {
@@ -658,6 +650,7 @@ body {
 
     .real-time-project-sec {
       padding: $p-20;
+      background-color: $bg-white;
 
       h5 {
         color: $color-primary;
@@ -739,6 +732,71 @@ body {
 }
 
 //
+
+.faqs-sec {
+  .faqs-button {
+    background-color: $bg-white;
+    padding: 5px 20px 5px 20px;
+    border-radius: $border-5;
+  }
+
+  .faq-section {
+    font-family: $font-montserrat;
+
+    p {
+      color: $color-primary;
+      font-weight: 600;
+    }
+
+    .accordion-item {
+      margin-top: 5px;
+      border: 1px solid $border-gainsboro !important;
+      font-family: $font-montserrat;
+
+      .accordion-button.collapsed::after {
+        background: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' fill='(0,0,139)' viewBox='0 0 16 16'><path fill-rule='evenodd' d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/></svg>");
+        transform: rotate(-90deg);
+        transition: 0.5s ease-in;
+        transition-delay: 0.2s;
+      }
+
+      .accordion-button:not(.collapsed)::after {
+        background: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' fill='(0,0,139)' class='bi bi-dash-circle' viewBox='0 0 16 16'><path d='M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z'/><path d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z'/></svg>");
+        transform: rotate(0deg);
+        transition: 0.5s ease-in;
+        transition-delay: 0.2s;
+
+      }
+
+      .accordion-button:not(.collapsed),
+      .accordion-button.collapsed {
+        outline: none;
+        color: #1E2285;
+        font-size: 14px;
+        background-color: $color-white;
+        box-shadow: 0 0 0 0px $color-gainsboro;
+      }
+
+      .accordion-button strong {
+        font-size: 16px;
+        padding: 3px;
+      }
+
+      .accordion-collapse {
+        transition: height 0.9s ease;
+        border-color: none;
+      }
+    }
+
+    .open-faq-sec {
+      p {
+        margin-top: 10px;
+        color: $color-black;
+        font-weight: 500;
+      }
+    }
+  }
+}
 
 
 @media (max-width:991px) {
