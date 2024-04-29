@@ -641,22 +641,83 @@ body {
 }
 
 //
+//OUR TRAINING SERVICES
+.our-training-services-sec {
+  font-family: $font-montserrat;
 
-//SIDE PANEL SECTION//
-.sidepanel-section {
-  position: fixed;
-  vertical-align: middle;
-  background-color: $bg-primary;
-  transform: rotate(90deg);
-  top: 50%;
-  right: -30px;
-  z-index: 999;
-  padding: 10px;
+  .training-head-sec {
+    text-align: center;
 
-  text-decoration: none;
-  color: $color-white;
-  font-weight: 600;
+    h3 {
+      color: $color-salmon;
+    }
+  }
 
+  .about-our-services {
+    border: $border-1 solid $border-gainsboro;
+
+    .real-time-project-sec {
+      padding: $p-20;
+
+      h5 {
+        color: $color-primary;
+      }
+
+      .about-real-project {
+        overflow: hidden;
+        word-wrap: break-word;
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+        white-space: normal;
+        margin-bottom: $m-10;
+        letter-spacing: 1px;
+
+        h6 {
+          font-weight: bold;
+          font-size: $fs-15;
+        }
+
+        p {
+          font-size: $fs-15;
+        }
+      }
+
+      a {
+        text-decoration: none;
+        color: $color-salmon;
+
+        i {
+          padding-left: $p-4;
+        }
+      }
+    }
+  }
+
+  .explore-service-btn {
+    text-align: center;
+
+    button {
+      font-size: $fs-15;
+      border-radius: $border-5;
+      border: none;
+      padding: $p-10;
+      font-weight: $fw-600;
+      background: rgb(60, 94, 171);
+      background: linear-gradient(90deg, rgba(60, 94, 171, 1) 13%, rgba(255, 129, 39, 1) 98%);
+
+      &:hover {
+        background: rgb(60, 94, 171);
+        background: linear-gradient(338deg, rgba(60, 94, 171, 1) 31%, rgba(255, 129, 39, 1) 79%);
+      }
+
+      a {
+        color: $color-white;
+        text-decoration: none;
+      }
+    }
+  }
 }
 
 //
