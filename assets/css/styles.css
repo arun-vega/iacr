@@ -214,6 +214,13 @@ body {
   font-family: "Montserrat", sans-serif;
   position: relative;
 }
+.banner-sec .shedule-form #online1,
+.banner-sec .shedule-form #offline1 {
+  border: 1px solid #000000;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+}
 .banner-sec .shedule-form .clicked {
   border-color: #14b0a4 !important;
 }
@@ -592,6 +599,20 @@ body {
   color: #ffffff;
   margin-bottom: 15px;
   font-family: "Montserrat", sans-serif;
+}
+
+.sidepanel-section {
+  position: fixed;
+  vertical-align: middle;
+  background-color: #082cd4;
+  transform: rotate(90deg);
+  top: 50%;
+  right: -30px;
+  z-index: 999;
+  padding: 10px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 600;
 }
 
 @media (max-width: 991px) {

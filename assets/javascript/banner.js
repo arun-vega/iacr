@@ -1,9 +1,9 @@
 
-const onlineDiv = document.getElementById('online');
-const offlineDiv = document.getElementById('offline');
+let onlineDiv = document.getElementById('online');
+let offlineDiv = document.getElementById('offline');
 
-const onlineButton = document.getElementById('onlineButton');
-const offlineButton = document.getElementById('offlineButton');
+let onlineButton = document.getElementById('onlineButton');
+let offlineButton = document.getElementById('offlineButton');
 
 onlineButton.style.display = 'inline-block';
 document.querySelector('.clicked i').style.display = 'inline';
@@ -29,3 +29,32 @@ offlineDiv.addEventListener('click', function () {
 });
 
 
+
+let onlineDiv1 = document.getElementById('online1');
+let offlineDiv1 = document.getElementById('offline1');
+
+let modelOnlineButton = document.getElementById('modelOnlineButton');
+let modelOfflineButton = document.getElementById('modelOfflineButton');
+
+modelOnlineButton.style.display = 'inline-block';
+document.querySelector('.clicked i').style.display = 'inline';
+
+onlineDiv1.addEventListener('click', function () {
+    modelOnlineButton.style.display = 'inline-block';
+    modelOfflineButton.style.display = 'none';
+
+    onlineDiv1.classList.add('clicked');
+    offlineDiv1.classList.remove('clicked');
+    onlineDiv1.querySelector('i').style.display = 'inline'; // Display tick icon
+    offlineDiv1.querySelector('i').style.display = 'none';
+});
+
+offlineDiv1.addEventListener('click', function () {
+    modelOfflineButton.style.display = 'inline-block';
+    modelOnlineButton.style.display = 'none';
+
+    offlineDiv1.classList.add('clicked');
+    onlineDiv1.classList.remove('clicked');
+    offlineDiv1.querySelector('i').style.display = 'inline'; // Display tick icon
+    onlineDiv1.querySelector('i').style.display = 'none';
+});

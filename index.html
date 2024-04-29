@@ -1324,6 +1324,87 @@
   </section>
   <!-- FOOTER SECTION END -->
 
+
+  <!-- STICKY PANEL START -->
+  <section>
+      <a href="" data-bs-toggle="modal" class="sidepanel-section rounded-bottom" data-bs-target="#appointmentModel">
+        <div >
+          Book Now
+        </div>
+      </a>
+</section>
+<!-- STICKY PANEL END -->
+
+
+  <!-- boook appointment modal starts -->
+<div class="modal fade" id="appointmentModel" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content banner-sec">
+      <div class="modal-header">
+        <h5 class="modal-title fs-5" id="staticBackdropLabel">Book Appointment</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+        <div class="modal-body">
+          <div class="shadow" style="border-bottom: 1px solid rgba(0, 0, 0, 0.45)">
+            <div class="text-center box p-3 mt-2">
+              <div>
+                <h5>Book Your Free Session</h5>
+                <p>Select Session Mode</p>
+              </div>
+              <div class="row my-3">
+                <div class="col-6">
+                  <div id="online1" class="p-1 clicked">
+                    <i class="fa-solid fa-circle-check text-success"></i>
+                    Online
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div id="offline1" class="p-1">
+                    <i class="fa-solid fa-circle-check text-success"></i>
+                    Offline
+                  </div>
+                </div>
+              </div>
+
+              <h6 class="mb-3">Enter your Details</h6>
+              <div>
+                <input type="text" class="form-control mb-3" placeholder="Full Name..." />
+                <input type="email" class="form-control mb-3" placeholder="Enter Email....." />
+                <input type="number" class="form-control mb-3" placeholder="Mobile Number....." />
+                <select class="form-select mb-3" aria-label="Default select example">
+                  <option selected>Select City...</option>
+                  <option value="1">Hyderabad</option>
+                  <option value="2">Bangalore</option>
+                  <option value="3">Delhi</option>
+                  <option value="3">Mumbai</option>
+                  <option value="3">Chennai</option>
+                </select>
+                <select class="form-select mb-3" aria-label="Default select example">
+                  <option selected>Qualification...</option>
+                  <option value="1">MBA</option>
+                  <option value="2">B.Tech</option>
+                  <option value="3">B.Pharmacy</option>
+                  <option value="3">Degree</option>
+                </select>
+                <input type="text" class="form-control mb-3" placeholder="Message/Query....." />
+              </div>
+              <div class="my-4">
+                <button id="modelOnlineButton" style="display: none" class="btn btn-danger w-100 p-2">
+                  Schedule a Free Class
+                </button>
+                <button id="modelOfflineButton" style="display: none" class="btn btn-danger w-100 p-2">
+                  book one on one
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+ <!-- boook appointment modal ends -->
+
+
   <!--JQUERY 3.7.0 SLICK CAROUSEL  -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
