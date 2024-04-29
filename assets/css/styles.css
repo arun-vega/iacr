@@ -79,7 +79,7 @@ body {
 }
 
 .top-nav {
-  background-color: #3C5EAB;
+  background-color: #082cd4;
   font-weight: 500;
   font-size: 15px;
   font-family: "Montserrat", sans-serif;
@@ -88,7 +88,7 @@ body {
   color: #ffffff;
 }
 .top-nav .contact-infomation i {
-  margin-right: 10px;
+  margin-right: 2px;
 }
 .top-nav .bar_content {
   color: #ffffff;
@@ -110,36 +110,51 @@ body {
   }
 }
 
-.navbar .navbar-brand img {
-  filter: invert(24%) sepia(99%) saturate(1728%) hue-rotate(205deg) brightness(96%) contrast(103%);
-}
-
-.navbar-nav .nav-link {
-  color: #3C5EAB;
+.navbar .nav-link {
+  color: #082cd4;
   font-size: 14px;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
   margin-left: 5px;
   margin-right: 5px;
 }
+.navbar .register-btn {
+  margin-top: 5px;
+}
+.navbar .register-btn a {
+  background-color: #082cd4;
+  text-decoration: none;
+  padding: 5px 10px;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.navbar .navbar-brand img {
+  filter: invert(7%) sepia(91%) saturate(4884%) hue-rotate(228deg) brightness(119%) contrast(109%);
+}
 
 .dropend .dropdown-toggle {
-  color: #3C5EAB;
+  color: #082cd4;
   margin-left: 1em;
   font-size: 14px;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
 }
+.dropend:hover > .dropdown-menu {
+  display: block;
+  margin-top: 0.122em;
+  margin-left: 0.122em;
+}
 
 .dropdown-item {
-  color: #3C5EAB;
+  color: #082cd4;
   font-size: 14px;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
 }
-
 .dropdown-item:hover {
-  background-color: #3C5EAB;
+  background-color: #082cd4;
   color: #ffffff;
 }
 
@@ -147,9 +162,7 @@ body {
   display: none;
   border-radius: 0px;
 }
-
-.dropdown:hover > .dropdown-menu,
-.dropend:hover > .dropdown-menu {
+.dropdown:hover > .dropdown-menu {
   display: block;
   margin-top: 0.122em;
   margin-left: 0.122em;
@@ -165,81 +178,79 @@ body {
     margin-left: 0.5em;
   }
 }
-.banner-sec h5 {
-  font-size: 24px;
-  font-weight: 500;
-  font-family: "Montserrat", sans-serif;
-  color: #3C5EAB;
-}
-.banner-sec .box {
+.banner-sec .shedule-form {
   border-radius: 5px;
 }
-.banner-sec .box p {
-  font-family: "Montserrat", sans-serif;
-  font-size: 12px;
-  color: #e25c4c;
+.banner-sec .shedule-form h5 {
+  font-size: 22px;
   font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  color: #082cd4;
 }
-.banner-sec .box h6 {
+.banner-sec .shedule-form p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #e25c4c;
+  font-weight: 700;
+}
+.banner-sec .shedule-form h6 {
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
   font-weight: 500;
   color: #653592;
 }
-.banner-sec .box .input-group-text {
-  background-color: red;
-  color: #ffffff;
-  font-family: "Montserrat", sans-serif;
+.banner-sec .shedule-form input {
+  border: 1px solid #082cd4;
+  margin-bottom: 20px;
+}
+.banner-sec .shedule-form select {
+  border: 1px solid #082cd4;
+  margin-bottom: 25px;
+}
+.banner-sec .shedule-form #online,
+.banner-sec .shedule-form #offline {
+  border: 1px solid #082cd4;
   border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
 }
-.banner-sec .box input {
-  border: 1px solid #3C5EAB;
-}
-.banner-sec .box select {
-  border: 1px solid #3C5EAB;
-}
-.banner-sec .box #online,
-.banner-sec .box #offline {
+.banner-sec .shedule-form #online1,
+.banner-sec .shedule-form #offline1 {
   border: 1px solid #000000;
   border-radius: 5px;
   font-family: "Montserrat", sans-serif;
   position: relative;
 }
-.banner-sec .box #online1,
-.banner-sec .box #offline1 {
-  border: 1px solid #000000;
-  border-radius: 5px;
-  font-family: "Montserrat", sans-serif;
-  position: relative;
-}
-.banner-sec .box .clicked {
+.banner-sec .shedule-form .clicked {
   border-color: #14b0a4 !important;
 }
-.banner-sec .box .fa-circle-check {
+.banner-sec .shedule-form .fa-circle-check {
   display: none;
   position: absolute;
   top: -11px;
   left: -6px;
 }
-.banner-sec .box button {
+.banner-sec .shedule-form button {
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
-  background-color: #3C5EAB;
+  background-color: #082cd4;
   border: 0px;
   border-radius: 5px;
   padding: 10px;
+  color: #ffffff;
+  text-transform: capitalize;
 }
 
 .about-us h6 {
   color: #e25c4c;
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 700;
   font-family: "Montserrat", sans-serif;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 .about-us h2 {
-  color: #653592;
-  font-size: 30px;
+  color: #082cd4;
+  font-size: 26px;
   font-weight: 700;
   font-family: "Montserrat", sans-serif;
   margin-bottom: 15px;
@@ -248,88 +259,161 @@ body {
   font-size: 16px;
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
+  margin-bottom: 10px;
 }
 .about-us a {
-  margin-top: 15px;
-  color: #274eff;
+  color: #082cd4;
   border-radius: 5px;
   padding: 8px 15px;
-  border: 2px solid #274eff;
+  border: 2px solid #082cd4;
   font-size: 15px;
   font-weight: 600;
   background-color: #ffffff;
   text-decoration: none;
 }
 .about-us a:hover {
-  background-color: #274eff;
+  background-color: #082cd4;
   color: #ffffff;
   text-decoration: none;
 }
 
-.course-block-inside {
-  display: none;
+.trained-placed-section {
+  background-color: #dbe9f2;
 }
-
-.course-block-inside_active {
-  display: block;
+.trained-placed-section .train-place-card {
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  border-radius: 10px;
+  position: relative;
+  height: 100%;
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
 }
-
-@keyframes mymove {
-  from {
-    opacity: 0;
-    transform: translate3d(0, 30%, 0);
-  }
-  to {
-    opacity: 1;
-    transform: none;
-  }
-}
-.course-card {
-  animation: mymove 2s;
-  padding: 25px;
-}
-.course-card .course-card-body {
-  padding: 10px 0px;
-}
-.course-card img {
-  border-radius: 5px;
-}
-.course-card h4 {
-  font-size: 20px;
-}
-.course-card h5 {
-  color: #274eff;
-  font-size: 18px;
-}
-.course-card h5 span {
-  color: #000000;
+.trained-placed-section .train-place-card .title {
+  position: absolute;
+  top: 0;
+  text-align: center;
+  justify-content: center;
+  left: 30%;
+  right: 30%;
+  background-color: #082cd4;
+  color: #ffffff;
   font-size: 15px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  padding: 3px 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  text-wrap: nowrap;
 }
-.course-card p {
+.trained-placed-section .train-place-card .logo {
+  width: 100px;
+  height: 50px;
+}
+.trained-placed-section .train-place-card p {
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+.trained-placed-section .train-place-card a {
+  color: #082cd4;
+  text-decoration: none;
+  border: 1px solid #082cd4;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 14px;
+}
+.trained-placed-section .train-place-card a:hover {
+  background-color: #082cd4;
+  color: #ffffff;
+}
+
+.course-sec {
+  margin-bottom: 50px;
+}
+.course-sec .bord {
+  position: relative;
+}
+.course-sec .bord h4 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #082cd4;
+}
+.course-sec .bord .hr-line {
+  border-bottom: 0.5px solid rgb(198, 197, 197);
+  width: 80%;
+  position: absolute;
+  top: 70%;
+  right: 0px;
+}
+.course-sec .card-block-item {
+  border: 1px solid #cccccc;
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  background-color: #fff;
+  height: 100%;
+}
+.course-sec .card-block-item img {
+  height: 150px;
+}
+.course-sec .card-block-item .card-block-body {
+  padding: 15px;
+}
+.course-sec .card-block-item .card-block-body h5 {
+  color: #082cd4;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.course-sec .card-block-item .card-block-body h6 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.course-sec .card-block-item .card-block-body p {
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
+  font-size: 14px;
+  margin-bottom: 10px;
 }
-.course-card .read-more {
-  color: #274eff;
-  border: 2px solid #274eff;
-  font-size: 12px;
+.course-sec .card-block-item .custom-block-bottom {
+  position: absolute;
+  bottom: 0px;
+}
+.course-sec .card-block-item .custom-block-bottom .share-btn {
+  border-radius: 0px 0px 10px 0px;
+  padding: 5px;
+  color: #082cd4;
+  font-size: 14px;
   font-weight: 500;
 }
-.course-card .read-more:hover {
-  background-color: #274eff;
+.course-sec .card-block-item .custom-block-bottom .share-btn:hover {
+  background-color: #082cd4;
   color: #ffffff;
 }
-
-.course-button {
-  background-color: rgb(239, 238, 238);
-  padding: 10px;
-}
-
-.course_button_active {
-  background-color: #3C5EAB;
+.course-sec .card-block-item .custom-block-bottom .enroll-btn {
+  background-color: #e25c4c;
   color: #ffffff;
+  border-radius: 0px 0px 0px 10px;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.course-sec .card-block-item .custom-block-bottom a {
+  text-decoration: none;
+  border: 1px solid rgb(234, 232, 232);
+  text-align: center;
 }
 
 .our-employers {
@@ -338,7 +422,7 @@ body {
   text-align: center;
 }
 .our-employers h2 {
-  color: #3C5EAB;
+  color: #082cd4;
   font-weight: 700;
   font-size: 30px;
   font-family: "Montserrat", sans-serif;
@@ -363,7 +447,7 @@ body {
   font-weight: 700;
   font-family: "Montserrat", sans-serif;
   margin-bottom: 15px;
-  color: #3C5EAB;
+  color: #082cd4;
 }
 .learning-program .learning-card {
   background-color: #f2f2f2;
@@ -380,7 +464,7 @@ body {
 .learning-program .learning-card .card-desc h6 {
   margin-bottom: 10px;
   margin-top: 15px;
-  color: #3C5EAB;
+  color: #082cd4;
   font-size: 16px;
   font-weight: 600;
 }
@@ -391,7 +475,7 @@ body {
 }
 .learning-program .learning-card .card-desc a {
   text-decoration: none;
-  color: #3C5EAB;
+  color: #082cd4;
   font-size: 14px;
   font-weight: 500;
 }
@@ -416,7 +500,7 @@ body {
   font-size: 32px;
   font-weight: 700;
   font-family: "Montserrat", sans-serif;
-  color: #3C5EAB;
+  color: #082cd4;
 }
 .testimonials .heading p {
   font-size: 16px;
@@ -444,7 +528,7 @@ body {
   font-size: 22px;
 }
 .testimonials .testimonial-card .quote i {
-  color: #3C5EAB;
+  color: #082cd4;
 }
 .testimonials .testimonial-card h5 {
   font-size: 18px;
@@ -474,68 +558,6 @@ body {
   display: -webkit-box;
   -webkit-line-clamp: 8;
   -webkit-box-orient: vertical;
-}
-
-.get-trained-sec a {
-  text-decoration: none;
-}
-.get-trained-sec .get-trained-card {
-  padding: 40px;
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
-  text-align: center;
-  background-color: #3C5EAB;
-  border-radius: 10px;
-}
-.get-trained-sec .get-trained-card h5 {
-  font-size: 24px;
-  font-weight: 500;
-  font-family: "Montserrat", sans-serif;
-  color: #ffffff;
-  margin-bottom: 10px;
-  margin-top: 20px;
-}
-.get-trained-sec .get-trained-card hr {
-  color: #ffffff;
-}
-.get-trained-sec .get-trained-card p {
-  font-size: 16px;
-  font-family: "Montserrat", sans-serif;
-  color: #ffffff;
-  margin-top: 20px;
-  font-weight: 400;
-}
-
-.get-trained-container {
-  font-family: "Montserrat", sans-serif;
-}
-.get-trained-container .get-trained-section {
-  border-radius: 10px;
-  background-image: url("../images/get-trained-bg-1.jpg");
-  background-size: 100% 100%;
-  padding: 6%;
-}
-.get-trained-container .get-trained-section .train-trainer-head {
-  color: #f6c324;
-  letter-spacing: 2px;
-}
-.get-trained-container .get-trained-section .train-trainer-head .train-head {
-  font-size: 22px;
-  font-weight: 700;
-}
-.get-trained-container .get-trained-section .train-trainer-head .the-head {
-  font-size: 18px;
-}
-.get-trained-container .get-trained-section .train-trainer-head .trainer-head {
-  font-size: 36px;
-  font-weight: 700;
-  padding: 0px 8px;
-}
-.get-trained-container .get-trained-section .welcome-training-para {
-  color: #ffffff;
-  font-size: 22px;
-}
-.get-trained-container .get-trained-section p {
-  color: #dfdfdf;
 }
 
 .reason-to-enroll {
@@ -582,7 +604,7 @@ body {
 .sidepanel-section {
   position: fixed;
   vertical-align: middle;
-  background-color: #3C5EAB;
+  background-color: #082cd4;
   transform: rotate(90deg);
   top: 50%;
   right: -30px;
@@ -625,12 +647,12 @@ body {
   border: none;
 }
 .contactus-form-bg .contactus-head-text {
-  color: #3C5EAB;
+  color: #082cd4;
   display: inline;
   font-weight: 600;
 }
 .contactus-form-bg .contact-label-text {
-  color: #3C5EAB;
+  color: #082cd4;
   font-weight: 600;
 }
 .contactus-form-bg .mandatory-field {
@@ -640,12 +662,12 @@ body {
 }
 .contactus-form-bg .contact-submitbtn {
   background-color: #ffffff;
-  color: #3C5EAB;
-  border: 2px solid #3C5EAB;
+  color: #082cd4;
+  border: 2px solid #082cd4;
   font-weight: bold;
 }
 .contactus-form-bg .contact-submitbtn:hover {
-  background-color: #3C5EAB;
+  background-color: #082cd4;
   color: #ffffff;
 }
 
@@ -657,7 +679,7 @@ body {
   height: 100%;
 }
 .whychoose-bg .address-icon {
-  color: #274eff;
+  color: #082cd4;
 }
 .whychoose-bg .address-card:hover {
   color: #000000;
@@ -673,7 +695,7 @@ body {
   font-weight: 600;
 }
 .whychoose-bg .address-text-color {
-  color: #274eff;
+  color: #082cd4;
   font-size: 16px;
   font-weight: 600;
 }
@@ -702,7 +724,7 @@ body {
 }
 
 .service-advice-form {
-  background-color: #3C5EAB;
+  background-color: #082cd4;
   color: #ffffff;
   padding: 10px;
   border-radius: 10px;
@@ -719,7 +741,7 @@ body {
 }
 
 .benefits-of-development h4 {
-  background-color: #3C5EAB;
+  background-color: #082cd4;
   color: #ffffff;
   padding: 10px;
   font-weight: 700;
@@ -738,7 +760,7 @@ body {
   color: #000000;
 }
 .table-content-section .anchor-table-section a {
-  color: #3C5EAB;
+  color: #082cd4;
   text-decoration: none;
   line-height: 30px;
 }
@@ -758,7 +780,7 @@ body {
   border: 1px solid #dfdfdf;
 }
 .table-section th {
-  background-color: #3C5EAB;
+  background-color: #082cd4;
   color: #ffffff;
 }
 .table-section td {
@@ -767,14 +789,14 @@ body {
 
 .about-course-details-section .about-course h4 {
   font-weight: 600;
-  color: #3C5EAB;
+  color: #082cd4;
 }
 .about-course-details-section .about-course ul li {
   margin-top: 5px;
 }
 
 .enroll-now-container h4 {
-  background-color: #3C5EAB;
+  background-color: #082cd4;
   padding-top: 10px;
   padding-bottom: 10px;
   color: #ffffff;
@@ -783,7 +805,7 @@ body {
   background-color: #dbe9f2;
 }
 .enroll-now-container .enroll-for-weekdays:hover {
-  background-color: #DFDFDF;
+  background-color: #dfdfdf;
 }
 .enroll-now-container .enroll-for-weekdays .weekdays span {
   font-size: 14px;
@@ -795,7 +817,7 @@ body {
 .enroll-now-container .enroll-for-weekdays .enroll-date {
   margin-left: 15px;
   font-weight: 600;
-  color: #3C5EAB;
+  color: #082cd4;
   padding-top: 10px;
 }
 .enroll-now-container .enroll-for-weekdays .enroll-time {
@@ -809,26 +831,26 @@ body {
 }
 
 .timings-not-match {
-  background-color: #DFDFDF;
+  background-color: #dfdfdf;
   text-align: center;
 }
 .timings-not-match .timings-not-match-head {
   font-weight: 600;
-  color: #3C5EAB;
+  color: #082cd4;
 }
 .timings-not-match .flexible-demo a {
   color: red;
   font-weight: 500;
 }
 .timings-not-match .flexible-demo a:hover {
-  color: #3C5EAB;
+  color: #082cd4;
 }
 
 .asking-questions-container {
   margin-top: 30px;
 }
 .asking-questions-container h4 {
-  color: #3C5EAB;
+  color: #082cd4;
   margin-bottom: 30px;
   text-decoration: underline;
 }
@@ -840,7 +862,7 @@ body {
 }
 
 .related-services-container h4 {
-  color: #3C5EAB;
+  color: #082cd4;
 }
 .related-services-container div {
   margin-top: 10px;
@@ -868,7 +890,7 @@ body {
 }
 .terms-conditions h1,
 .terms-conditions h4 {
-  color: #3C5EAB;
+  color: #082cd4;
   font-weight: bold;
 }
 .terms-conditions .terms {
@@ -887,7 +909,7 @@ body {
 }
 .refund-policy h1,
 .refund-policy h4 {
-  color: #3C5EAB;
+  color: #082cd4;
   font-weight: bold;
 }
 .refund-policy .refund {
@@ -958,7 +980,7 @@ body {
 .about-banner-bg .banner-content h3 {
   font-size: 30px;
   font-weight: 700;
-  color: #3C5EAB;
+  color: #082cd4;
 }
 
 .first-sec {
@@ -972,7 +994,7 @@ body {
 .first-sec h3 {
   font-size: 30px;
   font-weight: 600;
-  color: #3C5EAB;
+  color: #082cd4;
 }
 .first-sec h6 {
   font-size: 20px;
@@ -986,7 +1008,7 @@ body {
 .vission-sec h4 {
   font-size: 30px;
   font-weight: 700;
-  color: #3C5EAB;
+  color: #082cd4;
   text-align: center;
 }
 .vission-sec p {
@@ -1105,7 +1127,7 @@ body {
   font-size: 30px;
   font-weight: 700;
   font-family: "Montserrat", sans-serif;
-  color: #3C5EAB;
+  color: #082cd4;
 }
 .our-team-sec p {
   font-size: 18px;
@@ -1129,7 +1151,7 @@ body {
   top: -10px;
 }
 .our-team-sec .back-color2 {
-  background-color: #3C5EAB;
+  background-color: #082cd4;
   border-radius: 100px 0px 100px 0px;
   display: flex;
   justify-content: center;
@@ -1173,7 +1195,7 @@ body {
     top: -10px;
   }
   .our-team-sec .back-color2 {
-    background-color: #3C5EAB;
+    background-color: #082cd4;
     border-radius: 100px 0px 100px 0px;
     display: flex;
     justify-content: center;
@@ -1211,7 +1233,7 @@ body {
   background-size: 100% 100%;
 }
 .industry-leading-sec .learning-options-sec .flexible-learning-head {
-  color: #3C5EAB;
+  color: #082cd4;
   text-align: center;
   margin-bottom: 25px;
   font-weight: 600;
@@ -1243,7 +1265,7 @@ body {
   padding: 40px 0px;
 }
 .learning-path-section .more-about-learning {
-  border-bottom: 1px solid #3C5EAB;
+  border-bottom: 1px solid #082cd4;
   margin: 0px 10px;
   padding: 10px 0px;
 }
@@ -1255,7 +1277,7 @@ body {
 }
 .learning-path-section .more-about-learning .required-courses-sec h5 {
   font-weight: 600;
-  color: #3C5EAB;
+  color: #082cd4;
 }
 .learning-path-section .more-about-learning .required-courses-sec .required-courses-btn a {
   text-decoration: none;
@@ -1264,7 +1286,7 @@ body {
 
 .why-choose-iacr-sec {
   font-family: "Montserrat", sans-serif;
-  color: #3C5EAB;
+  color: #082cd4;
 }
 .why-choose-iacr-sec .iacr-training-session h4 {
   font-weight: 600;
@@ -1292,7 +1314,7 @@ body {
 .masters-programme-sec .about-certification {
   padding: 10px;
   background-color: #ffffff;
-  color: #3C5EAB;
+  color: #082cd4;
 }
 .masters-programme-sec .about-certification p {
   margin: 6%;
@@ -1320,9 +1342,9 @@ body {
   font-size: 15px;
 }
 .register-sec .contact-submitbtn {
-  background-color: #3C5EAB;
+  background-color: #082cd4;
   color: #ffffff;
-  border: 2px solid #3C5EAB;
+  border: 2px solid #082cd4;
   font-weight: bold;
 }
 .register-sec .contact-submitbtn:hover {
@@ -1332,11 +1354,11 @@ body {
 }
 .register-sec .location-icon {
   font-size: 60;
-  color: #3C5EAB;
+  color: #082cd4;
 }
 
 .slick-dots li.slick-active button:before {
-  color: #3C5EAB;
+  color: #082cd4;
 }
 
 .slick-next::before,
@@ -1346,5 +1368,5 @@ body {
 .slick-next i,
 .slick-prev i {
   font-size: 20px;
-  color: #3C5EAB;
+  color: #082cd4;
 }/*# sourceMappingURL=styles.css.map */

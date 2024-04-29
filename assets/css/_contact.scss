@@ -1,80 +1,79 @@
-
-.contactus-form-bg{
-    background-color: $bg-sky-blue;
-    .contact-form-bg {
-        background-color: transparent;
-        border: none;
-      }
-      .contactus-head-text {
-        color: $color-primary;
-        display: inline;
-        font-weight: $fw-600;
-      }
-      .contact-label-text {
-        color: $color-primary;
-        font-weight:$fw-600;
-      }
-      .mandatory-field {
-        color: $color-danger;
-        margin-left: $m-5;
-        font-size: $fs-15;
-      }
-      .contact-submitbtn {
-        background-color: $bg-white;
-        color: $color-primary;
-        border: $border-2 solid $border-primary;
-        font-weight: $fw-bold;
-      }
-      .contact-submitbtn:hover {
-        background-color: $bg-primary;
-        color: $color-white;
-      }
+.contactus-form-bg {
+  background-color: $bg-sky-blue;
+  .contact-form-bg {
+    background-color: transparent;
+    border: none;
   }
-  .whychoose-bg{
-    .address-card {
-        box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
-        border-radius: 20px;
-        background-color: $bg-white;
-        text-align: center;
-        height: $h-100;
-      }
-      .address-icon {
-        color:$color-blue;
-      }
-      
-      .address-card:hover {
-        color: $color-black;
-        box-shadow: 0 10px 55px 5px rgba(137, 173, 255, 0.2);
-      }
-      .address-head-text {
-        font-size: $fs-16;
-        font-weight: $fw-700;
-      }
-      .address-sub-text {
-        color: $color-black;
-        font-size: $fs-16;
-        font-weight: $fw-600;
-      }
-      .address-text-color {
-        color:$color-blue;
-        font-size: $fs-16;
-        font-weight: $fw-600;
-      }
-      .numbers-timings div:nth-child(odd) {
-        color: $color-black;
-        font-size:$fs-16;
-        font-weight: $fw-600;
-      }
-      .location-head-text {
-        color: $color-white;
-        display: inline;
-        font-weight: $fw-500;
-      }
+  .contactus-head-text {
+    color: $color-primary;
+    display: inline;
+    font-weight: $fw-600;
   }
-  
-  @media  (max-width:767px){
-.address-card .semi-colon{
-    display:none;
+  .contact-label-text {
+    color: $color-primary;
+    font-weight: $fw-600;
+  }
+  .mandatory-field {
+    color: $color-danger;
+    margin-left: $m-5;
+    font-size: $fs-15;
+  }
+  .contact-submitbtn {
+    background-color: $bg-white;
+    color: $color-primary;
+    border: $border-2 solid $border-primary;
+    font-weight: $fw-bold;
+  }
+  .contact-submitbtn:hover {
+    background-color: $bg-primary;
+    color: $color-white;
+  }
 }
+.whychoose-bg {
+  .address-card {
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+      rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    border-radius: 20px;
+    background-color: $bg-white;
+    text-align: center;
+    height: $h-100;
   }
- 
+  .address-icon {
+    color: $color-primary;
+  }
+
+  .address-card:hover {
+    color: $color-black;
+    box-shadow: 0 10px 55px 5px rgba(137, 173, 255, 0.2);
+  }
+  .address-head-text {
+    font-size: $fs-16;
+    font-weight: $fw-700;
+  }
+  .address-sub-text {
+    color: $color-black;
+    font-size: $fs-16;
+    font-weight: $fw-600;
+  }
+  .address-text-color {
+    color: $color-primary;
+    font-size: $fs-16;
+    font-weight: $fw-600;
+  }
+  .numbers-timings div:nth-child(odd) {
+    color: $color-black;
+    font-size: $fs-16;
+    font-weight: $fw-600;
+  }
+  .location-head-text {
+    color: $color-white;
+    display: inline;
+    font-weight: $fw-500;
+  }
+}
+
+@media (max-width: 767px) {
+  .address-card .semi-colon {
+    display: none;
+  }
+}
