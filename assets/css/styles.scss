@@ -1,27 +1,28 @@
-@import './variables';
-@import './mixins';
-@import './footer';
-@import './index';
-@import './contact';
-@import './services';
-@import './terms';
-@import './refund';
-@import './industrieswecater';
-@import './aboutus';
-@import './training';
-@import './register';
+@import "./variables";
+@import "./mixins";
+@import "./footer";
+@import "./index";
+@import "./contact";
+@import "./services";
+@import "./terms";
+@import "./refund";
+@import "./industrieswecater";
+@import "./aboutus";
+@import "./training";
+@import "./register";
+@import "./faq";
 
 .slick-dots li.slick-active button:before {
-    color: $color-primary;
+  color: $color-primary;
 }
 .slick-next,
 .slick-prev {
-    &::before {
-        content: "";
-    }
+  &::before {
+    content: "";
+  }
 
-    i {
-        font-size: $fs-20;
-        color: $color-primary;
-    }
+  i {
+    font-size: $fs-20;
+    color: $color-primary;
+  }
 }
