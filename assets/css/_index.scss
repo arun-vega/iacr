@@ -258,7 +258,9 @@ body {
 
 //
 .trained-placed-section {
-  background-color: #dbe9f2;
+  
+  background: rgb(255, 255, 255);
+  background: linear-gradient(211deg, rgba(255, 255, 255, 1) 5%, rgba(219, 233, 242, 1) 15%, rgba(39, 78, 255, 1) 39%, rgba(183, 148, 144, 1) 92%);
 
   .train-place-card {
     width: 100%;
@@ -634,14 +636,22 @@ body {
 //
 //OUR TRAINING SERVICES
 .our-training-services-sec {
-  background-color: #dbe9f2;
+  // background-color: #dbe9f2;
   font-family: $font-montserrat;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(63deg, rgba(255, 255, 255, 1) 5%, rgba(219, 233, 242, 1) 15%, rgba(39, 78, 255, 1) 39%, rgba(183, 148, 144, 1) 92%);
 
   .training-head-sec {
     text-align: center;
 
     h3 {
-      color: $color-salmon;
+      // color: $color-white;
+      color: $color-primary;
+      font-size: $fs-30;
+      font-weight: $fw-700;
+    }
+    p{
+      color: $color-white;
     }
   }
 
