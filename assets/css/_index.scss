@@ -639,23 +639,20 @@ body {
 //
 //OUR TRAINING SERVICES
 .our-training-services-sec {
-  // background-color: #dbe9f2;
   font-family: $font-montserrat;
-  background: rgb(255, 255, 255);
-  background: linear-gradient(
-    63deg,
-    rgba(255, 255, 255, 1) 5%,
-    rgba(219, 233, 242, 1) 15%,
-    rgba(39, 78, 255, 1) 39%,
-    rgba(183, 148, 144, 1) 92%
-  );
-
+  background-image: url("../images/training-banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  .training-service{
+    background-color: rgba(0, 0, 255, 0.35);
+  }
   .training-head-sec {
     text-align: center;
 
     h3 {
-      // color: $color-white;
-      color: $color-primary;
+      color: $color-white;
       font-size: $fs-30;
       font-weight: $fw-700;
     }
@@ -664,15 +661,16 @@ body {
     }
   }
 
-  .about-our-services {
+  .about-our-services .row {
     border: $border-1 solid $border-gainsboro;
-
+    margin:$m-10;
     .real-time-project-sec {
       padding: $p-20;
       background-color: $bg-white;
 
       h5 {
         color: $color-primary;
+        font-weight: $fw-bold;
       }
 
       .about-real-project {
@@ -683,7 +681,7 @@ body {
         -webkit-box-orient: vertical;
         text-overflow: ellipsis;
         white-space: normal;
-        margin-bottom: $m-10;
+        margin-bottom: $m-50;
         letter-spacing: 1px;
 
         h6 {
@@ -697,12 +695,13 @@ body {
       }
 
       a {
+        color: $color-white;
+        border-radius: $border-5;
+        padding: $p-8 $p-10;
+        font-size: $fs-15;
+        font-weight: $fw-600;
+        background-color: $bg-primary;
         text-decoration: none;
-        color: $color-salmon;
-
-        i {
-          padding-left: $p-4;
-        }
       }
     }
   }
@@ -711,29 +710,16 @@ body {
     text-align: center;
 
     button {
-      font-size: $fs-15;
+      border:none;
+      color: $color-primary;
       border-radius: $border-5;
-      border: none;
-      padding: $p-10;
+      padding: $p-8 $p-15;
+      font-size: $fs-15;
       font-weight: $fw-600;
-      background: rgb(60, 94, 171);
-      background: linear-gradient(
-        90deg,
-        rgba(60, 94, 171, 1) 13%,
-        rgba(255, 129, 39, 1) 98%
-      );
-
-      &:hover {
-        background: rgb(60, 94, 171);
-        background: linear-gradient(
-          338deg,
-          rgba(60, 94, 171, 1) 31%,
-          rgba(255, 129, 39, 1) 79%
-        );
-      }
-
+      background-color: $bg-white;
+  outline:none;
+      text-decoration: none;
       a {
-        color: $color-white;
         text-decoration: none;
       }
     }
