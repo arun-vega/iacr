@@ -11,13 +11,11 @@ body {
   font-weight: $fw-500;
   font-size: $fs-15;
   font-family: $font-montserrat;
+  color: $color-white;
+  padding: $p-5 $p-20;
 
-  .contact-infomation {
-    color: $color-white;
-
-    i {
-      margin-right: $m-2;
-    }
+  i {
+    margin-right: $m-10;
   }
 
   .bar_content {
@@ -71,7 +69,8 @@ body {
 
   .navbar-brand {
     img {
-      filter: invert(7%) sepia(91%) saturate(4884%) hue-rotate(228deg) brightness(119%) contrast(109%);
+      filter: invert(7%) sepia(91%) saturate(4884%) hue-rotate(228deg)
+        brightness(119%) contrast(109%);
     }
   }
 }
@@ -86,7 +85,7 @@ body {
   }
 
   &:hover {
-    >.dropdown-menu {
+    > .dropdown-menu {
       display: block;
       margin-top: 0.122em;
       margin-left: 0.122em;
@@ -113,7 +112,7 @@ body {
   }
 
   &:hover {
-    >.dropdown-menu {
+    > .dropdown-menu {
       display: block;
       margin-top: 0.122em;
       margin-left: 0.122em;
@@ -122,7 +121,7 @@ body {
 }
 
 @media screen and (min-width: 769px) {
-  .dropend:hover>.dropdown-menu {
+  .dropend:hover > .dropdown-menu {
     position: absolute;
     top: 0;
     left: 100%;
@@ -258,9 +257,14 @@ body {
 
 //
 .trained-placed-section {
-  
   background: rgb(255, 255, 255);
-  background: linear-gradient(211deg, rgba(255, 255, 255, 1) 5%, rgba(219, 233, 242, 1) 15%, rgba(39, 78, 255, 1) 39%, rgba(183, 148, 144, 1) 92%);
+  background: linear-gradient(
+    211deg,
+    rgba(255, 255, 255, 1) 5%,
+    rgba(219, 233, 242, 1) 15%,
+    rgba(39, 78, 255, 1) 39%,
+    rgba(183, 148, 144, 1) 92%
+  );
 
   .train-place-card {
     width: 100%;
@@ -583,7 +587,6 @@ body {
   }
 }
 
-
 .reason-to-enroll {
   background-image: url("../images/doctor-working-computer.jpg");
   background-repeat: no-repeat;
@@ -639,7 +642,13 @@ body {
   // background-color: #dbe9f2;
   font-family: $font-montserrat;
   background: rgb(255, 255, 255);
-  background: linear-gradient(63deg, rgba(255, 255, 255, 1) 5%, rgba(219, 233, 242, 1) 15%, rgba(39, 78, 255, 1) 39%, rgba(183, 148, 144, 1) 92%);
+  background: linear-gradient(
+    63deg,
+    rgba(255, 255, 255, 1) 5%,
+    rgba(219, 233, 242, 1) 15%,
+    rgba(39, 78, 255, 1) 39%,
+    rgba(183, 148, 144, 1) 92%
+  );
 
   .training-head-sec {
     text-align: center;
@@ -650,7 +659,7 @@ body {
       font-size: $fs-30;
       font-weight: $fw-700;
     }
-    p{
+    p {
       color: $color-white;
     }
   }
@@ -708,11 +717,19 @@ body {
       padding: $p-10;
       font-weight: $fw-600;
       background: rgb(60, 94, 171);
-      background: linear-gradient(90deg, rgba(60, 94, 171, 1) 13%, rgba(255, 129, 39, 1) 98%);
+      background: linear-gradient(
+        90deg,
+        rgba(60, 94, 171, 1) 13%,
+        rgba(255, 129, 39, 1) 98%
+      );
 
       &:hover {
         background: rgb(60, 94, 171);
-        background: linear-gradient(338deg, rgba(60, 94, 171, 1) 31%, rgba(255, 129, 39, 1) 79%);
+        background: linear-gradient(
+          338deg,
+          rgba(60, 94, 171, 1) 31%,
+          rgba(255, 129, 39, 1) 79%
+        );
       }
 
       a {
@@ -735,22 +752,23 @@ body {
   z-index: 999;
   padding: $p-10 $p-0;
   font-weight: $fw-600;
-  a{
-  text-decoration: none;
-  color: $color-white;
-  padding: $p-0 $p-14;
+  a {
+    text-decoration: none;
+    color: $color-white;
+    padding: $p-0 $p-14;
   }
 }
 
 /* mobile view bottom-panel-section start*/
-.bottom-panel-section{
+.bottom-panel-section {
   background-color: $bg-primary;
   text-align: center;
-  i, a{
+  i,
+  a {
     color: $color-white;
   }
 }
-/* mobile view bottom-panel-section end */  
+/* mobile view bottom-panel-section end */
 
 //
 
@@ -786,13 +804,12 @@ body {
         transform: rotate(0deg);
         transition: 0.5s ease-in;
         transition-delay: 0.2s;
-
       }
 
       .accordion-button:not(.collapsed),
       .accordion-button.collapsed {
         outline: none;
-        color: #1E2285;
+        color: #1e2285;
         font-size: 14px;
         background-color: $color-white;
         box-shadow: 0 0 0 0px $color-gainsboro;
@@ -819,8 +836,7 @@ body {
   }
 }
 
-
-@media (max-width:991px) {
+@media (max-width: 991px) {
   .reason-to-enroll img {
     display: none;
   }

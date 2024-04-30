@@ -88,12 +88,11 @@ body {
   font-weight: 500;
   font-size: 15px;
   font-family: "Montserrat", sans-serif;
-}
-.top-nav .contact-infomation {
   color: #ffffff;
+  padding: 5px 20px;
 }
-.top-nav .contact-infomation i {
-  margin-right: 2px;
+.top-nav i {
+  margin-right: 10px;
 }
 .top-nav .bar_content {
   color: #ffffff;
@@ -694,7 +693,8 @@ body {
   background-color: #082cd4;
   text-align: center;
 }
-.bottom-panel-section i, .bottom-panel-section a {
+.bottom-panel-section i,
+.bottom-panel-section a {
   color: #ffffff;
 }
 
@@ -731,7 +731,7 @@ body {
 .faqs-sec .faq-section .accordion-item .accordion-button:not(.collapsed),
 .faqs-sec .faq-section .accordion-item .accordion-button.collapsed {
   outline: none;
-  color: #1E2285;
+  color: #1e2285;
   font-size: 14px;
   background-color: #ffffff;
   box-shadow: 0 0 0 0px #dfdfdf;
