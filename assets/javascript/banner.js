@@ -58,3 +58,19 @@ offlineDiv1.addEventListener('click', function () {
     offlineDiv1.querySelector('i').style.display = 'inline'; // Display tick icon
     onlineDiv1.querySelector('i').style.display = 'none';
 });
+
+
+//STICKY BOOK NOW BTN
+let bookNowBtn = document.getElementById('stickyPanel');
+window.onscroll = function () {
+    stickyPanel();
+  };
+  
+  function stickyPanel() {
+    if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
+        bookNowBtn.style.display = "block";
+    } else {
+        bookNowBtn.style.display = "none";
+    }
+  }
+  

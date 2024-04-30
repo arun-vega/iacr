@@ -721,15 +721,26 @@ body {
   background-color: $bg-primary;
   transform: rotate(90deg);
   top: 50%;
-  right: -30px;
+  right: -74px;
   z-index: 999;
-  padding: 10px;
-
+  padding: $p-10 $p-0;
+  font-weight: $fw-600;
+  a{
   text-decoration: none;
   color: $color-white;
-  font-weight: 600;
-
+  padding: $p-0 $p-14;
+  }
 }
+
+/* mobile view bottom-panel-section start*/
+.bottom-panel-section{
+  background-color: $bg-primary;
+  text-align: center;
+  i, a{
+    color: $color-white;
+  }
+}
+/* mobile view bottom-panel-section end */  
 
 //
 

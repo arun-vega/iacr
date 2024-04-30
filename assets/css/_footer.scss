@@ -67,3 +67,10 @@
   font-weight: $fw-500;
   border: $border-1 solid $color-light-sea-green;
 }
+
+@media only screen and (max-width:576px) {
+  //FOR MOBILE VIEW STICKY PANEL
+  .footer-sec-bg{
+    margin-bottom: $m-40;
+  }
+}

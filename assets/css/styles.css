@@ -71,6 +71,11 @@
   border: 1px solid #14b0a4;
 }
 
+@media only screen and (max-width: 576px) {
+  .footer-sec-bg {
+    margin-bottom: 40px;
+  }
+}
 body {
   display: flex;
   flex-direction: column;
@@ -666,14 +671,27 @@ body {
   background-color: #082cd4;
   transform: rotate(90deg);
   top: 50%;
-  right: -30px;
+  right: -74px;
   z-index: 999;
-  padding: 10px;
-  text-decoration: none;
-  color: #ffffff;
+  padding: 10px 0px;
   font-weight: 600;
 }
+.sidepanel-section a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 0px 14px;
+}
 
+/* mobile view bottom-panel-section start*/
+.bottom-panel-section {
+  background-color: #082cd4;
+  text-align: center;
+}
+.bottom-panel-section i, .bottom-panel-section a {
+  color: #ffffff;
+}
+
+/* mobile view bottom-panel-section end */
 .faqs-sec .faqs-button {
   background-color: #ffffff;
   padding: 5px 20px 5px 20px;
