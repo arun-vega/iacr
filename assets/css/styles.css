@@ -507,8 +507,8 @@ body {
   font-family: "Montserrat", sans-serif;
   padding: 5px 30px;
 }
-.testimonials .testimonial-card {
-  background-image: url("../images/testimonial-card-bg2.jpg");
+.testimonials .testimonial-card1 {
+  background-image: url("../images/testimonial-bg1.png");
   background-size: 100% 100%;
   padding: 10px 15px;
   height: 100%;
@@ -518,7 +518,7 @@ body {
   text-align: center;
   position: relative;
 }
-.testimonials .testimonial-card .quote {
+.testimonials .testimonial-card1 .quote {
   position: absolute;
   top: 0;
   left: 10px;
@@ -526,28 +526,130 @@ body {
   border-bottom-left-radius: 15px;
   font-size: 22px;
 }
-.testimonials .testimonial-card .quote i {
+.testimonials .testimonial-card1 .quote i {
   color: #082cd4;
 }
-.testimonials .testimonial-card h5 {
+.testimonials .testimonial-card1 h5 {
   font-size: 18px;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
   margin-top: 15px;
 }
-.testimonials .testimonial-card h6 {
+.testimonials .testimonial-card1 h6 {
   font-size: 12px;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
   color: #e25c4c;
   margin-bottom: 5px;
 }
-.testimonials .testimonial-card i {
+.testimonials .testimonial-card1 i {
   color: #ffffff;
   margin-bottom: 5px;
 }
-.testimonials .testimonial-card p {
+.testimonials .testimonial-card1 p {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
+  text-align: start;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 8;
+  -webkit-box-orient: vertical;
+}
+.testimonials .testimonial-card2 {
+  background-image: url("../images/testimonaial-bg2.png");
+  background-size: 100% 100%;
+  padding: 10px 15px;
+  height: 100%;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
+}
+.testimonials .testimonial-card2 .quote {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  padding: 10px 15px;
+  border-bottom-left-radius: 15px;
+  font-size: 22px;
+}
+.testimonials .testimonial-card2 .quote i {
+  color: #082cd4;
+}
+.testimonials .testimonial-card2 h5 {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  margin-top: 15px;
+}
+.testimonials .testimonial-card2 h6 {
+  font-size: 12px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  color: #e25c4c;
+  margin-bottom: 5px;
+}
+.testimonials .testimonial-card2 i {
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+.testimonials .testimonial-card2 p {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
+  text-align: start;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 8;
+  -webkit-box-orient: vertical;
+}
+.testimonials .testimonial-card3 {
+  background-image: url("../images/testimonial-bg3.png");
+  background-size: 100% 100%;
+  padding: 10px 15px;
+  height: 100%;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
+}
+.testimonials .testimonial-card3 .quote {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  padding: 10px 15px;
+  border-bottom-left-radius: 15px;
+  font-size: 22px;
+}
+.testimonials .testimonial-card3 .quote i {
+  color: #082cd4;
+}
+.testimonials .testimonial-card3 h5 {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  margin-top: 15px;
+}
+.testimonials .testimonial-card3 h6 {
+  font-size: 12px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  color: #e25c4c;
+  margin-bottom: 5px;
+}
+.testimonials .testimonial-card3 i {
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+.testimonials .testimonial-card3 p {
   font-size: 15px;
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
@@ -694,7 +796,8 @@ body {
   background-color: #082cd4;
   text-align: center;
 }
-.bottom-panel-section i, .bottom-panel-section a {
+.bottom-panel-section i,
+.bottom-panel-section a {
   color: #ffffff;
 }
 
