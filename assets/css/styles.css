@@ -601,31 +601,39 @@ body {
 
 .our-training-services-sec {
   font-family: "Montserrat", sans-serif;
-  background: rgb(255, 255, 255);
-  background: linear-gradient(63deg, rgb(255, 255, 255) 5%, rgb(219, 233, 242) 15%, rgb(39, 78, 255) 39%, rgb(183, 148, 144) 92%);
+  background-image: url("../images/training-banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+.our-training-services-sec .training-service {
+  background-color: rgba(0, 0, 255, 0.35);
 }
 .our-training-services-sec .training-head-sec {
   text-align: center;
 }
 .our-training-services-sec .training-head-sec h3 {
-  color: #082cd4;
+  color: #ffffff;
   font-size: 30px;
   font-weight: 700;
 }
 .our-training-services-sec .training-head-sec p {
   color: #ffffff;
 }
-.our-training-services-sec .about-our-services {
+.our-training-services-sec .about-our-services .row {
   border: 1px solid #dfdfdf;
+  margin: 10px;
 }
-.our-training-services-sec .about-our-services .real-time-project-sec {
+.our-training-services-sec .about-our-services .row .real-time-project-sec {
   padding: 20px;
   background-color: #ffffff;
 }
-.our-training-services-sec .about-our-services .real-time-project-sec h5 {
+.our-training-services-sec .about-our-services .row .real-time-project-sec h5 {
   color: #082cd4;
+  font-weight: bold;
 }
-.our-training-services-sec .about-our-services .real-time-project-sec .about-real-project {
+.our-training-services-sec .about-our-services .row .real-time-project-sec .about-real-project {
   overflow: hidden;
   word-wrap: break-word;
   display: -webkit-box;
@@ -633,41 +641,40 @@ body {
   -webkit-box-orient: vertical;
   text-overflow: ellipsis;
   white-space: normal;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
   letter-spacing: 1px;
 }
-.our-training-services-sec .about-our-services .real-time-project-sec .about-real-project h6 {
+.our-training-services-sec .about-our-services .row .real-time-project-sec .about-real-project h6 {
   font-weight: bold;
   font-size: 15px;
 }
-.our-training-services-sec .about-our-services .real-time-project-sec .about-real-project p {
+.our-training-services-sec .about-our-services .row .real-time-project-sec .about-real-project p {
   font-size: 15px;
 }
-.our-training-services-sec .about-our-services .real-time-project-sec a {
+.our-training-services-sec .about-our-services .row .real-time-project-sec a {
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 8px 10px;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: #082cd4;
   text-decoration: none;
-  color: #e25c4c;
-}
-.our-training-services-sec .about-our-services .real-time-project-sec a i {
-  padding-left: 4px;
 }
 .our-training-services-sec .explore-service-btn {
   text-align: center;
 }
 .our-training-services-sec .explore-service-btn button {
-  font-size: 15px;
-  border-radius: 5px;
   border: none;
-  padding: 10px;
+  color: #082cd4;
+  border-radius: 5px;
+  padding: 8px 15px;
+  font-size: 15px;
   font-weight: 600;
-  background: rgb(60, 94, 171);
-  background: linear-gradient(90deg, rgb(60, 94, 171) 13%, rgb(255, 129, 39) 98%);
-}
-.our-training-services-sec .explore-service-btn button:hover {
-  background: rgb(60, 94, 171);
-  background: linear-gradient(338deg, rgb(60, 94, 171) 31%, rgb(255, 129, 39) 79%);
+  background-color: #ffffff;
+  outline: none;
+  text-decoration: none;
 }
 .our-training-services-sec .explore-service-btn button a {
-  color: #ffffff;
   text-decoration: none;
 }
 
