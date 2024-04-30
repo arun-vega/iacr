@@ -1436,8 +1436,11 @@ body {
     top: -10px;
   }
 }
+.banner-sec img {
+  height: 400px;
+}
+
 .industry-leading-sec {
-  background-image: url("../images/map-gradient-bg.png");
   background-size: 100% 100%;
   padding: 30px;
   font-family: "Montserrat", sans-serif;
@@ -1526,6 +1529,31 @@ body {
   color: #e25c4c;
   font-size: 20px;
 }
+.why-choose-iacr-sec .iacr-training-session .enroll {
+  background-color: rgba(77, 146, 248, 0.7);
+}
+.why-choose-iacr-sec .iacr-training-session .accordion-button:not(.collapsed) {
+  background-color: #CFE2FF;
+}
+.why-choose-iacr-sec .iacr-training-session .accordion-button {
+  background-color: #E9F2FF;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  color: #653592;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+.why-choose-iacr-sec .iacr-training-session .accordion-button:focus {
+  box-shadow: none;
+}
+.why-choose-iacr-sec .iacr-training-session .accordion {
+  --bs-accordion-bg: transparent;
+  --bs-accordion-border-width: none;
+}
+.why-choose-iacr-sec .iacr-training-session .accordion-body {
+  color: #ffffff;
+}
 
 .masters-programme-sec {
   background-image: url("../images/masters20_video-bg_1920x1080_v1.png");
@@ -1542,6 +1570,59 @@ body {
 }
 .masters-programme-sec .about-certification p {
   margin: 6%;
+}
+
+.training-feat .features-box {
+  border: 1px solid rgb(201, 199, 199);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  position: relative;
+}
+.training-feat .features-box .sticker {
+  background-color: #e25c4c;
+  font-size: 18px;
+  width: 35%;
+  position: absolute;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 600;
+}
+.training-feat .features-box h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.training-feat .features-box h6 {
+  margin-top: 15px;
+}
+.training-feat .features-box p {
+  margin-top: 15px;
+  font-weight: 600;
+}
+.training-feat .features-box2 {
+  border: 1px solid rgb(201, 199, 199);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  position: relative;
+}
+.training-feat .features-box2 .sticker {
+  background-color: #14b0a4;
+  font-size: 18px;
+  width: 35%;
+  position: absolute;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 600;
+}
+.training-feat .features-box2 h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.training-feat .features-box2 h6 {
+  margin-top: 15px;
+}
+.training-feat .features-box2 p {
+  margin-top: 15px;
+  font-weight: 600;
 }
 
 .register-sec {
