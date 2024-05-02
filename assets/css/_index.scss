@@ -69,8 +69,7 @@ body {
 
   .navbar-brand {
     img {
-      filter: invert(7%) sepia(91%) saturate(4884%) hue-rotate(228deg)
-        brightness(119%) contrast(109%);
+      filter: invert(7%) sepia(91%) saturate(4884%) hue-rotate(228deg) brightness(119%) contrast(109%);
     }
   }
 }
@@ -85,9 +84,9 @@ body {
   }
 
   &:hover {
-    > .dropdown-menu {
+    >.dropdown-menu {
       display: block;
-      margin-top: 0.122em;
+      margin-top: 1px;
       margin-left: 0.122em;
     }
   }
@@ -112,16 +111,15 @@ body {
   }
 
   &:hover {
-    > .dropdown-menu {
+    >.dropdown-menu {
       display: block;
-      margin-top: 0.122em;
       margin-left: 0.122em;
     }
   }
 }
 
 @media screen and (min-width: 769px) {
-  .dropend:hover > .dropdown-menu {
+  .dropend:hover>.dropdown-menu {
     position: absolute;
     top: 0;
     left: 100%;
@@ -257,14 +255,14 @@ body {
 
 //
 .trained-placed-section {
-  background: rgb(255, 255, 255);
-  background: linear-gradient(
-    211deg,
-    rgba(255, 255, 255, 1) 5%,
-    rgba(219, 233, 242, 1) 15%,
-    rgba(39, 78, 255, 1) 39%,
-    rgba(183, 148, 144, 1) 92%
-  );
+  background: $bg-light-blue;
+  // background: linear-gradient(
+  //   211deg,
+  //   rgba(255, 255, 255, 1) 5%,
+  //   rgba(219, 233, 242, 1) 15%,
+  //   rgba(39, 78, 255, 1) 39%,
+  //   rgba(183, 148, 144, 1) 92%
+  // );
 
   .train-place-card {
     width: 100%;
@@ -328,6 +326,106 @@ body {
 }
 
 //
+.module-block-item {
+  position: relative;
+  height: 350px;
+  padding: $p-10;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  -webkit-box-shadow: 1px 1px 12px #000;
+  box-shadow: 1px 1px 12px #000;
+  -webkit-transform: preserve-3d;
+  -ms-transform: preserve-3d;
+  transform: preserve-3d;
+  -webkit-perspective: 2000px;
+  perspective: 2000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #000;
+}
+
+.cover {
+  top: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: $bg-white;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform-origin: 0;
+  -ms-transform-origin: 0;
+  transform-origin: 0;
+  -webkit-box-shadow: 1px 1px 12px #000;
+  box-shadow: 1px 1px 12px #000;
+
+}
+
+.module-block-item:hover .cover {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform: rotatey(-100deg);
+  -ms-transform: rotatey(-100deg);
+  transform: rotatey(-100deg);
+}
+
+.module-block-item {
+  .module-para {
+    font-size: $fs-18;
+  }
+
+  a {
+    position: absolute;
+    bottom: 20px;
+  }
+
+  img {
+    height: 150px;
+  }
+
+  border: 1px solid #cccccc;
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  background-color: #fff;
+
+  .module-block-body {
+    padding: $p-15;
+
+    h5 {
+      color: $color-primary;
+      font-weight: $fw-bold;
+      font-size: $fs-24;
+      margin-bottom: $m-15;
+    }
+
+    h6 {
+      font-size: $fs-16;
+      font-weight: $fw-600;
+      margin-bottom: $m-15;
+    }
+
+    p {
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      font-size: $fs-14;
+      margin-bottom: $m-10;
+    }
+  }
+}
 
 .course-sec {
   margin-bottom: $m-50;
@@ -340,6 +438,11 @@ body {
       font-weight: $fw-700;
       color: $color-primary;
     }
+  }
+
+  p {
+    font-size: 20px;
+    font-weight: bolder;
   }
 
   .card-block-item {
@@ -401,7 +504,7 @@ body {
       }
 
       .enroll-btn {
-        background-color: $bg-salmon;
+        background-color: $bg-primary;
         color: $color-white;
         border-radius: 0px 0px 0px 10px;
         padding: $p-5;
@@ -636,18 +739,108 @@ body {
   }
 }
 
+.medical-coding {
+  img {
+    border-radius: 15px 0px 0px 15px;
+    ;
+  }
+
+  h4 {
+    text-align: center;
+    margin-bottom: $m-15;
+    font-weight: $fw-600;
+    color: $color-primary;
+  }
+
+  .row {
+    border: $border-1 solid $border-gainsboro;
+    border-radius: 15px;
+    margin: $m-10;
+
+    .real-time-project-sec {
+      position: relative;
+
+      h5 {
+        padding: $p-20;
+        color: $color-primary;
+        font-weight: $fw-bold;
+      }
+
+      .about-real-project {
+        padding: $p-20;
+        overflow: hidden;
+        word-wrap: break-word;
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+        white-space: normal;
+        margin-bottom: $m-50;
+        letter-spacing: 1px;
+
+        h6 {
+          font-weight: bold;
+          font-size: $fs-15;
+          color: $color-primary;
+        }
+
+        p {
+          font-size: $fs-15;
+        }
+      }
+
+      .medical-real {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+
+        .enroll-btn {
+          background-color: $bg-primary;
+          color: $color-white;
+          padding: $p-5;
+          font-size: $fs-14;
+          font-weight: $fw-500;
+          border: none;
+          border-radius: 0px;
+          text-align: center;
+        }
+      }
+
+      a {
+        margin: $m-0;
+        color: $color-primary;
+        border-radius: 0px 0px 15px 0px;
+        ;
+        padding: $p-5 $p-10;
+        font-size: $fs-15;
+        font-weight: $fw-600;
+        background-color: $bg-white;
+        border: $border-1 solid $border-primary;
+        text-decoration: none;
+
+        &:hover {
+          background-color: $bg-primary;
+          color: $color-white;
+        }
+      }
+    }
+  }
+}
+
 //
 //OUR TRAINING SERVICES
 .our-training-services-sec {
   font-family: $font-montserrat;
-  background-image: url("../images/training-banner.jpg");
+  background-image: url("../images/clinical-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
-  .training-service{
+
+  .training-service {
     background-color: rgba(0, 0, 255, 0.35);
   }
+
   .training-head-sec {
     text-align: center;
 
@@ -656,6 +849,7 @@ body {
       font-size: $fs-30;
       font-weight: $fw-700;
     }
+
     p {
       color: $color-white;
     }
@@ -663,7 +857,8 @@ body {
 
   .about-our-services .row {
     border: $border-1 solid $border-gainsboro;
-    margin:$m-10;
+    margin: $m-10;
+
     .real-time-project-sec {
       padding: $p-20;
       background-color: $bg-white;
@@ -710,15 +905,16 @@ body {
     text-align: center;
 
     button {
-      border:none;
+      border: none;
       color: $color-primary;
       border-radius: $border-5;
       padding: $p-8 $p-15;
       font-size: $fs-15;
       font-weight: $fw-600;
       background-color: $bg-white;
-  outline:none;
+      outline: none;
       text-decoration: none;
+
       a {
         text-decoration: none;
       }
@@ -738,6 +934,7 @@ body {
   z-index: 999;
   padding: $p-10 $p-0;
   font-weight: $fw-600;
+
   a {
     text-decoration: none;
     color: $color-white;
@@ -749,11 +946,13 @@ body {
 .bottom-panel-section {
   background-color: $bg-primary;
   text-align: center;
+
   i,
   a {
     color: $color-white;
   }
 }
+
 /* mobile view bottom-panel-section end */
 
 //
@@ -824,6 +1023,7 @@ body {
 
 .counselling {
   background-color: $bg-primary;
+
   h2 {
     color: $color-white;
     font-family: $font-montserrat;
@@ -831,11 +1031,13 @@ body {
     font-weight: $fw-bold;
     margin-bottom: $m-20;
   }
+
   i {
     color: $color-white;
     font-size: $fs-40;
     margin-bottom: $m-20;
   }
+
   p {
     color: $color-white;
     font-family: $font-montserrat;
@@ -847,18 +1049,21 @@ body {
     -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
   }
+
   h5 {
     color: $color-white;
     font-family: $font-montserrat;
     font-size: $fs-18;
     font-weight: $fw-600;
   }
+
   h6 {
     color: $color-white;
     font-family: $font-montserrat;
     font-size: $fs-15;
     font-weight: $fw-500;
   }
+
   .shedule-form {
     border-radius: $border-10;
     background-color: $bg-white;
@@ -909,6 +1114,12 @@ body {
     }
   }
 }
+
+.sectors-we-serve h2 {
+  color: $color-primary;
+  font-weight: $fw-bold;
+}
+
 @media (max-width: 991px) {
   .reason-to-enroll img {
     display: none;
