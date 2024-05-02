@@ -147,7 +147,7 @@ body {
 }
 .dropend:hover > .dropdown-menu {
   display: block;
-  margin-top: 0.122em;
+  margin-top: 1px;
   margin-left: 0.122em;
 }
 
@@ -168,7 +168,6 @@ body {
 }
 .dropdown:hover > .dropdown-menu {
   display: block;
-  margin-top: 0.122em;
   margin-left: 0.122em;
 }
 
