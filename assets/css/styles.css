@@ -1707,9 +1707,6 @@ body {
   --bs-accordion-bg: transparent;
   --bs-accordion-border-width: none;
 }
-.why-choose-iacr-sec .iacr-training-session .accordion-body {
-  color: #ffffff;
-}
 
 .masters-programme-sec {
   background-image: url("../images/masters20_video-bg_1920x1080_v1.png");
