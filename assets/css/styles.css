@@ -1352,6 +1352,20 @@ body {
   transform: translateY(100%);
 }
 
+.blog-section h2 {
+  color: #e25c4c;
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+}
+.blog-section p {
+  font-family: "Montserrat", sans-serif;
+  color: #653592;
+}
+.blog-section img {
+  border-radius: 10px;
+}
+
 .about-banner-bg {
   background-image: url("../images/about-bg.jpg");
   background-size: 100% 100%;

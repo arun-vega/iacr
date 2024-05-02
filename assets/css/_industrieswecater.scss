@@ -49,3 +49,21 @@
 .industry-card:hover .industry-card-description {
   transform: translateY(100%);
 }
+
+.blog-section {
+
+  h2 {
+      color: $color-salmon;
+      font-family: $font-montserrat;
+      font-size: $fs-32;
+      font-weight: $fw-600;
+  }
+  p {
+      font-family: $font-montserrat;
+      color: $color-secondary;
+  }
+  img{
+    border-radius: $border-10;
+  }
+
+}
