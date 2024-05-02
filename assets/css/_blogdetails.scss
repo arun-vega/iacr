@@ -1,0 +1,40 @@
+.blog-details-section {
+    position: absolute;
+}
+.about-blog-details{
+    font-family: $font-montserrat;
+    position: relative;
+    padding: $p-30 $p-0;
+    img{
+        margin: $m-15 $m-0;
+    }
+    h2{
+        font-weight: $fw-bold;
+        margin: $m-15 $m-0;
+        color: $bg-white;
+        
+    }
+    h4 {
+        color: $color-salmon;
+        font-family: $font-montserrat;
+        font-size: $fs-32;
+        font-weight: $fw-600;
+    }
+    h6{
+        color: $color-salmon;
+        font-weight: $fw-600;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .blog-details-section {
+        display: none;
+    }
+    .about-blog-details{
+        padding: $p-10;
+        h2{
+            color: $color-primary;
+            font-weight: $fw-bold;
+        }
+    }
+}

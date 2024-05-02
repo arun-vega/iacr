@@ -1875,6 +1875,46 @@ body {
   font-weight: 500;
 }
 
+.blog-details-section {
+  position: absolute;
+}
+
+.about-blog-details {
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  padding: 30px 0px;
+}
+.about-blog-details img {
+  margin: 15px 0px;
+}
+.about-blog-details h2 {
+  font-weight: bold;
+  margin: 15px 0px;
+  color: #ffffff;
+}
+.about-blog-details h4 {
+  color: #e25c4c;
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+}
+.about-blog-details h6 {
+  color: #e25c4c;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 576px) {
+  .blog-details-section {
+    display: none;
+  }
+  .about-blog-details {
+    padding: 10px;
+  }
+  .about-blog-details h2 {
+    color: #082cd4;
+    font-weight: bold;
+  }
+}
 @font-face {
   font-family: "Montserrat";
   src: url("../fonts/static/Montserrat-Regular.ttf");
