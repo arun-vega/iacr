@@ -12,10 +12,12 @@
 @import "./register";
 @import "./faq";
 @import "./blogdetails";
+@import "./blogs";
 
 .slick-dots li.slick-active button:before {
   color: $color-primary;
 }
+
 .slick-next,
 .slick-prev {
   &::before {
