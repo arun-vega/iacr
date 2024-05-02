@@ -1,4 +1,3 @@
-
 .industry-card {
   height: 300px;
   width: 100%;
@@ -50,19 +49,21 @@
   transform: translateY(100%);
 }
 
-.blog-section {
+.sectors-we-serve-section {
 
   h2 {
-      color: $color-salmon;
-      font-family: $font-montserrat;
-      font-size: $fs-32;
-      font-weight: $fw-600;
+    color: $color-salmon;
+    font-family: $font-montserrat;
+    font-size: $fs-32;
+    font-weight: $fw-600;
   }
+
   p {
-      font-family: $font-montserrat;
-      color: $color-secondary;
+    font-family: $font-montserrat;
+    color: $color-secondary;
   }
-  img{
+
+  img {
     border-radius: $border-10;
   }
 

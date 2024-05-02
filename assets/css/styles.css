@@ -1352,17 +1352,17 @@ body {
   transform: translateY(100%);
 }
 
-.blog-section h2 {
+.sectors-we-serve-section h2 {
   color: #e25c4c;
   font-family: "Montserrat", sans-serif;
   font-size: 32px;
   font-weight: 600;
 }
-.blog-section p {
+.sectors-we-serve-section p {
   font-family: "Montserrat", sans-serif;
   color: #653592;
 }
-.blog-section img {
+.sectors-we-serve-section img {
   border-radius: 10px;
 }
 
