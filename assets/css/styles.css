@@ -1784,6 +1784,101 @@ body {
   font-weight: 500;
 }
 
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/static/Montserrat-Regular.ttf");
+}
+.blogs-banner-bg {
+  background-image: url("../images/about-bg.jpg");
+  background-size: 100% 100%;
+  font-family: "Montserrat", sans-serif;
+}
+.blogs-banner-bg .banner-content h3 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #082cd4;
+}
+
+.blogs-sec h3 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #082cd4;
+  text-align: center;
+}
+.blogs-sec .blog-card {
+  position: relative;
+  transition: all 0.3s;
+}
+.blogs-sec .blog-card .top-date {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 25%;
+  text-align: center;
+  color: #ffffff;
+  z-index: 1;
+}
+.blogs-sec .blog-card .top-date h4 {
+  font-weight: 700;
+}
+.blogs-sec .blog-card .blog-image {
+  position: relative;
+}
+.blogs-sec .blog-card .blog-image .img-bottom {
+  background-color: rgba(0, 0, 0, 0.9);
+  position: absolute;
+  width: 100%;
+  display: flex;
+  color: #ffffff;
+  bottom: 0px;
+}
+.blogs-sec .blog-card .blog-image .img-bottom p {
+  padding: 5px 0px 0px 15px;
+}
+.blogs-sec .blog-card .blog-image .img-bottom:hover {
+  background-color: rgba(8, 44, 212, 0.9);
+}
+.blogs-sec .blog-card .card-body h5 {
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.blogs-sec .blog-card .card-body p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.blogs-sec .blog-card .card-body button {
+  border: 2px solid #000000;
+  border-radius: 20px;
+  padding: 5px 15px 5px 15px;
+  background-color: #ffffff;
+  font-size: 18px;
+}
+.blogs-sec .blog-card .card-body button:hover {
+  background-color: #082cd4;
+  color: #ffffff;
+  border: none;
+}
+.blogs-sec .blog-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  transform: scale(0.95);
+}
+
+.recent-sec h4 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.recent-sec h5 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
 .slick-dots li.slick-active button:before {
   color: #082cd4;
 }
