@@ -1,5 +1,11 @@
+.banner-sec {
+    img {
+        height: 400px;
+    }
+}
+
 .industry-leading-sec {
-    background-image: url('../images/map-gradient-bg.png');
+    // background-image: url('../images/map-gradient-bg.png');
     background-size: 100% 100%;
     padding: $p-30;
     font-family: $font-montserrat;
@@ -54,7 +60,6 @@
 }
 
 .learning-path-section {
-
     font-family: $font-montserrat;
 
     .learning-path-head {
@@ -113,6 +118,34 @@
                 }
             }
         }
+
+        .enroll {
+            background-color: rgba(77, 146, 248, 0.7);
+        }
+
+        .accordion-button:not(.collapsed) {
+            background-color: #CFE2FF;
+        }
+
+        .accordion-button {
+            background-color: #E9F2FF;
+            margin-bottom: $m-10;
+            border-radius: $border-5;
+            color: $color-secondary;
+            font-size: $fs-18;
+            font-weight: $fw-500;
+            font-family: $font-montserrat;
+
+            &:focus {
+                box-shadow: none;
+            }
+        }
+
+        .accordion {
+            --bs-accordion-bg: transparent;
+            --bs-accordion-border-width: none;
+        }
+        
     }
 }
 
@@ -132,6 +165,70 @@
 
         p {
             margin: 6%;
+        }
+    }
+}
+
+.training-feat {
+    .features-box {
+        border: 1px solid rgb(201, 199, 199);
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        position: relative;
+
+        .sticker {
+            background-color: $bg-salmon;
+            font-size: $fs-18;
+            width: 35%;
+            position: absolute;
+            text-align: center;
+            color: $color-white;
+            font-weight: $fw-600;
+        }
+
+        h4 {
+            font-size: $fs-20;
+            font-weight: $fw-600;
+            margin-top: $m-10;
+        }
+
+        h6 {
+            margin-top: $m-15;
+        }
+
+        p {
+            margin-top: $m-15;
+            font-weight: $fw-600;
+        }
+    }
+
+    .features-box2 {
+        border: 1px solid rgb(201, 199, 199);
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        position: relative;
+
+        .sticker {
+            background-color: $color-light-sea-green;
+            font-size: $fs-18;
+            width: 35%;
+            position: absolute;
+            text-align: center;
+            color: $color-white;
+            font-weight: $fw-600;
+        }
+
+        h4 {
+            font-size: $fs-20;
+            font-weight: $fw-600;
+            margin-top: $m-10;
+        }
+
+        h6 {
+            margin-top: $m-15;
+        }
+
+        p {
+            margin-top: $m-15;
+            font-weight: $fw-600;
         }
     }
 }
