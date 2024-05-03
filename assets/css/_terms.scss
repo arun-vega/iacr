@@ -2,9 +2,8 @@
     font-family: $font-montserrat;
     background: url('../images/terms-bg.png')no-repeat;
     background-position: top right;
-
     h1,
-    h4 {
+    h4,h5 {
         color: $color-primary;
         font-weight: $fw-bold;
     }
@@ -13,9 +12,39 @@
         margin-top: $m-10;
         padding: $p-10;
         border-bottom: $border-1 solid $border-sky-blue;
+        b{
+            color:$color-primary;
+        }
     }
 
     .terms-bottom {
         border-bottom: none;
+        li{
+            color:$color-primary;
+            font-size: $fs-15;
+        }
+    }
+    .para-bottom b{
+        color:$color-black;
+    }
+}
+.note-point{
+    border-radius: 15px;
+    background-color: $bg-sky-blue;
+    padding:$p-20;
+    margin-bottom: -60px;
+    z-index: 2;
+    .note{
+        font-size: $fs-18;
+        font-weight: $fw-bold;
+    }
+    b{
+        color:$color-primary;
+    }
+  
+}
+@media (max-width:576px) {
+    .email{
+        font-size: $fs-12;
     }
 }

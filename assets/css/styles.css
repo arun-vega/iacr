@@ -1269,7 +1269,7 @@ body {
   background-position: top right;
 }
 .terms-conditions h1,
-.terms-conditions h4 {
+.terms-conditions h4, .terms-conditions h5 {
   color: #082cd4;
   font-weight: bold;
 }
@@ -1278,10 +1278,40 @@ body {
   padding: 10px;
   border-bottom: 1px solid #dbe9f2;
 }
+.terms-conditions .terms b {
+  color: #082cd4;
+}
 .terms-conditions .terms-bottom {
   border-bottom: none;
 }
+.terms-conditions .terms-bottom li {
+  color: #082cd4;
+  font-size: 15px;
+}
+.terms-conditions .para-bottom b {
+  color: #000000;
+}
 
+.note-point {
+  border-radius: 15px;
+  background-color: #dbe9f2;
+  padding: 20px;
+  margin-bottom: -60px;
+  z-index: 2;
+}
+.note-point .note {
+  font-size: 18px;
+  font-weight: bold;
+}
+.note-point b {
+  color: #082cd4;
+}
+
+@media (max-width: 576px) {
+  .email {
+    font-size: 12px;
+  }
+}
 .refund-policy {
   font-family: "Montserrat", sans-serif;
   background: url("../images/terms-bg.png") no-repeat;
