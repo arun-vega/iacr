@@ -1435,8 +1435,15 @@ body {
   color: #082cd4;
   text-align: center;
 }
+.vission-sec span {
+  font-size: 20px;
+  font-weight: 600;
+  color: #082cd4;
+}
+.vission-sec .mission-row {
+  flex-direction: row-reverse;
+}
 .vission-sec p {
-  text-align: center;
   font-size: 18px;
 }
 .vission-sec .card1 {
@@ -1536,6 +1543,11 @@ body {
   left: 100px;
   font-size: 50px;
   color: white;
+}
+.why-iacr-sec h5 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #082cd4;
 }
 .why-iacr-sec p {
   font-size: 18px;
