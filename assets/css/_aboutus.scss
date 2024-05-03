@@ -45,9 +45,15 @@
     color: $color-primary;
     text-align: center;
   }
-
+span{
+  font-size: $fs-20;
+  font-weight: $fw-600;
+  color:$color-primary;
+}
+.mission-row{
+  flex-direction: row-reverse;
+}
   p {
-    text-align: center;
     font-size: $fs-18;
   }
 
@@ -172,7 +178,11 @@
       color: white;
     }
   }
-
+  h5{
+    font-size: $fs-20;
+    font-weight: $fw-700;
+    color: $color-primary;
+  }
   p {
     font-size: $fs-18;
     font-family: $font-montserrat;
@@ -250,6 +260,7 @@
 }
 
 @media only screen and (max-width: 425px) {
+  
   .our-team-sec {
     .back-color {
       background-color: $color-salmon;
