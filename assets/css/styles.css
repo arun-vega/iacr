@@ -1149,13 +1149,6 @@ body {
   color: #e25c4c;
 }
 
-.question-and-answer-sec {
-  margin-top: 10px;
-}
-.question-and-answer-sec strong {
-  color: red;
-}
-
 .table-section tr {
   border: 1px solid #dfdfdf;
 }
@@ -1167,11 +1160,11 @@ body {
   padding: 14px;
 }
 
-.about-course-details-section .about-course h4 {
+.eligibility-course-details-section .about-course h4 {
   font-weight: 600;
   color: #082cd4;
 }
-.about-course-details-section .about-course ul li {
+.eligibility-course-details-section .about-course ul li {
   margin-top: 5px;
 }
 
@@ -1210,20 +1203,9 @@ body {
   margin-right: 3px;
 }
 
-.timings-not-match {
-  background-color: #dfdfdf;
-  text-align: center;
-}
-.timings-not-match .timings-not-match-head {
+.careers-section h4 {
+  font-size: 24px;
   font-weight: 600;
-  color: #082cd4;
-}
-.timings-not-match .flexible-demo a {
-  color: red;
-  font-weight: 500;
-}
-.timings-not-match .flexible-demo a:hover {
-  color: #082cd4;
 }
 
 .asking-questions-container {
@@ -1232,13 +1214,27 @@ body {
 .asking-questions-container h4 {
   color: #082cd4;
   margin-bottom: 30px;
+  font-weight: 600;
   text-decoration: underline;
 }
-.asking-questions-container .faq-section h6 {
-  color: #653592;
+.asking-questions-container .accordion-button:not(.collapsed) {
+  background-color: #cfe2ff;
 }
-.asking-questions-container .faq-section p {
-  margin-left: 35px;
+.asking-questions-container .accordion-button {
+  background-color: #e9f2ff;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  color: #653592;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+.asking-questions-container .accordion-button:focus {
+  box-shadow: none;
+}
+.asking-questions-container .accordion {
+  --bs-accordion-bg: transparent;
+  --bs-accordion-border-width: none;
 }
 
 .related-services-container h4 {
