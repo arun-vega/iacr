@@ -14,7 +14,31 @@
   width: 100%;
   position: absolute;
   transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
-  background-image: url("../images/diploma.png");
+  background-image: url("../images/weServe-img-2.webp");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.industry-card-image1 {
+  background-image: url("../images/weServe-img-2.webp");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.industry-card-image2 {
+  background-image: url("../images/weServe-img-3.webp");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.industry-card-image3 {
+  background-image: url("../images/weServe-img-4.webp");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.industry-card-image3 {
+  background-image: url("../images/we-serve-img-6.webp");
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -67,4 +91,18 @@
     border-radius: $border-10;
   }
 
+}
+
+.future-clinics {
+  .careers-section {
+    h3 {
+      color: #e25c4c;
+      text-align: center;
+      font-size: 32px;
+      font-weight: 600;
+    }
+    strong {
+      color: $color-primary;
+    }
+  }
 }
