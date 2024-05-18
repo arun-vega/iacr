@@ -37,14 +37,14 @@ let modelOnlineButton = document.getElementById('modelOnlineButton');
 let modelOfflineButton = document.getElementById('modelOfflineButton');
 
 modelOnlineButton.style.display = 'inline-block';
-document.querySelector('.clicked i').style.display = 'inline';
+document.querySelector('.clicked1 i').style.display = 'inline';
 
 onlineDiv1.addEventListener('click', function () {
     modelOnlineButton.style.display = 'inline-block';
     modelOfflineButton.style.display = 'none';
 
-    onlineDiv1.classList.add('clicked');
-    offlineDiv1.classList.remove('clicked');
+    onlineDiv1.classList.add('clicked1');
+    offlineDiv1.classList.remove('clicked1');
     onlineDiv1.querySelector('i').style.display = 'inline'; // Display tick icon
     offlineDiv1.querySelector('i').style.display = 'none';
 });
@@ -53,8 +53,8 @@ offlineDiv1.addEventListener('click', function () {
     modelOfflineButton.style.display = 'inline-block';
     modelOnlineButton.style.display = 'none';
 
-    offlineDiv1.classList.add('clicked');
-    onlineDiv1.classList.remove('clicked');
+    offlineDiv1.classList.add('clicked1');
+    onlineDiv1.classList.remove('clicked1');
     offlineDiv1.querySelector('i').style.display = 'inline'; // Display tick icon
     onlineDiv1.querySelector('i').style.display = 'none';
 });
@@ -64,13 +64,12 @@ offlineDiv1.addEventListener('click', function () {
 let bookNowBtn = document.getElementById('stickyPanel');
 window.onscroll = function () {
     stickyPanel();
-  };
-  
-  function stickyPanel() {
-    if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
+};
+
+function stickyPanel() {
+    if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
         bookNowBtn.style.display = "block";
     } else {
         bookNowBtn.style.display = "none";
     }
-  }
-  
+}

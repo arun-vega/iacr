@@ -315,60 +315,88 @@
             </div>
             <div class="col-lg-4 shadow border border-bottom-1">
               <div class="text-center shedule-form p-lg-4 p-2">
-                <form action="mail.php" id="bookSession">
-                  <div>
-                    <h5>Book Your Free Session</h5>
-                    <p>Select Session Mode</p>
-                  </div>
-                  <div class="row my-3">
-                    <div class="col-6">
-                      <div class="p-1 clicked">
-                        <input type="radio" name="session_mode" id="online" value="Online">
-                        <label for="online"><i class="fa-solid fa-circle-check text-success"></i>Online</label>
-                      </div>
+                <div>
+                  <h5>Book Your Free Session</h5>
+                  <p>Select Session Mode</p>
+                </div>
+                <div class="row my-3">
+                  <div class="col-6">
+                    <div id="online" class="p-1 clicked">
+                      <i class="fa-solid fa-circle-check text-success"></i>
+                      Online
                     </div>
-                    <div class="col-6">
-                      <div class="p-1">
-                        <input type="radio" name="session_mode" id="offline" value="Offline">
-                        <label for="offline"><i class="fa-solid fa-circle-check text-success"></i>Offline</label>
-                      </div>
+                  </div>
+                  <div class="col-6">
+                    <div id="offline" class="p-1">
+                      <i class="fa-solid fa-circle-check text-success"></i>
+                      Offline
                     </div>
-                    <span id="error_session_mode"></span>
                   </div>
+                </div>
 
-                  <h6>Enter your Details</h6>
-                  <div>
-                    <input type="text" name="name" id="name" class="form-control" placeholder="Full Name..." />
-
-                    <input type="email" name="email" id="email" class="form-control" placeholder="Enter Email....." />
-
-                    <input type="number" name="mobile" id="mobile" class="form-control" placeholder="Mobile Number....." />
-
-                    <input type="text" name="city" id="city" class="form-control" placeholder="Enter City......." />
-
-                    <select name="qualification" id="qualification" class="form-select" aria-label="Default select example">
-                      <option value="">Qualification...</option>
-                      <option value="B.Pharmacy">B.Pharmacy</option>
-                      <option value="M.Pharmacy">M.Pharmacy</option>
-                      <option value="Pharm.D">Pharm.D</option>
-                      <option value="M.Sc (Life Sciences)">M.Sc (Life Sciences)</option>
-                      <option value="B.Sc (Life Sciences)">B.Sc (Life Sciences)</option>
-                      <option value="BDS">BDS</option>
-                      <option value="MBBS">MBBS</option>
-                      <option value="BHMS">BHMS</option>
-                      <option value="BAMS">BAMS</option>
-                      <option value="PHD">PHD</option>
-                      <option value="BE">BE</option>
-                      <option value="B.Tech">B.Tech</option>
-                      <option value="Others">Others</option>
-                    </select>
-                    <input type="text" name="message" id="message" class="form-control" placeholder="Message/Query....." />
-                  </div>
-                  <div class="my-4">
-                    <button type="submit" id="onlineButton" style="display: none" class="btn w-100 p-2">Schedule a Free Class</button>
-                    <button type="submit" id="offlineButton" style="display: none" class="btn w-100 p-2">book one on one</button>
-                  </div>
-                </form>
+                <h6>Enter your Details</h6>
+                <div>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Full Name..."
+                  />
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Enter Email....."
+                  />
+                  <input
+                    type="number"
+                    class="form-control"
+                    placeholder="Mobile Number....."
+                  />
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter City......."
+                  />
+                  <select
+                    class="form-select"
+                    aria-label="Default select example"
+                  >
+                    <option selected>Qualification...</option>
+                    <option value="1">B.Pharmacy</option>
+                    <option value="2">M.Pharmacy</option>
+                    <option value="3">Pharm.D</option>
+                    <option value="4">M.Sc (Life Sciences)</option>
+                    <option value="5">B.Sc (Life Sciences)</option>
+                    <option value="6">BDS</option>
+                    <option value="7">MBBS</option>
+                    <option value="8">BHMS</option>
+                    <option value="9">BAMS</option>
+                    <option value="10">PHD</option>
+                    <option value="11">BE</option>
+                    <option value="12">B.Tech</option>
+                    <option value="13">Others</option>
+                  </select>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Message/Query....."
+                  />
+                </div>
+                <div class="my-4">
+                  <button
+                    id="onlineButton"
+                    style="display: none"
+                    class="btn w-100 p-2"
+                  >
+                    Schedule a Free Class
+                  </button>
+                  <button
+                    id="offlineButton"
+                    style="display: none"
+                    class="btn w-100 p-2"
+                  >
+                    book one on one
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -2557,62 +2585,88 @@
               style="border-bottom: 1px solid rgba(0, 0, 0, 0.45)"
             >
               <div class="text-center box p-3 mt-2">
-                <form action="mail.php" id="bookSession2">
                 <div>
                   <h5>Book Your Free Session</h5>
                   <p>Select Session Mode</p>
                 </div>
                 <div class="row my-3">
                   <div class="col-6">
-                    <div class="p-1 clicked1">
-                      <input type="radio" name="session_mode" id="online1" value="Online">
-                      <label for="online1"><i class="fa-solid fa-circle-check text-success"></i>Online</label>
+                    <div id="online1" class="p-1 clicked1">
+                      <i class="fa-solid fa-circle-check text-success"></i>
+                      Online
                     </div>
                   </div>
                   <div class="col-6">
-                    <div class="p-1">
-                      <input type="radio" name="session_mode" id="offline1" value="Offline">
-                      <label for="offline1"><i class="fa-solid fa-circle-check text-success"></i>Offline</label>
+                    <div id="offline1" class="p-1">
+                      <i class="fa-solid fa-circle-check text-success"></i>
+                      Offline
                     </div>
                   </div>
-                  <span id="error_session_mode_popup"></span>
                 </div>
 
                 <h6 class="mb-3">Enter your Details</h6>
                 <div>
-                  <input type="text" name="name" id="name_popup" class="form-control mb-3" placeholder="Full Name..." />
-                  
-                  <input type="email" name="email" id="email_popup" class="form-control" placeholder="Enter Email....." />
+                  <input
+                    type="text"
+                    class="form-control mb-3"
+                    placeholder="Full Name..."
+                  />
+                  <input
+                    type="email"
+                    class="form-control mb-3"
+                    placeholder="Enter Email....."
+                  />
+                  <input
+                    type="number"
+                    class="form-control mb-3"
+                    placeholder="Mobile Number....."
+                  />
+                  <input
+                    type="text"
+                    class="form-control mb-3"
+                    placeholder="Eter Your City....."
+                  />
 
-                  <input type="number" name="mobile" id="mobile_popup" class="form-control" placeholder="Mobile Number....." />
-                  
-                  <input type="text" name="city" id="city_popup" class="form-control" placeholder="Enter City......." />
-
-                  <select name="qualification" id="qualification_popup" class="form-select" aria-label="Default select example">
-                    <option value="">Qualification...</option>
-                    <option value="B.Pharmacy">B.Pharmacy</option>
-                    <option value="M.Pharmacy">M.Pharmacy</option>
-                    <option value="Pharm.D">Pharm.D</option>
-                    <option value="M.Sc (Life Sciences)">M.Sc (Life Sciences)</option>
-                    <option value="B.Sc (Life Sciences)">B.Sc (Life Sciences)</option>
-                    <option value="BDS">BDS</option>
-                    <option value="MBBS">MBBS</option>
-                    <option value="BHMS">BHMS</option>
-                    <option value="BAMS">BAMS</option>
-                    <option value="PHD">PHD</option>
-                    <option value="BE">BE</option>
-                    <option value="B.Tech">B.Tech</option>
-                    <option value="Others">Others</option>
+                  <select
+                    class="form-select"
+                    aria-label="Default select example"
+                  >
+                    <option selected>Qualification...</option>
+                    <option value="1">B.Pharmacy</option>
+                    <option value="2">M.Pharmacy</option>
+                    <option value="3">Pharm.D</option>
+                    <option value="4">M.Sc (Life Sciences)</option>
+                    <option value="5">B.Sc (Life Sciences)</option>
+                    <option value="6">BDS</option>
+                    <option value="7">MBBS</option>
+                    <option value="8">BHMS</option>
+                    <option value="9">BAMS</option>
+                    <option value="10">BE</option>
+                    <option value="11">B.Tech</option>
+                    <option value="12">Others</option>
                   </select>
-
-                  <input type="text" name="message" id="message_popup" class="form-control mb-3" placeholder="Message/Query....." />
-                  
+                  <input
+                    type="text"
+                    class="form-control mb-3"
+                    placeholder="Message/Query....."
+                  />
                 </div>
                 <div class="my-4">
-                  <button type="submit" id="modelOnlineButton" style="display: none" class="btn btn-danger w-100 p-2">Schedule a Free Class</button>
-                  <button type="submit" id="modelOfflineButton" style="display: none" class="btn btn-danger w-100 p-2">book one on one</button>
+                  <button
+                    id="modelOnlineButton"
+                    style="display: none"
+                    class="btn btn-danger w-100 p-2"
+                  >
+                    Schedule a Free Class
+                  </button>
+                  <button
+                    id="modelOfflineButton"
+                    style="display: none"
+                    class="btn btn-danger w-100 p-2"
+                  >
+                    book one on one
+                  </button>
                 </div>
-                </form>
               </div>
             </div>
           </div>
@@ -2626,13 +2680,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <!-- BOOTSTRAP 5.3.3 CDN JS LINK -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://vegawebsolutions.com/assets/admin/js/notific.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
     <script src="assets/javascript/employers.js"></script>
     <script src="assets/javascript/testimonial.js"></script>
     <script src="assets/javascript/banner.js"></script>
     <script src="assets/javascript/learningprogram.js"></script>
-    <script src="assets/javascript/custom.js"></script>
     <script>
       let button = document.querySelectorAll(".course-block p");
       let content_inside = document.querySelectorAll(".course-block-inside");
@@ -2655,154 +2706,6 @@
       var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
         return new bootstrap.Tooltip(tooltipTriggerEl);
       });
-
-      
-$("#bookSession").validate({
-    errorPlacement: function(error, element) {
-    if (element.attr("name") == "session_mode" )
-        error.insertAfter("#error_session_mode");
-    else
-        error.insertAfter(element);
-    },
-    rules: {
-        session_mode:{
-            required:true
-        },
-        name:{
-            required:true
-        },
-        email:{
-            required:true
-        },
-        mobile:{
-            required:true
-        },
-        city:{
-            required:true
-        },
-        qualification:{
-            required:true
-        },
-        },
-        messages:{
-            session_mode:{
-                required:"Please select session mode.",
-            },
-            name:{
-                required:"Name is required.",
-            },
-            email:{
-                required:"Name is required.",
-            },
-            mobile:{
-                required:"Mobile is required.",
-            },
-            city:{
-                required:"City is required.",
-            },
-            qualification:{
-                required:"Qualification is required.",
-            },
-    },
-    submitHandler: function() {
-    event.preventDefault();
-    const form = $('#bookSession')[0];
-    const formData = new FormData(form);
-    $.ajax({
-        url: $("#bookSession").attr('action'),
-        method: "POST",
-        data: formData,
-        cache:false,
-        contentType: false,
-        processData: false,
-        success: function (response) {
-            form.reset();
-            if (response.status == 'success') {
-                Message.add(response.message, {type: 'success'});
-            }else{
-                Message.add(response.message, {type: 'error'});
-            }
-        },
-        error: function(data) {
-            Message.add(response.message, {type: 'error'});
-        },
-    });
-    }
-    });
-
- 
-    $("#bookSession2").validate({
-    errorPlacement: function(error, element) {
-    if (element.attr("name") == "session_mode" )
-        error.insertAfter("#error_session_mode_popup");
-    else
-        error.insertAfter(element);
-    },
-    rules: {
-        session_mode:{
-            required:true
-        },
-        name:{
-            required:true
-        },
-        email:{
-            required:true
-        },
-        mobile:{
-            required:true
-        },
-        city:{
-            required:true
-        },
-        qualification:{
-            required:true
-        },
-        },
-        messages:{
-            session_mode:{
-                required:"Please select session mode.",
-            },
-            name:{
-                required:"Name is required.",
-            },
-            email:{
-                required:"Name is required.",
-            },
-            mobile:{
-                required:"Mobile is required.",
-            },
-            city:{
-                required:"City is required.",
-            },
-            qualification:{
-                required:"Qualification is required.",
-            },
-    },
-    submitHandler: function() {
-    event.preventDefault();
-    const form = $('#bookSession2')[0];
-    const formData = new FormData(form);
-    $.ajax({
-        url: $("#bookSession2").attr('action'),
-        method: "POST",
-        data: formData,
-        cache:false,
-        contentType: false,
-        processData: false,
-        success: function (response) {
-            form.reset();
-            if (response.status == 'success') {
-                Message.add(response.message, {type: 'success'});
-            }else{
-                Message.add(response.message, {type: 'error'});
-            }
-        },
-        error: function(data) {
-            Message.add(response.message, {type: 'error'});
-        },
-    });
-    }
-    });
     </script>
   </body>
 </html>
